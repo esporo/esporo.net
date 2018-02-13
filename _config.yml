@@ -1,0 +1,27 @@
+# Site settings
+name: Esporo
+description: A comunidade brasileira de Spore.
+email: contato@esporo.net
+
+lang: pt-BR
+encoding: utf-8
+timezone: "America/Sao_Paulo"
+
+url: "https://esporo.net"
+baseurl: ""
+
+# Build settings
+source: _source
+destination: _site
+
+permalink: "/noticias/arquivo/:year/:title/"
+collections:
+  games:
+    output: true
+    permalink:  "/jogos/:name/"
+
+plugins:
+  - jemoji
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
