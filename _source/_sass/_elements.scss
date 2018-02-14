@@ -1,0 +1,15 @@
+body {
+  font: 400 #{$font-size-base}/#{$font-line-height} $font-family-main;
+  color: $color-text;
+}
+
+// Links
+a {
+  color: $color-accent;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

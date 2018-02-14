@@ -1,0 +1,28 @@
+---
+# Hello, Jekyll!
+---
+
+$font-family-main: Muli, sans-serif;
+$font-family-headings: Spore, sans-serif;
+$font-family-mono: Inconsolata, monospace;
+
+$font-size-base: 1.6rem;
+$font-size-small: 1.4rem;
+$font-line-height: 1.5;
+
+$color-text: #4D4E53;
+$color-background: #F4F7F8;
+$color-accent: #0095DD;
+$color-details: #558ABB;
+$color-alternate: #FFF4CC;
+
+$wrapper-width: 128rem;
+$content-width: 96rem;
+$palm-width: 60rem;
+$spacing-unit: 2rem;
+
+@import "mixins",
+        "reset",
+        "fonts",
+        "layout",
+        "elements";

@@ -1,0 +1,10 @@
+<head>
+  <meta charset="{{ site.encoding }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>{% if page.title %}{{ page.title }} ~ {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | normalize_whitespace | limit: 140 | default: site.description }}" />
+
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/main.css' | relative_url }}" />
+  {% feed_meta %}
+</head>
