@@ -1,0 +1,8 @@
+---
+# Hello, Jekyll!
+---
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  {% for symbol in site.svg %}
+  {{ symbol }}
+  {% endfor %}
+</svg>
