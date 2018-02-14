@@ -1,0 +1,3 @@
+<svg {% if include.title %}title="{{ include.title }}"{% endif %} role="{{ include.role | default: 'img' }}">
+  <use xlink:href="{{ include.id | prepend: '/assets/sprite.svg#' | relative_url }}" />
+</svg>
