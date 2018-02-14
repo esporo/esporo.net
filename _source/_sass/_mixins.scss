@@ -1,0 +1,31 @@
+@mixin on-palm {
+  @media screen and (max-width: $palm-width) {
+    @content;
+  }
+}
+
+@mixin on-laptop {
+  @media screen and (min-width: $palm-width) {
+    @content;
+  }
+}
+
+%container {
+  max-width: calc(#{$wrapper-width} + #{$spacing-unit * 2});
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include on-palm {
+    max-width: calc(#{$wrapper-width} + #{$spacing-unit});
+    padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit / 2;
+  }
+}
+
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
