@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="home">
+  <section class="banner">
+    <h1>{{ site.description }}</h1>
+
+    <ul class="featured">
+      <li>
+        <a href="{{ '/noticias/' | relative_url }}">
+          {% include elements/symbol.svg id="telescope" role="presentation" %}
+          Descubra novidades
+          <span>Notícias {% include elements/symbol.svg id="chevron-right" role="presentation" %}</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/noticias/' | relative_url }}">
+          {% include elements/symbol.svg id="ufo" role="presentation" %}
+          Estabeleça contato
+          <span>Fóruns {% include elements/symbol.svg id="chevron-right" role="presentation" %}</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/noticias/' | relative_url }}">
+          {% include elements/symbol.svg id="stars" role="presentation" %}
+          Explore a galáxia
+          <span>Guia Galáctico {% include elements/symbol.svg id="chevron-right" role="presentation" %}</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
