@@ -14,14 +14,14 @@ layout: default
         </a>
       </li>
       <li>
-        <a href="{{ '/noticias/' | relative_url }}">
+        <a href="{{ '/forum/' | relative_url }}">
           {% include elements/symbol.svg id="ufo" role="presentation" %}
           Estabeleça contato
           <span>Fóruns {% include elements/symbol.svg id="chevron-right" role="presentation" %}</span>
         </a>
       </li>
       <li>
-        <a href="{{ '/noticias/' | relative_url }}">
+        <a href="{{ '/guia/' | relative_url }}">
           {% include elements/symbol.svg id="stars" role="presentation" %}
           Explore a galáxia
           <span>Guia Galáctico {% include elements/symbol.svg id="chevron-right" role="presentation" %}</span>
@@ -29,4 +29,32 @@ layout: default
       </li>
     </ul>
   </section>
+
+  <div class="blog-container">
+    <section class="blog">
+      <h1>Últimas notícias</h1>
+
+      <ul class="posts-list">
+        {% for post in site.posts limit: 5 %}
+        <li>
+          <h2 class="post-title"><a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a></h2>
+          <span class="post-meta">
+            <time datetime="{{ post.date | date: 'date_to_xmlschema' }}">{{ post.date | date: '%d/%m/%Y' }}</time>
+            <span role="separator">&middot;</span>
+            <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a>
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <a href="{{ '/feed.xml' | absolute_url }}" rel="alternate">{% include elements/symbol.svg id="rss" role="presentation" %} Assine o RSS</a>
+      <a href="{{ '/noticias/' | relative_url }}">Arquivo de Notícias</a>
+    </section>
+
+    <aside class="sidebar">
+      <a href="https://www.youtube.com/user/esporotv/" rel="external">
+        <img src="{{ '/assets/images/esporotv.jpg' | relative_url }}" alt="Visite nosso canal no YouTube" />
+      </a>
+    </aside>
+  </div>
 </div>

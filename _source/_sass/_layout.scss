@@ -88,6 +88,8 @@ html {
   padding-top: $spacing-unit;
 
   .banner {
+    margin-bottom: $spacing-unit * 2;
+
     h1 {
       font-size: $font-size-base * 2.5;
       font-weight: 300;
@@ -164,6 +166,56 @@ html {
             }
           }
         }
+      }
+    }
+  }
+
+  .blog-container {
+    .blog {
+      display: inline-block;
+      max-width: $content-width;
+      margin-bottom: $spacing-unit;
+
+      .posts-list {
+        list-style: none;
+        margin-left: 0;
+
+        li {
+          margin-top: $spacing-unit / 2;
+          margin-bottom: $spacing-unit / 2;
+
+          h3 {
+            font-weight: 700;
+            font-family: $font-family-main;
+            font-size: $font-size-base;
+            line-height: 1.2;
+            margin-bottom: 0;
+          }
+
+          span {
+            font-size: $font-size-small;
+            line-height: 1;
+
+            a {
+              color: $color-text;
+            }
+          }
+        }
+      }
+    }
+
+    .sidebar {
+      float: right;
+      max-width: 30rem;
+      margin-bottom: $spacing-unit;
+
+      @include on-palm {
+        float: none;
+        max-width: 100%;
+      }
+
+      img {
+        max-width: 100%;
       }
     }
   }

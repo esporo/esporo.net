@@ -10,6 +10,10 @@ timezone: "America/Sao_Paulo"
 url: "https://esporo.net"
 baseurl: ""
 
+author:
+  name: Gaboo
+  url: http://esporo.net/forum/members/gaboo
+
 # Build settings
 source: _source
 destination: _site
