@@ -29,3 +29,37 @@
   display: table;
   clear: both;
 }
+
+%button,
+%button:active {
+  display: inline-block;
+  height: calc(#{$font-size-base} * 2);
+  line-height: calc(#{$font-size-base} * 2);
+  font-size: $font-size-small;
+  font-weight: 700;
+  box-shadow: 0 0 0 .1rem rgba($color-text, -.25), 0 .1rem .3rem rgba($color-text, 0.3);
+  border-radius: .3rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  background: linear-gradient(to bottom, $color-accent, $color-details);
+  color: $color-background;
+
+  svg {
+    height: $font-size-small;
+    max-width: $font-size-small;
+    vertical-align: -.15rem;
+    margin-right: $spacing-unit / 4;
+    fill: $color-background;
+  }
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(to bottom, lighten($color-accent, 5%), lighten($color-details, 5%));
+    text-decoration: none;
+  }
+}

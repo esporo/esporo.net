@@ -47,8 +47,11 @@ layout: default
         {% endfor %}
       </ul>
 
-      <a href="{{ '/feed.xml' | absolute_url }}" rel="alternate">{% include elements/symbol.svg id="rss" role="presentation" %} Assine o RSS</a>
-      <a href="{{ '/noticias/' | relative_url }}">Arquivo de Notícias</a>
+      <nav class="blog-menu">
+        <a class="rss-link" href="{{ '/feed.xml' | absolute_url }}" rel="alternate">{% include elements/symbol.svg id="rss" role="presentation" %} Assine o RSS</a>
+        
+        <a class="archives-link" href="{{ '/noticias/' | relative_url }}">Arquivo de Notícias</a>
+      </nav>
     </section>
 
     <aside class="sidebar">
