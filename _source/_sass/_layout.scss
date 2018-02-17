@@ -91,7 +91,7 @@ html {
     margin-bottom: $spacing-unit * 2;
 
     h1 {
-      font-size: $font-size-base * 2.5;
+      font-size: $font-size-base * 2;
       font-weight: 300;
       text-align: center;
       margin-bottom: $spacing-unit * 2;
@@ -171,6 +171,10 @@ html {
   }
 
   .blog-container {
+    h1 {
+      font-size: $font-size-base * 1.5;
+    }
+
     .blog {
       display: inline-block;
       max-width: $content-width;
@@ -184,7 +188,7 @@ html {
           margin-top: $spacing-unit / 2;
           margin-bottom: $spacing-unit / 2;
 
-          h3 {
+          h2 {
             font-weight: 700;
             font-family: $font-family-main;
             font-size: $font-size-base;
