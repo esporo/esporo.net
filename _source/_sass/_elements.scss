@@ -1,5 +1,6 @@
 body {
   font: 400 #{$font-size-base}/#{$font-line-height} $font-family-main;
+  text-shadow: 0 0.1rem 0.3rem rgba($color-text, 0.4);
   color: $color-text;
 }
 

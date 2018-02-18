@@ -234,16 +234,6 @@ html {
     display: inline-block;
     max-width: $content-width;
     margin-bottom: $spacing-unit;
-
-    .post {
-      margin-bottom: $spacing-unit * 2;
-      padding-bottom: $spacing-unit * 2;
-      box-shadow: inset 0 -.3rem .3rem -.3rem rgba($color-details, .7);
-
-      .post-meta {
-        font-size: $font-size-small;
-      }
-    }
   }
 
   .sidebar {
@@ -280,6 +270,40 @@ html {
 
     img {
       max-width: 100%;
+    }
+  }
+}
+
+// The Post
+.post {
+  margin-bottom: $spacing-unit * 2;
+
+  &:not(:last-child) {
+    padding-bottom: $spacing-unit * 2;
+    box-shadow: inset 0 -.3rem .3rem -.3rem rgba($color-details, .7);
+  }
+
+  .post-header {
+    margin-bottom: $spacing-unit;
+
+    h1 {
+      font-size: $font-size-base * 2.25;
+      line-height: 1.2;
+    }
+  }
+
+  .post-meta {
+    font-size: $font-size-small;
+
+    .post-date {
+      margin-right: $spacing-unit / 2;
+    }
+
+    svg {
+      height: $font-size-small;
+      width: $font-size-small;
+      fill: $color-details;
+      vertical-align: -.2rem;
     }
   }
 }
