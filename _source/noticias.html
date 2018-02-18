@@ -1,0 +1,25 @@
+---
+title: Notícias
+layout: blog
+pagination:
+  enabled: true
+---
+{% for post in paginator.posts %}
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        <a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a>
+      </h1>
+      <span class="post-meta">
+        <a class="category-link" href="{{ post.category | slugify: 'pretty' | prepend: '/noticias/arquivo/categoria/' | append: '/' | relative_url }}">{{ post.category }}</a>
+        <time datetime="{{ post.date | date: 'date_to_xmlschema' }}">{{ post.date | date: '%d/%m/%Y' }}</time>
+        <span role="separator">&middot;</span>
+        <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a>
+      </span>
+    </header>
+
+    <div class="post-content">
+      {{ post.content }}
+    </div>
+  </article>
+{% endfor %}

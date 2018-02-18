@@ -1,11 +1,11 @@
 ---
-layout: post
-date: 2017-03-26
+date: "2017-03-26 21:52:54 -0300"
 title: Spore recebe uma nova atualização para corrigir certificado de segurança
+category: Galáxia Spore
 tags:
   - Spore
-  - patches
-  - downloads
+  - atualizações
+  - status de serviço
 ---
 
 Depois de oito anos sem novidades, _Spore_ acabou de receber uma nova atualização.

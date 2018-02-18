@@ -1,11 +1,15 @@
 ---
 title: Rachel Franklin, GM da Maxis, sai da EA
-date: 2016-09-20 00:00:00 Z
+date: "2016-09-20 21:52:54 -0300"
+image:
+  path: https://cldup.com/Gn1xyIW0Xl.jpg
+  alt: Retrato de Rachel Franklin, mulher loira, sorrindo em frente à marca de The Sims 4
+  align: right
+category: Maxis
 tags:
-- Maxis
-- Rachel Franklin
-- EA
-layout: post
+  - Maxis
+  - equipe
+  - EA
 ---
 
 A gerente geral da Maxis, Rachel Franklin, anunciou sua despedida da EA.

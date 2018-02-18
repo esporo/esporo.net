@@ -1,16 +1,17 @@
 ---
-title: Evolution, jogo em desenvolvimento, quer ser o novo Spore.
-date: 2016-12-10
+title: Novo jogo Evolution promete ser um novo (e melhorado) Spore
+date: "2016-12-10 21:52:54 -0200"
+category: Miscelânea
 tags:
-  - spore
-  - steam
-layout: post
-cover: /assets/images/uploads/evolution.jpg
+  - Spore
+  - Evolution
 ---
 
 Uma desenvolvedora espanhola começou o desenvolvimento de um jogo chamado _Evolution_, descrito como o “jogo sandbox definitivo”.
 
 _Evolution_, como vocês podem perceber no vídeo abaixo, é extremamente influenciado por _Spore_. A desenvolvedora até descreve _Spore_ como a principal influência no desenvolvimento do jogo e, mais ainda, que eles pretendem expandir a ideia principal do jogo.
+
+{% include elements/video.html src="https://www.youtube.com/embed/RDsNbfPrHpw" %}
 
 _Evolution_ é mais um reflexo da onda de interesse renovado que _Spore_ recebeu esse ano, oito anos depois do lançamento do jogo, devido ao polêmico fracasso do jogo _No Man's Sky_, que prometia um uso revolucionário da mesma tecnologia de geração procedural de mundos e criaturas que _Spore_ apresentou em 2008. Não há datas nem notícias ou quaisquer outros detalhes sobre _Evolution_, mas nós vamos acompanhar e noticiar qualquer coisa que nos parecer válido.
 

@@ -3,14 +3,68 @@ body {
   color: $color-text;
 }
 
+/*
+    Text Elements
+*/
+p, ul, ol, dl,
+pre, blockquote,
+figure, audio, video,
+iframe, embed, object,
+address, table {
+  margin: $spacing-unit / 2 0;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+em, i {
+  font-style: italic;
+}
+
 // Links
 a {
   color: $color-accent;
+  transition: color 0.3s ease;
   text-decoration: none;
+
+  svg {
+    fill: $color-accent;
+    transition: fill 0.3s ease;
+  }
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    color: $color-details;
+
+    svg {
+      fill: $color-details;
+    }
+  }
+}
+
+// Lists
+ul, ol, dl {
+  padding-left: $spacing-unit;
+
+  li {
+    margin: $spacing-unit / 4 0;
+  }
+}
+
+ul {
+  list-style: disc;
+
+  ul {
+    list-style: square;
+  }
+}
+
+ol {
+  list-style: decimal;
+
+  ol {
+    list-style: lower-alpha;
   }
 }
 
@@ -18,6 +72,8 @@ a {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: $font-family-headings;
+  line-height: 1;
+  margin: $spacing-unit / 2 0;
 }
 
 h1 {

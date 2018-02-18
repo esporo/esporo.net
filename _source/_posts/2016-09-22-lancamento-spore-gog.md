@@ -1,12 +1,13 @@
 ---
-title: Spore chega sem DRM ao GOG com 60% de desconto
-date: 2016-09-22 00:00:00 Z
+title: GOG.com lança Spore sem DRM (e com 60% de desconto!)
+date: "2016-09-22 21:52:54 -0300"
+category: Galáxia Spore
+image:
+  path: "https://cldup.com/C-ERR031zU.jpg"
+  alt: Spore Collection com 60% de desconto no GOG
 tags:
 - Spore
 - GOG
-- lançamentos
-layout: post
-cover: assets/images/uploads/spore-gog.jpg
 ---
 
 [_Spore_ finalmente chegou ao GOG.com](https://www.gog.com/game/spore_collection), a loja online de jogos da CD Projekt, em uma grande promoção: 60% de desconto, fazendo o pacote completo (com _Aventuras Galácticas_ e _Medonhas & Fofinhas_) custar apenas R$ 22,39.
