@@ -53,8 +53,15 @@
     height: $font-size-small;
     max-width: $font-size-small;
     vertical-align: -.15rem;
-    margin-right: $spacing-unit / 4;
     fill: $color-background;
+
+    &:first-child {
+      margin-right: $spacing-unit / 4;
+    }
+
+    &:last-child {
+      margin-left: $spacing-unit / 4;
+    }
   }
 
   &:hover,

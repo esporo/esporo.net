@@ -234,6 +234,27 @@ html {
     display: inline-block;
     max-width: $content-width;
     margin-bottom: $spacing-unit;
+
+    .blog-navigation {
+      text-align: center;
+      margin-bottom: $spacing-unit;
+
+      .nav-link {
+        @extend %button;
+      }
+
+      span.nav-link,
+      span.nav-link:hover,
+      span.nav-link:focus {
+        background: $color-background;
+        color: darken($color-background, 20%);
+        cursor: not-allowed;
+
+        svg {
+          fill: darken($color-background, 20%);
+        }
+      }
+    }
   }
 
   .sidebar {
