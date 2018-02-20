@@ -5,7 +5,7 @@
   <body>
     {% include header.html %}
 
-    <main class="page wrapper">
+    <main id="{{ page.title | slugify: 'latin' }}" class="page wrapper {% if page.layout == 'game' %}game{% endif %}">
       {{ content }}
     </main>
 

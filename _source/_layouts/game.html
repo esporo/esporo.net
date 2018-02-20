@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<a class="game-logo" href="{{ page.url | absolute_url }}" rel="bookmark">{{ page.title }}</a>
+
+<article class="game-description">
+  {{ content }}
+</article>
+
+{% if page.store %}
+<aside class="game-store">
+  {% if page.store.origin %}
+    <a class="buy-button origin" href="{{ page.store.origin }}" rel="external">{% include elements/symbol.svg id="origin" title="EA Origin" role="presentation" %} Comprar na Origin</a>
+  {% endif %}
+  {% if page.store.gog %}
+    <a class="buy-button gog" href="{{ page.store.gog }}" rel="external">{% include elements/symbol.svg id="gog" title="GOG" role="presentation" %} Comprar no GOG</a>
+  {% endif %}
+  {% if page.store.steam %}
+    <a class="buy-button steam" href="{{ page.store.steam }}" rel="external">{% include elements/symbol.svg id="steam" title="Steam" role="presentation" %} Comprar na Steam</a>
+  {% endif %}
+</aside>
+{% endif %}

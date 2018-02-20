@@ -1,0 +1,114 @@
+.game {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+
+  .game-logo {
+    display: block;
+    margin: $spacing-unit auto;
+    width: 25rem;
+    height: 10rem;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+
+    @include on-laptop {
+      margin-top: 20rem;
+    }
+  }
+
+  .game-description {
+    max-width: $content-width;
+    margin: 0 auto $spacing-unit;
+
+    h1 {
+      text-align: center;
+      font-weight: 300;
+      margin-bottom: $spacing-unit;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+
+      li {
+        margin-bottom: $spacing-unit / 2;
+
+        strong {
+          font-size: 105%;
+        }
+      }
+    }
+  }
+
+  .game-store {
+    text-align: center;
+    margin-top: $spacing-unit * 2;
+    margin-bottom: $spacing-unit * 2;
+    padding: $spacing-unit 0;
+
+    a {
+      @extend %button;
+
+      @include on-palm {
+        display: block;
+
+        &:not(:last-child) {
+          margin-bottom: $spacing-unit / 2;
+        }
+      }
+
+      svg {
+        height: calc(#{$font-size-small} * #{$font-line-height});
+        max-width: calc(#{$font-size-small} * #{$font-line-height});
+        vertical-align: -0.5rem;
+      }
+    }
+
+    .origin {
+      background: linear-gradient(to bottom, #F56C2D, darken(#F56C2D, 15%));
+
+      &:hover,
+      &:focus {
+        background: linear-gradient(to bottom, lighten(#F56C2D, 15%), #F56C2D);
+      }
+    }
+
+    .gog {
+      background: linear-gradient(to bottom, #a467b9, darken(#a467b9, 15%));
+
+      &:hover,
+      &:focus {
+        background: linear-gradient(to bottom, lighten(#a467b9, 15%), #a467b9);
+      }
+    }
+
+    .steam {
+      background: linear-gradient(to bottom, lighten(#000, 25%), #000);
+
+      &:hover,
+      &:focus {
+        background: linear-gradient(to bottom, lighten(#000, 45%), lighten(#000, 25%));
+      }
+    }
+  }
+
+  &#spore {
+    background-image: url("images/games/backdrops/spore.jpg");
+
+    .game-logo {
+      background-image: url("images/games/spore.png");
+    }
+  }
+
+  &#spore-aventuras-galacticas {
+    background-image: url("images/games/backdrops/spore-aventuras-galacticas.jpg");
+
+    .game-logo {
+      background-image: url("images/games/spore-aventuras-galacticas.png");
+    }
+  }
+}
