@@ -226,6 +226,8 @@ html {
 
 // The Blog
 .blog-container {
+  @extend %clearfix;
+
   h1 {
     font-size: $font-size-base * 1.5;
   }
@@ -281,6 +283,41 @@ html {
       ul {
         list-style: none;
         padding-left: 0;
+      }
+    }
+
+    #stats {
+      background: none;
+      border: none;
+      box-shadow: none;
+
+      .stats {
+        width: 100%;
+        text-align: center;
+        border: .1rem solid $color-background;
+        border-radius: .3rem;
+
+        th, td {
+          padding: $spacing-unit / 4 0;
+        }
+
+        th {
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: lowercase;
+          font-size: 90%;
+          background: $color-background;
+        }
+
+        td {
+          font-size: calc(#{$font-size-base} * 1.5);
+        }
+
+        tfoot {
+          th {
+            background: none;
+          }
+        }
       }
     }
 
