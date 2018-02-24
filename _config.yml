@@ -17,6 +17,8 @@ author:
 # Build settings
 source: _source
 destination: _site
+include:
+  - stats.php
 
 permalink: "/noticias/:year/:title/"
 pagination:
@@ -46,6 +48,14 @@ autopages:
     slugify:
       mode: pretty
       cased: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 collections:
   games:
