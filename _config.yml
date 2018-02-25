@@ -1,6 +1,7 @@
 # Site settings
 name: Esporo
-description: A comunidade brasileira de Spore.
+tagline: A comunidade brasileira de Spore.
+description: Comunidade online de Spore e Darkspore com notícias, tutoriais, guias, fórum de discussão e downloads para seu jogo.
 email: contato@esporo.net
 
 lang: pt-BR

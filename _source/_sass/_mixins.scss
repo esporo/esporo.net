@@ -50,9 +50,9 @@
   color: $color-background;
 
   svg {
-    height: $font-size-small;
-    max-width: $font-size-small;
-    vertical-align: -.15rem;
+    height: calc(#{$font-size-small} * #{$font-line-height});
+    max-width: calc(#{$font-size-small} * #{$font-line-height});
+    vertical-align: -.35rem;
     fill: $color-background;
 
     &:first-child {

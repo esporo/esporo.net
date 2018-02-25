@@ -220,6 +220,25 @@ html {
       }
     }
 
+    .social {
+      text-align: center;
+      margin-bottom: $spacing-unit;
+      .youtube-link,
+      .youtube-link:active {
+        @extend %button;
+        background: linear-gradient(to bottom, #fc575e, darken(#fc575e, 20%));
+
+        &:hover,
+        &:focus {
+          background: linear-gradient(to bottom, lighten(#fc575e, 10%), #fc575e);
+        }
+      }
+
+      .sporecast-link {
+        @extend %button;
+      }
+    }
+
     #stats {
       background: none;
       border: none;

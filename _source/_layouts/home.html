@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
   <section class="banner">
-    <h1>{{ site.description }}</h1>
+    <h1>{{ site.tagline }}</h1>
 
     <ul class="featured">
       <li>
@@ -35,7 +35,7 @@ layout: default
       <h1>Últimas notícias</h1>
 
       <ul class="posts-list">
-        {% for post in site.posts limit: 5 %}
+        {% for post in site.posts limit: 8 %}
         <li>
           <h2 class="post-title"><a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a></h2>
           <span class="post-meta">
@@ -55,17 +55,15 @@ layout: default
     </section>
 
     <aside class="sidebar">
+      <div class="social">
+        <a class="youtube-link" href="https://youtube.com/esporotv" rel="external">{% include elements/symbol.svg id="youtube" title="YouTube" %} Esporo TV</a>
+
+        <a class="sporecast-link" href="">
+          {% include elements/symbol.svg id="telescope-icon" role="presentation" title="Ícone de telescópio" %} Esporocast
+        </a>
+      </div>
+
       {% include elements/stats.html %}
-
-      <a href="https://www.youtube.com/user/esporotv/" rel="external">
-        <img src="{{ '/assets/images/esporotv.jpg' | relative_url }}" alt="Visite nosso canal no YouTube" />
-      </a>
-
-      <a href="http://www.spore.com/sporepedia#qry=ssc-501057576550" rel="external">
-        <img src="{{ '/assets/images/esporocast.jpg' | relative_url }}" alt="Assine nosso sporecast na Sporepédia." />
-      </a>
-
-      <a class="twitter-timeline" data-lang="pt" data-link-color="#0195dd" href="http://twitter.com/esporo?ref_src=twsrc%5Etfw"></a>
     </aside>
   </div>
 </div>
