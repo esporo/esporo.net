@@ -36,10 +36,10 @@ a {
 
   &:hover,
   &:focus {
-    color: $color-details;
+    color: $color-alternate;
 
     svg {
-      fill: $color-details;
+      fill: $color-alternate;
     }
   }
 }

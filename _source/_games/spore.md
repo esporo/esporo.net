@@ -6,13 +6,15 @@ platforms:
   - macOS
 date:
   released: 2008-09-05
+meta:
+  forum: "https://esporo.net/forum/t/spore"
+  guide: "https://esporo.net/guia/wiki/Spore"
 store:
   origin: "https://www.origin.com/bra/pt-br/store/spore/spore/standard-edition"
   gog: "https://www.gog.com/game/spore_collection"
   steam: "http://store.steampowered.com/app/17390/SPORE/"
 image:
-  path:
-video: "https://www.youtube.com/embed/W2Le70_WfNo"
+  path: "https://cldup.com/WXMnu7gIgy.jpg"
 ---
 
 # Seu universo pessoal em uma caixa

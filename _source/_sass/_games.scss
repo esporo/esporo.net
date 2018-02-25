@@ -96,6 +96,40 @@
     }
   }
 
+  .game-links {
+    @extend %featured-links;
+    margin: $spacing-unit * 2 0;
+    padding: $spacing-unit 0;
+
+    h2 {
+      font-weight: 300;
+
+      strong {
+        font-weight: 400;
+      }
+    }
+
+    li {
+      font-size: $font-size-base;
+      text-align: left;
+      padding: $spacing-unit / 2;
+      line-height: 1.5;
+
+      &:not(:first-child),
+      &:not(:last-child) {
+        margin: $spacing-unit / 4;
+      }
+
+      a > svg {
+        max-height: 5rem;
+        max-width: 5rem;
+        float: left;
+        margin-right: $spacing-unit / 2;
+        vertical-align: top;
+      }
+    }
+  }
+
   &#spore {
     background-image: url("images/games/backdrops/spore.jpg");
 

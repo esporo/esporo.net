@@ -64,6 +64,9 @@ collections:
   svg:
     output: false
 
+sass:
+  style: compressed
+
 plugins:
   - jemoji
   - jekyll-feed

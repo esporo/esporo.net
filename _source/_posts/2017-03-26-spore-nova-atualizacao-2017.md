@@ -6,6 +6,8 @@ tags:
   - Spore
   - atualizações
   - status de serviço
+  - Aventuras Galácticas
+  - Medonhas & Fofinhas
 ---
 
 Depois de oito anos sem novidades, _Spore_ acabou de receber uma nova atualização.

@@ -8,6 +8,34 @@ layout: default
   {{ content }}
 </article>
 
+<section class="game-links">
+  <h2>Saiba mais sobre <strong>Spore</strong></h2>
+
+  <ul class="featured">
+    <li>
+      <a href="{{ page.meta.news }}">
+        {% include elements/symbol.svg id="telescope" role="presentation" %}
+        Últimas novidades
+        <span>Arquivo de notícias {% include elements/symbol.svg id="next" role="presentation" %}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ '/forum/' | relative_url }}">
+        {% include elements/symbol.svg id="ufo" role="presentation" %}
+        Participe da conversa
+        <span>Fórum {% include elements/symbol.svg id="next" role="presentation" %}</span>
+      </a>
+    </li>
+    <li>
+      <a class="soon" href="javascript:void(0);">
+        {% include elements/symbol.svg id="stars" role="presentation" %}
+        Mais informações
+        <span>Em breve</span>
+      </a>
+    </li>
+  </ul>
+</section>
+
 {% if page.store %}
 <aside class="game-store">
   {% if page.store.origin %}
