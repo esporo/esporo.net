@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: game-container
 ---
 
-<a class="game-logo" href="{{ page.url | absolute_url }}" rel="bookmark">{{ page.title }}</a>
+<a class="game-logo" href="{{ page.url | absolute_url }}" rel="bookmark" style="background-image: url('{{ page.title | slugify: 'latin' | prepend: '/assets/images/games/' | append: '.png' | absolute_url }}');">{{ page.title }}</a>
 
 <article class="game-description">
   {{ content }}
@@ -22,17 +22,25 @@ layout: default
 </aside>
 {% endif %}
 
+{% if page.release.retired %}
+<p class="game-store alert retired">Esse jogo foi encerrado em <time datetime="{{ page.release.retired | date: 'date_to_xmlschema' }}">{{ page.release.retired | date: '%d/%m/%Y' }}</time>.</p>
+{% endif %}
+
+{% if page.meta %}
 <section class="game-links">
-  <h2>Saiba mais sobre <strong>Spore</strong></h2>
+  <h2>Saiba mais sobre <strong>{{ page.title }}</strong></h2>
 
   <ul class="featured">
+    {% if page.meta.news %}
     <li>
-      <a href="{{ page.meta.news }}">
+      <a href="{{ page.meta.news | append: '/' | prepend: '/noticias/arquivo/tag/' | absolute_url }}">
         {% include elements/symbol.svg id="telescope" role="presentation" %}
         Últimas novidades
         <span>Arquivo de notícias {% include elements/symbol.svg id="next" role="presentation" %}</span>
       </a>
     </li>
+    {% endif %}
+    {% if page.meta.forum %}
     <li>
       <a href="{{ page.meta.forum }}">
         {% include elements/symbol.svg id="ufo" role="presentation" %}
@@ -40,15 +48,19 @@ layout: default
         <span>Fórum {% include elements/symbol.svg id="next" role="presentation" %}</span>
       </a>
     </li>
+    {% endif %}
+    {% if page.meta.guide %}
     <li>
-      <a class="soon" href="javascript:void(0);">
+      <a href="{{ page.meta.guide }}">
         {% include elements/symbol.svg id="stars" role="presentation" %}
         Mais informações
         <span>Em breve</span>
       </a>
     </li>
+    {% endif %}
   </ul>
 </section>
+{% endif %}
 
 <div class="game-directory-link">
   <a href="{{ '/jogos/' | relative_url }}">

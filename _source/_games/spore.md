@@ -4,11 +4,11 @@ title: Spore
 platforms:
   - Windows
   - macOS
-date:
-  released: 2008-09-05
+release:
+  date: 2008-09-05
 meta:
   forum: "https://esporo.net/forum/t/spore"
-  guide: "https://esporo.net/guia/wiki/Spore"
+  news: "spore"
 store:
   origin: "https://www.origin.com/bra/pt-br/store/spore/spore/standard-edition"
   gog: "https://www.gog.com/game/spore_collection"

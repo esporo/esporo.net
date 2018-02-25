@@ -1,0 +1,22 @@
+---
+layout: directory
+title: Explore o **Universo Spore**
+---
+
+{% assign games = site.games | sort: "release.date" %}
+{% for game in games %}
+  <div class="game-card" style="background-image: url('{{ game.image.path }}');">
+    <div class="card-layer">
+      <h2 class="game-title">
+        <a class="game-logo" href="{{ game.url | relative_url }}" rel="bookmark" style="background-image: url('{{ game.title | slugify: 'latin' | prepend: '/assets/images/games/mono/' | append: '.png' | absolute_url }}');">{{ game.title }}</a>
+      </h2>
+
+      <ul class="game-info">
+        {% if game.release.date %}
+        <li>{% include elements/symbol.svg id="calendar-day" title="Data de lançamento" %} <time datetime="{{ game.release.date | date_to_xmlschema }}">{{ game.release.date | date: '%d/%m/%Y' }}</time> {% if game.release.retired %} — {% include elements/symbol.svg id="bug" title="Data de encerramento" %} <time datetime="{{ game.release.retired | date_to_xmlschema }}">{{ game.release.retired | date: '%d/%m/%Y' }}</time>{% endif %}</li>
+        {% endif %}
+        <li>{% include elements/symbol.svg id="xpost" title="Plataformas" %} {{ game.platforms | join: ' / ' }}
+      </ul>
+    </div>
+  </div>
+{% endfor %}

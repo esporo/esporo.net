@@ -158,6 +158,19 @@ html {
   }
 }
 
+.directory {
+  h1 {
+    font-size: $font-size-base * 2;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: $spacing-unit * 2;
+
+    strong {
+      font-weight: 400;
+    }
+  }
+}
+
 // The Blog
 .blog-container {
   @extend %clearfix;

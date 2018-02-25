@@ -5,16 +5,15 @@ headline: Transforme sua criatura em um Herói Galáctico!
 platforms:
   - Windows
   - macOS
-date:
-  released: 2009-07-10
+release:
+  date: 2009-07-10
 image:
-  path:
-video: "https://www.youtube.com/embed/W2Le70_WfNo"
+  path: "https://cldup.com/PqTm2vukpI.jpg"
 meta:
   forum: "https://esporo.net/forum/tags/aventuras-galacticas/"
-  guide: "https://esporo.net/guia/spore-aventuras-galacticas/"
+  news: "aventuras-galácticas"
 store:
-  origin: "https://www.origin.com/bra/pt-br/store/spore/spore/standard-edition"
+  origin: "https://www.origin.com/bra/pt-br/store/spore/spore-galactic-adventures/expansion/spore-galactic-adventures"
   gog: "https://www.gog.com/game/spore_collection"
   steam: "http://store.steampowered.com/app/17390/SPORE/"
 ---
