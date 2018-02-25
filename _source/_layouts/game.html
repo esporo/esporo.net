@@ -8,6 +8,20 @@ layout: default
   {{ content }}
 </article>
 
+{% if page.store %}
+<aside class="game-store">
+  {% if page.store.origin %}
+    <a class="buy-button origin" href="{{ page.store.origin }}" rel="external">{% include elements/symbol.svg id="origin" title="EA Origin" role="presentation" %} Comprar na Origin</a>
+  {% endif %}
+  {% if page.store.gog %}
+    <a class="buy-button gog" href="{{ page.store.gog }}" rel="external">{% include elements/symbol.svg id="gog" title="GOG" role="presentation" %} Comprar no GOG</a>
+  {% endif %}
+  {% if page.store.steam %}
+    <a class="buy-button steam" href="{{ page.store.steam }}" rel="external">{% include elements/symbol.svg id="steam" title="Steam" role="presentation" %} Comprar na Steam</a>
+  {% endif %}
+</aside>
+{% endif %}
+
 <section class="game-links">
   <h2>Saiba mais sobre <strong>Spore</strong></h2>
 
@@ -20,7 +34,7 @@ layout: default
       </a>
     </li>
     <li>
-      <a href="{{ '/forum/' | relative_url }}">
+      <a href="{{ page.meta.forum }}">
         {% include elements/symbol.svg id="ufo" role="presentation" %}
         Participe da conversa
         <span>Fórum {% include elements/symbol.svg id="next" role="presentation" %}</span>
@@ -36,16 +50,12 @@ layout: default
   </ul>
 </section>
 
-{% if page.store %}
-<aside class="game-store">
-  {% if page.store.origin %}
-    <a class="buy-button origin" href="{{ page.store.origin }}" rel="external">{% include elements/symbol.svg id="origin" title="EA Origin" role="presentation" %} Comprar na Origin</a>
-  {% endif %}
-  {% if page.store.gog %}
-    <a class="buy-button gog" href="{{ page.store.gog }}" rel="external">{% include elements/symbol.svg id="gog" title="GOG" role="presentation" %} Comprar no GOG</a>
-  {% endif %}
-  {% if page.store.steam %}
-    <a class="buy-button steam" href="{{ page.store.steam }}" rel="external">{% include elements/symbol.svg id="steam" title="Steam" role="presentation" %} Comprar na Steam</a>
-  {% endif %}
-</aside>
-{% endif %}
+<section class="game-directory-link">
+  <h1>Explore a <strong>Galáxia Spore</strong></h1>
+
+  <a href="{{ '/jogos/' | relative_url }}">
+    {% include elements/symbol.svg id="solar-system" role="presentation" %}
+
+
+  </a>
+</section>
