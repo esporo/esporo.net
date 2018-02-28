@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Patches para Spore
-permalink: /downloads/patches/spore/
+permalink: "/downloads/patches/spore/"
 ---
 
 **Patches** são pacotes de atualização lançados pela Maxis para a correção, o aperfeiçoamento ou simplesmente a atualização de conteúdos do jogo. De 2008 a 2010, seis patches foram lançados para corrigir e aperfeiçoar diversos recursos do jogo. Em 2016 um novo patch foi lançado, atualizando _Spore_ para a Origin e corrigindo um problema de certificado de segurança, atualizando o _Spore_ para a versão 1.3. Desde então, os patches listados nessa página estão desatualizados e não possibilitam a ativação dos recursos online — o novo patch deve ser instalado diretamente pela Origin (ou pelo GOG ou Steam, dependendo de qual loja você vinculou o seu jogo).
