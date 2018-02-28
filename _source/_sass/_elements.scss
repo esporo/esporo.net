@@ -1,7 +1,16 @@
 body {
   font: 400 #{$font-size-base}/#{$font-line-height} $font-family-main;
-  text-shadow: 0 0.1rem 0.3rem rgba($color-text, 0.25);
+  //text-shadow: 0 0.1rem 0.3rem rgba($color-text, 0.25);
   color: $color-text;
+}
+
+hr {
+  height: 0.2rem;
+  background-color: $color-accent;
+  box-shadow: 0 0.1rem 0.3rem rgba($color-text, 0.25);
+  border: none;
+  max-width: 30rem;
+  margin: $spacing-unit * 2 auto;
 }
 
 /*
