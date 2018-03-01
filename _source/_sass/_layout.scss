@@ -16,6 +16,23 @@ html {
   @extend %container;
 }
 
+html,
+body {
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 100vh;
+  overflow: scroll;
+
+  .masthead,
+  .page {
+    flex: 0 0 auto;
+  }
+
+  .colophon {
+    flex: 1 0 auto;
+  }
+}
+
 /*
     Site Header
 */
