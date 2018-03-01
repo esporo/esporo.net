@@ -29,26 +29,26 @@ pagination:
   title: ":title (página :num)"
   sort_field: "date"
   sort_reverse: true
-autopages:
-  enabled: true
-  categories:
-    layouts:
-      - archive.html
-    title: "Posts arquivados em :cat"
-    permalink: "/noticias/arquivo/categoria/:cat/"
-    slugify:
-      mode: pretty
-      cased: true
-  collections:
-    enabled: false
-  tags:
-    layouts:
-      - archive.html
-    title: "Posts sobre :tag"
-    permalink: "/noticias/arquivo/tag/:tag/"
-    slugify:
-      mode: pretty
-      cased: true
+#autopages:
+#  enabled: true
+#  categories:
+#    layouts:
+#      - archive.html
+#    title: "Posts arquivados em :cat"
+#    permalink: "/noticias/arquivo/categoria/:cat/"
+#    slugify:
+#      mode: pretty
+#      cased: true
+#  collections:
+#    enabled: false
+#  tags:
+#    layouts:
+#      - archive.html
+#    title: "Posts sobre :tag"
+#    permalink: "/noticias/arquivo/tag/:tag/"
+#    slugify:
+#      mode: pretty
+#      cased: true
 
 defaults:
   -
