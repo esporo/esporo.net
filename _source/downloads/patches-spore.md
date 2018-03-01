@@ -157,7 +157,7 @@ Você pode combiná-los com itens do pacote de partes Medonhas & Fofinhas para c
 
 **[Baixar.](https://drive.google.com/open?id=1uJtfEkBCGb5n3ooUpdG_18cvcdKkXTMi)** _Atualiza o Spore para a versão 1.05. Atualiza o Aventuras Galácticas pra versão 1.01_.
 
-![Exemplo de criatura assimétrica](https://cldup.com/KAIdCD74Dp.png)
+{% include elements/figure.html src="https://cldup.com/KAIdCD74Dp.png" align="right" alt="Exemplo de criatura assimétrica" %}
 
 **Atualizações no _Spore_:**
 

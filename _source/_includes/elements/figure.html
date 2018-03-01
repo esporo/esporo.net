@@ -1,5 +1,5 @@
 <figure {% if include.align %}class="align {{ include.align }}"{% endif %}>
-  <img src=" include.src " alt="{{ include.alt }}" />
+  <img src="{{ include.src }}" alt="{{ include.alt }}" />
   {% if include.caption %}
   <figcaption>
     {{ include.caption | markdownify }}

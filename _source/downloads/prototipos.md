@@ -11,7 +11,8 @@ Os doze protótipos estão disponíveis para download nessa página.
 ---
 
 ## Cultura Celular
-![](https://cldup.com/MuqobuC2Sn.jpg)
+{% include elements/figure.html src="https://cldup.com/MuqobuC2Sn.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1Dtk-eOFP5Xt6qnMBiZfjtCLH1DDX9mOx)**
 
 O Cultura Celular é uma simulação de propagação de vida e cultura por uma superfície planetária no estilo _SimCity_.
@@ -23,7 +24,8 @@ A vida se desenvolve e se espalha de célula para célula de acordo com essas va
 ---
 
 ## Labirinto Humano
-![](https://cldup.com/nnLrUVmbqw.jpg)
+{% include elements/figure.html src="https://cldup.com/nnLrUVmbqw.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1cX0y6h6VWhgfcCjXP3fEhkKCC3SXXP13)**
 
 O Labirinto Urbano é um protótipo de simulador de cidades baseado em agentes. O jogador controla uma cidade povoada por criaturas Sim.
@@ -35,7 +37,8 @@ Felizes, seguros e descansados, as criaturas se multiplicarão e produzirão mai
 ---
 
 ## BIOMA
-![](https://cldup.com/5DDXmzcmep.jpg)
+{% include elements/figure.html src="https://cldup.com/5DDXmzcmep.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1Xpio3PlOBcCazsWA1VwdEbhTes2fR6VW)**
 
 O BIOMA é um simulador de automação celular programável que permite aos jogadores desenvolverem simulações em matriz simples do tipo SimCity.
@@ -51,7 +54,8 @@ O BIOMA suporta configurações de automação celular retangulares e em espirai
 ---
 
 ## Homem-Partícula
-![](https://cldup.com/2jj81D0dO5.jpg)
+{% include elements/figure.html src="https://cldup.com/2jj81D0dO5.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1e7GRBp4tP8ujr_MOB0RjN8YOAhpRWPC_)**
 
 O Homem-Partícula simula a atração gravitacional entre as partículas de uma nuvem. Foi usado para estudar a dinâmica gravitacional de sistemas, como órbitas, e a formação de galáxias e estrelas, bem como os fluxos de partículas de fontes, como pulsares e buracos negros.
@@ -72,7 +76,8 @@ Divirta-se brincando com os controles de física para criar diferentes tipos de 
 ---
 
 ## Espaço
-![](https://cldup.com/yx6wtX-DfZ.jpg)
+{% include elements/figure.html src="https://cldup.com/yx6wtX-DfZ.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1mlGBdClN3x7UqgUef47GumjEEyBT9cdG)**
 
 O jogador explora uma galáxia de estrelas com sua espaçonave, descobrindo novos mundos para terraformar e colonizar, além de encontrar espécies alienígenas com as quais pode fazer amizade ou entrar em guerra.
@@ -82,7 +87,8 @@ Colônias bem-sucedidas proporcionam mais recursos e renda para o jogador, que p
 ---
 
 ## SPUG
-![](https://cldup.com/7Wqg15LRze.jpg)
+{% include elements/figure.html src="https://cldup.com/7Wqg15LRze.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=11Y3ORp9bzawPG0bNIIu0eCNEZFFXM5Cq)**
 
 O SPUG é um protótipo de jogabilidade para o estágio de Criatura do Spore.
@@ -94,7 +100,8 @@ Não há nenhuma limitação para o desenvolvimento de habilidades, mesmo que se
 ---
 
 ## Crowd
-![](https://cldup.com/wAPKsqwhjm.jpg)
+{% include elements/figure.html src="https://cldup.com/wAPKsqwhjm.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1ZIqL7HChmPS4n2XbSLw5SwiG5PnXtKuf)**
 
 O Crowd é um protótipo do SimCity 4, desenvolvido pela equipe de protótipos do Spore.
@@ -106,7 +113,8 @@ O jogador pode zonear os quarteirões não-zoneados (em cinza) para atrair sims 
 ---
 
 ## Gaslight
-![](https://cldup.com/UmrDKVEa31.jpg)
+{% include elements/figure.html src="https://cldup.com/UmrDKVEa31.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1hbL85UaqTN5K4wYQpfXeE0kJfklqJOkG)**
 
 O Gaslight simula um processo chamado estocástica, uma formação estelar autopropagada (SSPSF).
@@ -118,7 +126,8 @@ Quando a estrela se incendeia, aquece o material ao redor, que se afasta da estr
 ---
 
 ## NetCity
-![](https://cldup.com/DI1hiBbKcq.jpg)
+{% include elements/figure.html src="https://cldup.com/DI1hiBbKcq.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1aFpO1CHVrWGYmiec9s3VLBJUykKFxL2C)**
 
 O NetCity é um simulador programável usado para explorar a evolução de comportamento complexo de componentes simples.
@@ -129,8 +138,9 @@ O NetCity foi inspirado pelo Soda Constructor (sodaplay.com) e pelo livro Veícu
 
 ---
 ## GozangoGL
-![](https://cldup.com/1nv8BLmD1F.jpg)
-**[Bsixar](https://drive.google.com/open?id=1sANchXJP5VjyCK_sQIytJcM8lYEIDKCa)**
+{% include elements/figure.html src="https://cldup.com/1nv8BLmD1F.jpg" align="right" %}
+
+**[Baixar](https://drive.google.com/open?id=1sANchXJP5VjyCK_sQIytJcM8lYEIDKCa)**
 
 GozangoGL é um protótipo do jogo de Criaturas Spore, baseado no OpenGL.
 
@@ -141,7 +151,8 @@ GozangoGL foi o protótipo final de jogabilidade desenvolvido para o Spore.
 ---
 
 ## Waterboy
-![](https://cldup.com/PkB0UMUBlo.jpg)
+{% include elements/figure.html src="https://cldup.com/PkB0UMUBlo.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1ct21K755KM9W9qo_3UmjDpqW5zPLMm9m)**
 
 Waterboy é um simulador de dinâmica de fluidos criado para explorar o comportamento de grandes massas de água em terrenos não-uniformes.
@@ -151,7 +162,8 @@ Desenvolvido em 2002, o Waterboy também demonstra a aplicação inicial da tecn
 ---
 
 ## Poça Primordial
-![](https://cldup.com/XjY5jIl35B.jpg)
+{% include elements/figure.html src="https://cldup.com/XjY5jIl35B.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1LQFW7p8NvSf6Uz_nL59fsRCw8HGOjPcR)**
 
 A Poça Primordial representa nossos primeiros passos na direção de sintetizar nossas idéias em um jogo de verdade.
@@ -163,7 +175,8 @@ A Poça Primordial combina uma simulação de incêndio florestal do BIOMA com a
 ---
 
 ## TextureBox
-![](https://cldup.com/r3YTwBEHZH.jpg)
+{% include elements/figure.html src="https://cldup.com/r3YTwBEHZH.jpg" align="right" %}
+
 **[Baixar](https://drive.google.com/open?id=1p5blYD7OXdorqkhgRtF1eHaZk2K8e4RF)**
 
 TextureBox demonstra a aplicação de um simples programa de pintura de estilos em sistemas de células dinâmicas, como o BIOMA ou o Cultura Celular.

@@ -11,6 +11,8 @@ hr {
   border: none;
   max-width: 30rem;
   margin: $spacing-unit * 2 auto;
+
+  @extend %clearfix;
 }
 
 /*
@@ -123,5 +125,28 @@ a > img {
   &:hover,
   &:focus {
     border: .1rem solid $color-details;
+  }
+}
+
+.align {
+  margin-bottom: $spacing-unit / 2;
+  max-width: calc(#{$content-width} / #{3});
+
+  &.left {
+    float: left;
+    margin-right: $spacing-unit / 2;
+  }
+
+  &.right {
+    float: right;
+    margin-left: $spacing-unit / 2;
+  }
+
+  @include on-palm {
+    &.left,
+    &.right {
+      float: none;
+      margin: $spacing-unit / 2 auto;
+    }
   }
 }
