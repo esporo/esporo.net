@@ -29,7 +29,7 @@ body {
   }
 
   .colophon {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
   }
 }
 
@@ -244,45 +244,57 @@ body {
     font-size: 75%;
 
     .widget {
-      box-shadow: 0 0 .25rem rgba($color-details, 0.6);
-      border-radius: .3rem;
-      background: $color-background;
-      padding: $spacing-unit / 4 $spacing-unit / 2;
-      margin-bottom: $spacing-unit;
+      margin-bottom: $spacing-unit * 2;
 
       h1 {
         font-size: $font-size-small;
-        font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-      }
-
-      ul {
-        list-style: none;
-        padding-left: 0;
+        color: darken($color-background, 40%);
       }
     }
 
-    .social {
+    .social-links {
       text-align: center;
-      margin-bottom: $spacing-unit;
-      .youtube-link,
-      .youtube-link:active {
-        @extend %button;
-        background: linear-gradient(to bottom, #fc575e, darken(#fc575e, 20%));
 
-        &:hover,
-        &:focus {
-          background: linear-gradient(to bottom, lighten(#fc575e, 10%), #fc575e);
+      h1 {
+        text-align: left;
+      }
+
+      a {
+        display: inline-block;
+        @extend %button;
+
+        &.rss-link {
+          background: linear-gradient(to bottom, #e4902c, darken(#e4902c, 5%));
+
+          &:hover,
+          &:focus {
+            background: linear-gradient(to bottom, darken(#e4902c, 5%), darken(#e4902c, 10%));
+          }
+        }
+
+        &.twitter-link {
+          background: linear-gradient(to bottom, #1DA1F2, darken(#1DA1F2, 5%));
+
+          &:hover,
+          &:focus {
+            background: linear-gradient(to bottom, darken(#1DA1F2, 5%), darken(#1DA1F2, 10%));
+          }
+        }
+
+        &.facebook-link {
+          background: linear-gradient(to bottom, #3B5998, darken(#3B5998, 5%));
+
+          &:hover,
+          &:focus {
+            background: linear-gradient(to bottom, darken(#3B5998, 5%), darken(#3B5998, 10%));
+          }
         }
       }
-
-      .sporecast-link {
-        @extend %button;
-      }
     }
 
-    #stats {
+    .stats {
       background: none;
       border: none;
       box-shadow: none;
@@ -319,10 +331,6 @@ body {
 
     @include on-palm {
       float: none;
-      max-width: 100%;
-    }
-
-    img {
       max-width: 100%;
     }
   }

@@ -11,6 +11,7 @@
 }
 
 %container {
+  width: 100%;
   max-width: calc(#{$wrapper-width} + #{$spacing-unit * 2});
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
@@ -35,7 +36,7 @@
   display: inline-block;
   height: calc(#{$font-size-base} * 2);
   line-height: calc(#{$font-size-base} * 2);
-  font-size: $font-size-small;
+  font-size: 1.2rem;
   font-weight: 700;
   box-shadow: 0 0 0 .1rem rgba($color-text, -.25), 0 .1rem .3rem rgba($color-text, 0.3);
   border-radius: .3rem;
@@ -50,9 +51,9 @@
   color: $color-background;
 
   svg {
-    height: calc(#{$font-size-small} * #{$font-line-height});
-    max-width: calc(#{$font-size-small} * #{$font-line-height});
-    vertical-align: -.35rem;
+    height: calc(#{1.2rem} * #{1.5});
+    max-width: calc(#{1.2rem} * #{1.5});
+    vertical-align: -.5rem;
     fill: $color-background;
 
     &:first-child {

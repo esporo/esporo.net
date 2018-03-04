@@ -6,18 +6,5 @@ layout: default
     {{ content }}
   </div>
 
-  <aside class="sidebar">
-    <section class="widget categories">
-      <h1>Seções</h1>
-      <ul>
-        {% for cat in site.categories %}
-        <li><a href="{{ cat[0] | slugify: 'pretty' | prepend: '/noticias/arquivo/categoria/' | append: '/' | relative_url }}">{{ cat[0] }}</a></li>
-        {% endfor %}
-      </ul>
-    </section>
-
-    {% include elements/social-widget.html %}
-
-    {% include elements/stats.html %}
-  </aside>
+  {% include sidebar.html %}
 </div>
