@@ -1,3 +1,59 @@
 ---
-layout: home
+layout: default
 ---
+<div class="home">
+  <section class="banner">
+    <h1>{{ site.tagline }}</h1>
+
+    <ul class="featured">
+      <li>
+        <a href="{{ '/noticias/' | relative_url }}">
+          {% include elements/symbol.svg id="telescope" role="presentation" %}
+          Descubra novidades
+          <span>Notícias {% include elements/symbol.svg id="next" role="presentation" %}</span>
+        </a>
+      </li>
+      <li>
+        <a href="{{ '/forum/' | relative_url }}">
+          {% include elements/symbol.svg id="ufo" role="presentation" %}
+          Estabeleça contato
+          <span>Fóruns {% include elements/symbol.svg id="next" role="presentation" %}</span>
+        </a>
+      </li>
+      <li>
+        <a title="Em breve" class="soon" href="{{ '/guia/' | relative_url }}">
+          {% include elements/symbol.svg id="stars" role="presentation" %}
+          Explore a galáxia
+          <span>Em breve</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <div class="blog-container">
+    <section class="blog">
+      <h1>Últimas notícias</h1>
+
+      <ul class="posts-list">
+        {% for post in site.posts limit: 5 %}
+        <li>
+          <h2 class="post-title"><a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a></h2>
+          <span class="post-meta">
+            <time datetime="{{ post.date | date: 'date_to_xmlschema' }}">{{ post.date | date: '%d/%m/%Y' }}</time>
+            <span role="separator">&middot;</span>
+            <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a>
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <nav class="blog-menu">
+        <a class="rss-link" href="{{ '/feed.xml' | absolute_url }}" rel="alternate">{% include elements/symbol.svg id="rss" role="presentation" %} Assine o RSS</a>
+
+        <a class="archives-link" href="{{ '/noticias/' | relative_url }}">Arquivo de Notícias</a>
+      </nav>
+    </section>
+
+    {% include sidebar.html %}
+  </div>
+</div>

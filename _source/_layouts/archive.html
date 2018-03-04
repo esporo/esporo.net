@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="blog-container">
+  <article class="blog posts-list">
+    {% if page.title %}
+    <header class="page-header">
+      {% if page.type == 'tag' %}
+      <h1 class="page-title">Posts sobre <strong>{{ page.title }}</strong></h1>
+      {% endif %}
+    </header>
+    {% endif %}
+
+    <div class="page-content">
+      {% for post in page.posts %}
+      {% include post.html %}
+      {% endfor %}
+    </div>
+  </article>
+
+  {% include sidebar.html %}
+</div>

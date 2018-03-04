@@ -1,14 +1,12 @@
 /*
-    Basic Styling
+    Basic styling
 */
 html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -16,69 +14,51 @@ html {
   @extend %container;
 }
 
-html,
-body {
-  display: flex;
-  flex-flow: column wrap;
-  min-height: 100vh;
-  overflow: scroll;
-
-  .masthead,
-  .page {
-    flex: 0 0 auto;
-  }
-
-  .colophon {
-    flex: 1 1 auto;
-  }
-}
-
 /*
     Site Header
 */
 .masthead {
-  background-color: $color-background;
+  background: $color-background;
+  box-shadow: inset 0 -0.3rem 0.5rem rgba($color-details, 0.3);
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
-  box-shadow: inset 0 -.2rem 0.5rem rgba($color-details, 0.4);
-
-  @include on-palm {
-    text-align: center;
-  }
-
-  @extend %clearfix;
 
   .site-title {
-    line-height: 0;
     display: inline-block;
+    height: 3rem;
+    width: 10rem;
 
     svg {
-      height: 3.2rem;
-      max-width: 11.5rem;
-      fill: $color-accent;
+      height: inherit;
+      width: inherit;
     }
   }
 
   .main-menu {
     float: right;
-    font-size: $font-size-small;
-    line-height: 3.2rem;
+    font: 700 #{$font-size-small}/#{3rem} $font-family-main;
 
     a {
       &:not(:last-child) {
         margin-right: $spacing-unit;
       }
     }
+  }
 
-    @include on-palm {
+  @include on-palm {
+    .site-title {
+      display: block;
+      margin: 0 auto $spacing-unit / 2;
+    }
+
+    .main-menu {
       float: none;
       display: flex;
       flex-flow: row nowrap;
-      overflow-x: auto;
-      margin-left: -$spacing-unit / 2;
+      overflow-x: scroll;
       margin-right: -$spacing-unit / 2;
-      padding-left: $spacing-unit / 2;
-      padding-right: $spacing-unit / 2;
+      margin-left: -$spacing-unit / 2;
+      padding: $spacing-unit / 2;
       -webkit-overflow-scrolling: touch;
       -ms-overflow-style: -ms-autohiding-scrollbar;
 
@@ -86,335 +66,5 @@ body {
         flex: 0 0 auto;
       }
     }
-  }
-}
-
-
-/*
-    Content
-*/
-.page {
-  padding-top: $spacing-unit;
-  background-image: url("images/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
-  z-index: 0;
-  padding-bottom: $spacing-unit;
-
-  .page-title {
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: $spacing-unit;
-  }
-
-  .page-content {
-    max-width: $content-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.home {
-
-  .banner {
-    margin-bottom: $spacing-unit * 2;
-
-    h1 {
-      font-size: $font-size-base * 2;
-      font-weight: 300;
-      text-align: center;
-      margin-bottom: $spacing-unit * 2;
-
-      @include on-palm {
-        font-size: $font-size-base * 2;
-      }
-    }
-
-    .featured {
-      @extend %featured-links;
-    }
-  }
-
-  .blog {
-    .posts-list {
-      list-style: none;
-      margin-left: 0;
-
-      li {
-        margin-top: $spacing-unit / 2;
-        margin-bottom: $spacing-unit / 2;
-
-        h2 {
-          font-weight: 700;
-          font-family: $font-family-main;
-          font-size: $font-size-base;
-          line-height: 1.2;
-          margin-bottom: 0;
-        }
-
-        span {
-          font-size: $font-size-small;
-          line-height: 1;
-
-          a {
-            color: $color-text;
-          }
-        }
-      }
-    }
-
-    .rss-link,
-    .archives-link {
-      @extend %button;
-    }
-
-    .blog-menu {
-      box-shadow: inset 0 .3rem .3rem -.3rem rgba($color-details, .7);
-      margin-top: $spacing-unit;
-      padding-top: $spacing-unit;
-      text-align: center;
-      margin-bottom: $spacing-unit;
-
-      .rss-link {
-        background: linear-gradient(to bottom, #e4902c, darken(#e4902c, 5%));
-
-        &:hover,
-        &:focus {
-          background: linear-gradient(to bottom, lighten(#e4902c, 5%), #e4902c);
-        }
-      }
-    }
-  }
-}
-
-.directory {
-  h1 {
-    font-size: $font-size-base * 2;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: $spacing-unit * 2;
-
-    strong {
-      font-weight: 400;
-    }
-  }
-}
-
-// The Blog
-.blog-container {
-  @extend %clearfix;
-
-  h1 {
-    font-size: $font-size-base * 1.5;
-  }
-
-  .blog {
-    display: inline-block;
-    max-width: $content-width;
-    margin-bottom: $spacing-unit;
-
-    .blog-navigation {
-      text-align: center;
-      margin-bottom: $spacing-unit;
-
-      .nav-link {
-        @extend %button;
-      }
-
-      span.nav-link,
-      span.nav-link:hover,
-      span.nav-link:focus {
-        background: $color-background;
-        color: darken($color-background, 20%);
-        cursor: not-allowed;
-
-        svg {
-          fill: darken($color-background, 20%);
-        }
-      }
-    }
-  }
-
-  .sidebar {
-    float: right;
-    width: 100%;
-    max-width: 30rem;
-    margin-bottom: $spacing-unit;
-    font-size: 75%;
-
-    .widget {
-      margin-bottom: $spacing-unit * 2;
-
-      h1 {
-        font-size: $font-size-small;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        color: darken($color-background, 40%);
-      }
-    }
-
-    .social-links {
-      text-align: center;
-
-      h1 {
-        text-align: left;
-      }
-
-      a {
-        display: inline-block;
-        @extend %button;
-
-        &.rss-link {
-          background: linear-gradient(to bottom, #e4902c, darken(#e4902c, 5%));
-
-          &:hover,
-          &:focus {
-            background: linear-gradient(to bottom, darken(#e4902c, 5%), darken(#e4902c, 10%));
-          }
-        }
-
-        &.twitter-link {
-          background: linear-gradient(to bottom, #1DA1F2, darken(#1DA1F2, 5%));
-
-          &:hover,
-          &:focus {
-            background: linear-gradient(to bottom, darken(#1DA1F2, 5%), darken(#1DA1F2, 10%));
-          }
-        }
-
-        &.facebook-link {
-          background: linear-gradient(to bottom, #3B5998, darken(#3B5998, 5%));
-
-          &:hover,
-          &:focus {
-            background: linear-gradient(to bottom, darken(#3B5998, 5%), darken(#3B5998, 10%));
-          }
-        }
-      }
-    }
-
-    .stats {
-      background: none;
-      border: none;
-      box-shadow: none;
-
-      .stats {
-        width: 100%;
-        text-align: center;
-        border: .1rem solid $color-background;
-        border-radius: .3rem;
-
-        th, td {
-          padding: $spacing-unit / 4 0;
-        }
-
-        th {
-          font-weight: 700;
-          letter-spacing: 0.1em;
-          text-transform: lowercase;
-          font-size: 90%;
-          background: $color-background;
-        }
-
-        td {
-          font-size: calc(#{$font-size-base} * 1.5);
-        }
-
-        tfoot {
-          th {
-            background: none;
-          }
-        }
-      }
-    }
-
-    @include on-palm {
-      float: none;
-      max-width: 100%;
-    }
-  }
-}
-
-// The Post
-.post {
-  margin-bottom: $spacing-unit * 2;
-
-  &:not(:last-child) {
-    padding-bottom: $spacing-unit * 2;
-    box-shadow: inset 0 -.3rem .3rem -.3rem rgba($color-details, .7);
-  }
-
-  .post-header {
-    margin-bottom: $spacing-unit;
-
-    h1 {
-      font-size: $font-size-base * 2.25;
-      line-height: 1.2;
-    }
-  }
-
-  .post-meta {
-    font-size: $font-size-small;
-
-    .post-date,
-    .post-permalink {
-      margin-right: $spacing-unit / 2;
-    }
-
-    svg {
-      height: $font-size-small;
-      width: $font-size-small;
-      fill: $color-details;
-      vertical-align: -.2rem;
-    }
-  }
-
-  .post-footer {
-    margin-top: $spacing-unit;
-  }
-}
-
-/*
-    Site Footer
-*/
-.colophon {
-  background-color: $color-background;
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
-  box-shadow: inset 0 .2rem 0.5rem rgba($color-details, 0.4);
-
-  .relative-links {
-    display: flex;
-    flex-flow: row wrap;
-    font-size: $font-size-small;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: $spacing-unit;
-
-    a:not(:last-child) {
-      margin-right: $spacing-unit;
-    }
-
-    .meta-links {
-      flex: 0 0 auto;
-      margin-right: auto;
-    }
-
-    @include on-palm {
-      display: block;
-      text-align: center;
-
-      .meta-links {
-        margin-bottom: $spacing-unit / 2;
-      }
-    }
-  }
-
-  .terms {
-    max-width: $palm-width;
-    margin: 0 auto $spacing-unit;
-    font-size: $font-size-small;
-    text-align: center;
   }
 }

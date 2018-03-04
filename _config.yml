@@ -18,37 +18,8 @@ author:
 # Build settings
 source: _source
 destination: _site
-include:
-  - stats.php
 
 permalink: "/noticias/:year/:title/"
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: "/partes/:num/"
-  title: ":title (página :num)"
-  sort_field: "date"
-  sort_reverse: true
-#autopages:
-#  enabled: true
-#  categories:
-#    layouts:
-#      - archive.html
-#    title: "Posts arquivados em :cat"
-#    permalink: "/noticias/arquivo/categoria/:cat/"
-#    slugify:
-#      mode: pretty
-#      cased: true
-#  collections:
-#    enabled: false
-#  tags:
-#    layouts:
-#      - archive.html
-#    title: "Posts sobre :tag"
-#    permalink: "/noticias/arquivo/tag/:tag/"
-#    slugify:
-#      mode: pretty
-#      cased: true
 
 defaults:
   -
@@ -68,8 +39,15 @@ collections:
 sass:
   style: compressed
 
+jekyll-archives:
+  enabled:
+    - tags
+  layout: 'archive'
+  permalinks:
+    tag: '/noticias/tag/:name/'
+
 plugins:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate-v2
+  - jekyll-archives

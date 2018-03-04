@@ -1,3 +1,4 @@
+// Media queries
 @mixin on-palm {
   @media screen and (max-width: $palm-width) {
     @content;
@@ -10,148 +11,18 @@
   }
 }
 
+// Wrapper
 %container {
   width: 100%;
-  max-width: calc(#{$wrapper-width} + #{$spacing-unit * 2});
+  max-width: calc(#{$wrapper-width} - #{$spacing-unit * 2});
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
   margin-left: auto;
   margin-right: auto;
 
   @include on-palm {
-    max-width: calc(#{$wrapper-width} + #{$spacing-unit});
+    max-width: calc(#{$wrapper-width} - #{$spacing-unit});
     padding-left: $spacing-unit / 2;
     padding-right: $spacing-unit / 2;
-  }
-}
-
-%clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-%button,
-%button:active {
-  display: inline-block;
-  height: calc(#{$font-size-base} * 2);
-  line-height: calc(#{$font-size-base} * 2);
-  font-size: 1.2rem;
-  font-weight: 700;
-  box-shadow: 0 0 0 .1rem rgba($color-text, -.25), 0 .1rem .3rem rgba($color-text, 0.3);
-  border-radius: .3rem;
-  padding: 0 1rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  background: linear-gradient(to bottom, $color-accent, $color-details);
-  color: $color-background;
-
-  svg {
-    height: calc(#{1.2rem} * #{1.5});
-    max-width: calc(#{1.2rem} * #{1.5});
-    vertical-align: -.5rem;
-    fill: $color-background;
-
-    &:first-child {
-      margin-right: $spacing-unit / 4;
-    }
-
-    &:last-child {
-      margin-left: $spacing-unit / 4;
-    }
-  }
-
-  &:hover,
-  &:focus {
-    background: linear-gradient(to bottom, lighten($color-accent, 5%), lighten($color-details, 5%));
-    text-decoration: none;
-  }
-}
-
-%featured-links {
-  text-align: center;
-  margin: $spacing-unit 0;
-
-  li {
-    display: inline-block;
-    box-shadow: 0 0 .25rem rgba($color-details, 0.6);
-    border-radius: .3rem;
-    background: $color-background;
-    padding: $spacing-unit;
-    font-size: $font-size-base * 1.25;
-    width: 25rem;
-
-    @include on-palm {
-      font-size: $font-size-base;
-      text-align: left;
-    }
-
-    &:not(:first-child),
-    &:not(:last-child) {
-      margin: $spacing-unit / 2;
-    }
-
-    a {
-      color: $color-text;
-      font-weight: 300;
-
-      &:hover,
-      &:focus {
-        span {
-          color: $color-alternate;
-
-          svg {
-            fill: $color-alternate;
-          }
-        }
-      }
-
-      & > svg {
-        max-height: 10rem;
-        max-width: 10rem;
-        display: block;
-        margin: 0 auto;
-
-        @include on-palm {
-          max-height: 5rem;
-          max-width: 5rem;
-          float: left;
-          margin-right: $spacing-unit / 2;
-        }
-      }
-
-      span {
-        font-size: $font-size-small;
-        font-weight: 700;
-        margin-top: $spacing-unit / 4;
-        display: block;
-        color: $color-accent;
-        transition: color 0.3s ease;
-
-        svg {
-          height: calc(#{$font-size-small} * #{$font-line-height});
-          max-width: calc(#{$font-size-small} * #{$font-line-height});
-          vertical-align: middle;
-          fill: $color-accent;
-          transition: fill 0.3s ease;
-        }
-      }
-
-      &.soon {
-        cursor: not-allowed;
-
-        span {
-          color: $color-text;
-
-          svg {
-            fill: $color-text;
-          }
-        }
-      }
-    }
   }
 }

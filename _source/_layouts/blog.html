@@ -2,9 +2,17 @@
 layout: default
 ---
 <div class="blog-container">
-  <div class="blog posts-list">
-    {{ content }}
-  </div>
+  <article class="blog posts-list">
+    {% if page.title %}
+    <header class="page-header">
+      <h1 class="page-title">{{ page.title | markdownify }}</h1>
+    </header>
+    {% endif %}
+
+    <div class="page-content">
+      {{ content }}
+    </div>
+  </article>
 
   {% include sidebar.html %}
 </div>
