@@ -20,6 +20,28 @@ source: _source
 destination: _site
 
 permalink: "/noticias/:year/:title/"
+pagination:
+  enabled: true
+  collection: "posts"
+  per_page: 5
+  sort_reverse: true
+  permalink: "/parte/:num/"
+  title: ":title <span>(parte :num de :max)</span>"
+
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    layouts:
+      - "archive.html"
+    title: "Posts sobre <b>:tag</b>"
+    permalink: "/noticias/tag/:tag/"
+    slugify:
+      mode: "raw"
+      cased: true
 
 defaults:
   -
@@ -39,15 +61,9 @@ collections:
 sass:
   style: compressed
 
-jekyll-archives:
-  enabled:
-    - tags
-  layout: 'archive'
-  permalinks:
-    tag: '/noticias/tag/:name/'
-
 plugins:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-archives
+  - jekyll-paginate-v2
+  - jekyll-coffeescript

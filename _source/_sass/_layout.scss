@@ -77,161 +77,6 @@ html {
   background: url("images/bg.jpg") top center/contain no-repeat;
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
-
-  // Blog
-  &.layout-blog {
-
-  }
-
-  .layout-blog,
-  .blog {
-    .posts-list {
-      .post {
-        @extend %clearfix;
-        max-height: 13rem;
-        overflow: hidden;
-        border-bottom: 0.1rem solid darken($color-background, 10%);
-
-        a {
-          color: $color-text;
-          height: 13rem;
-          display: flex;
-          flex-flow: row nowrap;
-          align-items: center;
-          box-shadow: inset 0 0 0 transparent;
-          transition: box-shadow 0.15s linear;
-
-          &:hover,
-          &:focus {
-            box-shadow: inset 0 -1.5rem 1.5rem -1.5rem rgba(darken($color-background, 20%), 0.9);
-
-            h2 {
-              color: $color-alternate;
-            }
-          }
-
-          .post-details {
-            padding: 0 $spacing-unit / 2 0 0;
-          }
-        }
-
-        img {
-          float: left;
-          height: 13rem;
-          width: 22rem;
-          object-fit: cover;
-          margin-right: $spacing-unit / 2;
-          flex: 0 0 22rem;
-        }
-
-        h2 {
-          font-weight: 700;
-          color: $color-accent;
-          transition: color 0.3s linear;
-        }
-
-        .post-meta {
-          margin-bottom: $spacing-unit / 2;
-        }
-
-        .post-meta,
-        p {
-          font-size: $font-size-small;
-        }
-
-        @include on-palm {
-          img {
-            max-width: 15rem;
-          }
-
-          p {
-            display: none;
-          }
-        }
-      }
-    }
-
-    .blog-links {
-      display: table;
-      width: 100%;
-
-      a {
-        display: table-cell;
-        vertical-align: middle;
-
-        &.rss-link {
-          @include action-link(#FFA500, $color-background, #FFFFFF);
-          width: 15%;
-
-          @include on-palm {
-            width: 40%;
-          }
-        }
-
-        &.archive-link {
-          @include action-link;
-          width: 85%;
-
-          @include on-palm {
-            width: 60%;
-          }
-        }
-      }
-    }
-  }
-
-  .sidebar {
-    font-size: $font-size-small;
-
-    .widget {
-      margin-bottom: $spacing-unit * 2;
-
-      h1 {
-        font: 400 #{$font-size-small}/#{1.25} $font-family-headings;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        text-align: center;
-      }
-    }
-
-    .social-links {
-      display: table;
-      width: 100%;
-
-      a {
-        display: table-cell;
-        width: 33.33%;
-        padding: $spacing-unit / 2 $spacing-unit / 4;
-
-        &.rss-link {
-          @include action-link($color-background, #FFA500, #FFA500);
-        }
-
-        &.twitter-link {
-          @include action-link($color-background, #1DA1F2, #1DA1F2);
-        }
-
-        &.facebook-link {
-          @include action-link($color-background, #3B5998, #3B5998);
-        }
-
-        svg {
-          height: $font-size-base * $font-line-height !important;
-          width: $font-size-base * $font-line-height !important;
-        }
-      }
-    }
-
-    .stats {
-      td {
-        font-size: $font-size-small * 1.75;
-      }
-
-      th {
-        text-transform: lowercase;
-      }
-    }
-  }
 }
 
 /*
@@ -323,25 +168,310 @@ html {
 /*
     Blog
 */
-.blog {
-  h1 {
-    font: 300 #{$font-size-base * 1.75}/#{1.2} $font-family-headings;
+.layout-blog,
+.layout-archive,
+.layout-post,
+.blog-container {
+  .blog {
+    h1 {
+      font-weight: 400;
+      font-family: $font-family-headings;
+      margin-bottom: $spacing-unit;
+
+      span {
+        font-weight: 300;
+        font-size: $font-size-base;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+    }
+
+    .posts-list {
+      .post {
+        @extend %clearfix;
+        max-height: 13rem;
+        overflow: hidden;
+        border-bottom: 0.1rem solid darken($color-background, 10%);
+
+        a {
+          color: $color-text;
+          height: 13rem;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
+          box-shadow: inset 0 0 0 transparent;
+          transition: box-shadow 0.15s linear;
+
+          &:hover,
+          &:focus {
+            box-shadow: inset 0 -1.5rem 1.5rem -1.5rem rgba(darken($color-background, 20%), 0.9);
+
+            h2 {
+              color: $color-alternate;
+            }
+          }
+
+          .post-details {
+            padding: 0 $spacing-unit / 2 0 0;
+          }
+        }
+
+        img {
+          float: left;
+          height: 13rem;
+          width: 22rem;
+          object-fit: cover;
+          margin: 0 $spacing-unit / 2 0 0;
+          flex: 0 0 22rem;
+        }
+
+        h2 {
+          font: 700 #{$font-size-base}/#{$font-line-height} $font-family-main;
+          color: $color-accent;
+          transition: color 0.3s linear;
+          margin: 0;
+        }
+
+        .post-meta,
+        p {
+          margin: 0;
+          font-size: $font-size-small;
+        }
+
+        @include on-palm {
+          img {
+            max-width: 15rem;
+          }
+
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  & > .post {
+    .post-title {
+      font-weight: 400;
+      font-family: $font-family-headings
+    }
+
+    .post-cover {
+      width: 100%;
+      max-height: 24.5rem;
+      object-fit: cover;
+      margin-bottom: $spacing-unit;
+
+    }
+
+    .post-meta {
+      font-size: $font-size-small;
+      margin: $spacing-unit 0;
+      color: lighten($color-text, 40%);
+
+      a {
+        color: $color-text;
+      }
+
+      .post-date,
+      .post-permalink {
+        margin-right: $spacing-unit;
+      }
+
+      svg {
+        height: $font-size-small;
+        width: $font-size-small;
+        fill: lighten($color-text, 40%);
+        vertical-align: -0.2rem;
+      }
+    }
+
+    .nav-links {
+      margin-top: $spacing-unit;
+    }
+  }
+
+
+  .blog,
+  .post {
+    .nav-links {
+      display: table;
+      width: 100%;
+
+      .previous-page,
+      .next-page {
+        @include action-link;
+        display: table-cell;
+        width: 50%;
+      }
+
+      span.previous-page,
+      span.next-page {
+        opacity: 0.25;
+        cursor: not-allowed;
+
+        &:hover,
+        &:focus {
+          color: $color-text;
+        }
+      }
+
+      a {
+        display: table-cell;
+        vertical-align: middle;
+
+        &.rss-link {
+          @include action-link(#FFA500, $color-background, #FFFFFF);
+          width: 15%;
+
+          @include on-palm {
+            width: 40%;
+          }
+        }
+
+        &.archive-link {
+          @include action-link;
+          width: 85%;
+
+          @include on-palm {
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar {
+    font-size: $font-size-small;
+
+    .widget {
+      margin-bottom: $spacing-unit * 2;
+
+      h1 {
+        font: 400 #{$font-size-small}/#{1.25} $font-family-headings;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-align: center;
+      }
+    }
+
+    .social-links {
+      display: table;
+      width: 100%;
+
+      a {
+        display: table-cell;
+        width: 33.33%;
+        padding: $spacing-unit / 2 $spacing-unit / 4;
+
+        &.rss-link {
+          @include action-link($color-background, #FFA500, #FFA500);
+        }
+
+        &.twitter-link {
+          @include action-link($color-background, #1DA1F2, #1DA1F2);
+        }
+
+        &.facebook-link {
+          @include action-link($color-background, #3B5998, #3B5998);
+        }
+
+        svg {
+          height: $font-size-base * $font-line-height !important;
+          width: $font-size-base * $font-line-height !important;
+        }
+      }
+    }
+
+    .stats {
+      td {
+        font-size: $font-size-small * 1.75;
+      }
+
+      th {
+        text-transform: lowercase;
+      }
+    }
   }
 }
 
 @include on-laptop {
   .layout-blog,
-  .blog-container {
+  .layout-archive,
+  .blog-container,
+  .layout-post {
     display: flex;
     flex-flow: row wrap;
 
-    .blog {
+    .blog,
+    .post {
       flex: 0 0 $content-width;
       margin-right: auto;
     }
 
     .sidebar {
       width: 24rem;
+    }
+  }
+}
+
+
+/*
+    Pages
+*/
+.page {
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+
+  .page-title {
+    text-align: center;
+    font-weight: 300;
+    font-family: $font-family-headings;
+  }
+}
+
+/*
+    Games
+*/
+.game {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: $spacing-unit * 6;
+
+  h1 {
+    text-align: center;
+    margin: $spacing-unit * 2 0;
+    font-weight: 300;
+    font-family: $font-family-headings;
+  }
+
+  .game-logo {
+    max-width: 30rem;
+    height: 7rem;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: transparent;
+    font-size: 0;
+    line-height: 1;
+    margin: 0 auto $spacing-unit;
+  }
+
+  .game-store {
+    margin: $spacing-unit * 2 auto;
+    text-align: center;
+
+    .buy-button {
+      @include action-link;
+      margin: $spacing-unit / 4;
+
+      svg {
+        vertical-align: -0.15rem;
+      }
     }
   }
 }

@@ -4,9 +4,30 @@ body {
   color: $color-text;
 }
 
+hr {
+  display: block;
+  max-width: 30rem;
+  height: 0.3rem;
+  margin: $spacing-unit auto;
+  background: $color-accent;
+  box-shadow: 0 0 0.5rem $color-background;
+  border: none;
+
+  @extend %clearfix;
+}
+
 /*
     Text Elements
 */
+
+p, ul, ol, dl,
+table, blockquote,
+figure, video, audio,
+embed, object, iframe,
+address {
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
+}
 
 strong, b, th {
   font-weight: 700;
@@ -14,6 +35,60 @@ strong, b, th {
 
 em, i, address {
   font-style: italic;
+}
+
+// Lists
+ul, ol {
+  list-style-position: inside;
+  margin-left: $spacing-unit;
+}
+
+ul {
+  list-style: disc;
+
+  ul {
+    list-style: square;
+  }
+}
+
+ol {
+  list-style: decimal;
+
+  ol {
+    list-style: lower-alpha;
+  }
+}
+
+// Headings
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: 700;
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
+}
+
+h1 {
+  font-size: $font-size-base * 2;
+}
+
+h2 {
+  font-size: $font-size-base * 1.75;
+}
+
+h3 {
+  font-size: $font-size-base * 1.5;
+}
+
+h4 {
+  font-size: $font-size-base * 1.25;
+}
+
+h5 {
+  font-size: $font-size-base;
+}
+
+h6 {
+  font-size: $font-size-base * 0.75;
 }
 
 
@@ -53,5 +128,46 @@ table {
     background: $color-background;
     font-weight: 700;
     text-transform: uppercase;
+  }
+}
+
+// Images
+figure, img {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+figure {
+  text-align: center;
+}
+
+.align {
+  max-width: 33%;
+  margin-top: 0;
+  margin-bottom: $spacing-unit / 4;
+
+  &.left {
+    float: left;
+    margin-right: $spacing-unit / 4;
+  }
+
+  &.right {
+    float: right;
+    margin-left: $spacing-unit / 4;
+  }
+
+  @include on-palm {
+    &.left,
+    &.right {
+      float: none;
+      margin: $spacing-unit / 2 auto;
+      max-width: 100%;
+    }
   }
 }

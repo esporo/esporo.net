@@ -7,5 +7,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-feed"
   gem "jekyll-sitemap"
-  gem "jekyll-archives"
+  gem "jekyll-paginate-v2"
+  gem "jekyll-coffeescript"
 end
