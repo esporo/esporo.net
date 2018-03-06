@@ -1,18 +1,34 @@
 ---
 layout: default
 ---
-<div class="blog-container">
-  <article class="blog posts-list">
-    {% if page.title %}
-    <header class="page-header">
-      <h1 class="page-title">{{ page.title | markdownify }}</h1>
-    </header>
-    {% endif %}
+<div class="blog">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
 
-    <div class="page-content">
-      {{ content }}
-    </div>
-  </article>
+  <div class="page-content">
+    {{ content }}
+  </div>
 
-  {% include sidebar.html %}
+  <div class="posts-list">
+    {% for post in site.posts %}
+    <article class="post">
+      <a href="{{ post.url | relative_url }}" rel="bookmark">
+        {% if post.image %}
+        <img src="{{ post.image.path }}" alt="{{ post.image.alt }}" />
+        {% endif %}
+        <div class="post-details">
+          <h2 class="post-title">{{ post.title }}</h2>
+          <span class="post-meta">
+            <time datetime="{{ post.date | date: 'date_to_xmlschema' }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+          </span>
+
+          <p>{{ post.excerpt | strip_html }}</p>
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
 </div>
+
+{% include sidebar.html %}

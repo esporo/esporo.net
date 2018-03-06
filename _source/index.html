@@ -22,12 +22,12 @@ layout: default
   </div>
 </section>
 
-<div id="blog" class="blog-container">
+<div class="blog-container">
   <section class="blog">
     <h1>Últimas notícias</h1>
 
     <div class="posts-list">
-      {% for post in site.posts limit: 8 %}
+      {% for post in site.posts limit: 5 %}
       <article class="post">
         <a href="{{ post.url | relative_url }}" rel="bookmark">
           {% if post.image %}
@@ -47,7 +47,7 @@ layout: default
     </div>
 
     <nav class="blog-links">
-      <a class="rss-link" href="{{ '/feed.xml' | absolute_url }}">{% include elements/symbol.svg id="rss" role="img" title="Assine o feed RSS" %}</a>
+      <a class="rss-link" href="{{ '/feed.xml' | absolute_url }}">{% include elements/symbol.svg id="rss" role="presentation" title="Feed RSS" %} Assine o RSS</a>
       <a class="archive-link" href="{{ '/noticias/' | relative_url }}">Notícias anteriores</a>
     </nav>
   </section>

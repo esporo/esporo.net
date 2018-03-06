@@ -1,5 +1,6 @@
 body {
   font: 400 #{$font-size-base}/#{$font-line-height} $font-family-main;
+  text-shadow: 0 0 0.2rem rgba($color-text, 0.3);
   color: $color-text;
 }
 
@@ -35,5 +36,22 @@ a:visited {
     svg {
       fill: $color-alternate;
     }
+  }
+}
+
+// Tables
+table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: $spacing-unit / 2;
+
+  th, td {
+    padding: $spacing-unit / 4;
+  }
+
+  th {
+    background: $color-background;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }
