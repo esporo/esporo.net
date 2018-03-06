@@ -30,41 +30,37 @@ layout: game-container
 <section class="game-links">
   <h2>Saiba mais sobre <strong>{{ page.title }}</strong></h2>
 
-  <ul class="featured">
+  <div class="featured-boxes">
     {% if page.meta.news %}
-    <li>
-      <a href="{{ page.meta.news | append: '/' | prepend: '/noticias/arquivo/tag/' | absolute_url }}">
+      <a href="{{ page.meta.news | append: '/' | prepend: '/noticias/tag/' | absolute_url }}">
         {% include elements/symbol.svg id="telescope" role="presentation" %}
         Últimas novidades
         <span>Arquivo de notícias {% include elements/symbol.svg id="next" role="presentation" %}</span>
       </a>
-    </li>
     {% endif %}
+
     {% if page.meta.forum %}
-    <li>
       <a href="{{ page.meta.forum }}">
-        {% include elements/symbol.svg id="ufo" role="presentation" %}
+        {% include elements/symbol.svg id="alien" role="presentation" %}
         Participe da conversa
         <span>Fórum {% include elements/symbol.svg id="next" role="presentation" %}</span>
       </a>
-    </li>
     {% endif %}
+
     {% if page.meta.guide %}
-    <li>
       <a href="{{ page.meta.guide }}">
         {% include elements/symbol.svg id="stars" role="presentation" %}
         Mais informações
         <span>Em breve</span>
       </a>
-    </li>
     {% endif %}
-  </ul>
+  </div>
 </section>
 {% endif %}
 
 <div class="game-directory-link">
   <a href="{{ '/jogos/' | relative_url }}">
-    {% include elements/symbol.svg id="planet" role="presentation" %}
+    {% include elements/symbol.svg id="galaxy" role="presentation" %}
     Explore a <strong>Galáxia Spore</strong>
   </a>
 </div>

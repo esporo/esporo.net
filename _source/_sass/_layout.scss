@@ -101,7 +101,6 @@ html {
         background: $color-accent;
         display: table-cell;
         width: 33.33%;
-        word-wrap: nowrap;
         padding: $spacing-unit;
         user-select: none;
         -webkit-user-select: none;
@@ -472,6 +471,101 @@ html {
       svg {
         vertical-align: -0.15rem;
       }
+    }
+  }
+
+  .game-links {
+    .featured-boxes {
+      display: table;
+      width: 100%;
+      max-width: $content-width;
+      margin: $spacing-unit auto;
+      box-shadow: 0 0 0.5rem rgba($color-details, 0.7);
+      text-align: center;
+
+      a {
+         background: $color-accent;
+         display: table-cell;
+         width: 50%;
+         padding: $spacing-unit;
+         user-select: none;
+         -webkit-user-select: none;
+         font: 300 #{$font-size-base * 1.25}/#{$font-line-height} $font-family-main;
+         color: $color-background;
+
+         span {
+           display: block;
+           font: 700 #{$font-size-small}/#{$font-line-height} $font-family-main;
+
+           svg {
+             fill: $color-background;
+             height: calc(#{$font-size-small} * #{$font-line-height});
+             max-width: calc(#{$font-size-small} * #{$font-line-height});
+             vertical-align: -0.6rem;
+           }
+         }
+
+         & > svg {
+           width: 5rem;
+           height: 5rem;
+           float: left;
+           fill: $color-background;
+           filter: none;
+           transition: filter 0.3s ease;
+         }
+
+         &:hover,
+         &:focus {
+           background: darken($color-accent, 1.5%);
+
+           & > svg {
+             filter: drop-shadow(0 0 3rem $color-background);
+           }
+         }
+
+         &:not(:last-child) {
+           border-right: 0.1rem solid $color-details;
+         }
+       }
+
+      @include on-palm {
+        display: block;
+
+        a {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .game-directory-link {
+    text-align: center;
+    line-height: 5rem;
+    margin: $spacing-unit * 2 0;
+
+    a {
+      color: $color-text;
+
+      &:hover,
+      &:focus {
+        color: $color-alternate;
+
+        svg {
+          fill: $color-alternate;
+          filter: drop-shadow(0 0 3rem rgba($color-alternate, 0.7));
+        }
+      }
+    }
+
+    svg {
+      vertical-align: middle;
+      margin-right: $spacing-unit / 2;
+      height: 5rem;
+      width: 5rem;
+      fill: $color-text;
+      filter: none;
+      transition: fill 0.3s ease, filter 0.3s ease;
     }
   }
 }
