@@ -36,7 +36,7 @@ html {
 
   .main-menu {
     float: right;
-    font: 700 #{$font-size-small}/#{3rem} $font-family-main;
+    font: 700 #{$font-size-base}/#{3rem} $font-family-main;
 
     a {
       &:not(:last-child) {
@@ -64,6 +64,192 @@ html {
 
       a {
         flex: 0 0 auto;
+      }
+    }
+  }
+}
+
+/*
+    Site Content
+*/
+.content {
+  background: url("images/bg.jpg") top center/contain no-repeat;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+
+  // Blog
+  .posts-list {
+    //border: .1rem solid darken($color-background, 10%);
+
+    .post {
+      @extend %clearfix;
+      max-height: 13rem;
+      overflow: hidden;
+      border-bottom: 0.1rem solid darken($color-background, 10%);
+
+      a {
+        color: $color-text;
+        background: #fff;
+        height: 13rem;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        box-shadow: inset 0 0 0 transparent;
+        transition: box-shadow 0.15s linear;
+
+        &:hover,
+        &:focus {
+          box-shadow: inset 0 -1.5rem 1.5rem -1.5rem rgba(darken($color-background, 20%), 0.9);
+
+          h2 {
+            color: $color-alternate;
+          }
+        }
+
+        .post-details {
+          padding: 0 $spacing-unit / 2 0 0;
+        }
+      }
+
+      img {
+        float: left;
+        height: 13rem;
+        width: 22rem;
+        object-fit: cover;
+        margin-right: $spacing-unit / 2;
+        flex: 0 0 22rem;
+      }
+
+      h2 {
+        font-weight: 700;
+        color: $color-accent;
+        transition: color 0.3s linear;
+      }
+
+      .post-meta {
+        margin-bottom: $spacing-unit / 2;
+      }
+
+      .post-meta,
+      p {
+        font-size: $font-size-small;
+      }
+
+      @include on-palm {
+        img {
+          max-width: 15rem;
+        }
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/*
+    Page-Specific Styles
+*/
+#home {
+  .banner {
+    text-align: center;
+
+    h1 {
+      font: 300 #{$font-size-base * 2.5}/#{1.25} $font-family-headings;
+      margin: $spacing-unit 0 $spacing-unit * 2;
+    }
+
+    .featured-boxes {
+      margin: $spacing-unit 0 $spacing-unit * 2;
+      padding-left: 0;
+      box-shadow: 0 0 0.5rem rgba($color-details, 0.7);
+      display: table;
+
+      a {
+        background: $color-accent;
+        display: table-cell;
+        width: 33.33%;
+        word-wrap: nowrap;
+        padding: $spacing-unit;
+        user-select: none;
+        font: 300 #{$font-size-base * 1.25}/#{$font-line-height} $font-family-main;
+        color: $color-background;
+
+        span {
+          display: block;
+          font: 700 #{$font-size-small}/#{$font-line-height} $font-family-main;
+
+          svg {
+            fill: $color-background;
+            height: calc(#{$font-size-small} * #{$font-line-height});
+            max-width: calc(#{$font-size-small} * #{$font-line-height});
+            vertical-align: -0.6rem;
+          }
+        }
+
+        & > svg {
+          fill: $color-background;
+          filter: none;
+          transition: filter 0.3s ease;
+        }
+
+        &:hover,
+        &:focus {
+          background: darken($color-accent, 1.5%);
+
+          & > svg {
+            filter: drop-shadow( 0 0 3rem $color-background );
+          }
+        }
+
+        &:not(:last-child) {
+          border-right: 0.1rem solid $color-details;
+        }
+      }
+
+      @include on-palm {
+        display: block;
+        width: 100%;
+
+        a {
+          display: block;
+          width: 100%;
+
+
+          &:not(:last-child) {
+            border-right: 0;
+            border-bottom: 0.1rem solid darken($color-details, 10%);
+          }
+
+          & > svg {
+            width: 5rem;
+            height: 5rem;
+            float: left;
+          }
+        }
+      }
+    }
+  }
+
+  .blog {
+    h1 {
+      font: 300 #{$font-size-base * 1.75}/#{1.2} $font-family-headings;
+    }
+  }
+
+  @include on-laptop {
+    .blog-container {
+      display: flex;
+      flex-flow: row wrap;
+
+      .blog {
+        flex: 0 0 $content-width;
+        margin-right: auto;
+      }
+
+      .sidebar {
+        width: 24rem;
       }
     }
   }

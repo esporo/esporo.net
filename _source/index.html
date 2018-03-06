@@ -1,59 +1,56 @@
 ---
 layout: default
 ---
-<div class="home">
-  <section class="banner">
-    <h1>{{ site.tagline }}</h1>
+<section class="banner">
+  <h1>{{ site.tagline }}</h1>
 
-    <ul class="featured">
-      <li>
-        <a href="{{ '/noticias/' | relative_url }}">
-          {% include elements/symbol.svg id="telescope" role="presentation" %}
-          Descubra novidades
-          <span>Notícias {% include elements/symbol.svg id="next" role="presentation" %}</span>
+  <div class="featured-boxes">
+    <a href="{{ '/noticias/' | relative_url }}">
+      {% include elements/symbol.svg id="telescope" role="presentation" %} Descubra novidades
+      <span>Notícias {% include elements/symbol.svg id="next" role="presentation" %}</span>
+    </a>
+    <a href="{{ '/forum/' | relative_url }}">
+      {% include elements/symbol.svg id="alien" role="presentation" %}
+      Estabeleça contato
+      <span>Fórum {% include elements/symbol.svg id="next" role="presentation" %}</span>
+    </a>
+    <a href="#" class="unavailable">
+      {% include elements/symbol.svg id="galaxy" role="presentation" %}
+      Explore a Galáxia
+      <span>Em breve</span>
+    </a>
+  </div>
+</section>
+
+<div id="blog" class="blog-container">
+  <section class="blog">
+    <h1>Últimas notícias</h1>
+
+    <div class="posts-list">
+      {% for post in site.posts limit: 8 %}
+      <article class="post">
+        <a href="{{ post.url | relative_url }}" rel="bookmark">
+          {% if post.image %}
+          <img src="{{ post.image.path }}" alt="{{ post.image.alt }}" />
+          {% endif %}
+          <div class="post-details">
+            <h2 class="post-title">{{ post.title }}</h2>
+            <span class="post-meta">
+              <time datetime="{{ post.date | date: 'date_to_xmlschema' }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+            </span>
+
+            <p>{{ post.excerpt | strip_html }}</p>
+          </div>
         </a>
-      </li>
-      <li>
-        <a href="{{ '/forum/' | relative_url }}">
-          {% include elements/symbol.svg id="ufo" role="presentation" %}
-          Estabeleça contato
-          <span>Fóruns {% include elements/symbol.svg id="next" role="presentation" %}</span>
-        </a>
-      </li>
-      <li>
-        <a title="Em breve" class="soon" href="{{ '/guia/' | relative_url }}">
-          {% include elements/symbol.svg id="stars" role="presentation" %}
-          Explore a galáxia
-          <span>Em breve</span>
-        </a>
-      </li>
-    </ul>
+      </article>
+      {% endfor %}
+    </div>
+
+    <nav class="blog-links">
+      <a class="rss-link" href="{{ '/feed.xml' | absolute_url }}">{% include elements/symbol.svg id="rss" role="img" title="Assine o feed RSS" %}</a>
+      <a class="archive-link" href="{{ '/noticias/' | relative_url }}">Notícias anteriores</a>
+    </nav>
   </section>
 
-  <div class="blog-container">
-    <section class="blog">
-      <h1>Últimas notícias</h1>
-
-      <ul class="posts-list">
-        {% for post in site.posts limit: 5 %}
-        <li>
-          <h2 class="post-title"><a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a></h2>
-          <span class="post-meta">
-            <time datetime="{{ post.date | date: 'date_to_xmlschema' }}">{{ post.date | date: '%d/%m/%Y' }}</time>
-            <span role="separator">&middot;</span>
-            <a rel="author" href="{{ site.author.url }}">{{ site.author.name }}</a>
-          </span>
-        </li>
-        {% endfor %}
-      </ul>
-
-      <nav class="blog-menu">
-        <a class="rss-link" href="{{ '/feed.xml' | absolute_url }}" rel="alternate">{% include elements/symbol.svg id="rss" role="presentation" %} Assine o RSS</a>
-
-        <a class="archives-link" href="{{ '/noticias/' | relative_url }}">Arquivo de Notícias</a>
-      </nav>
-    </section>
-
-    {% include sidebar.html %}
-  </div>
+  {% include sidebar.html %}
 </div>
