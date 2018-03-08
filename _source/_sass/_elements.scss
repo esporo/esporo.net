@@ -114,6 +114,13 @@ a:visited {
   }
 }
 
+// Quotes
+blockquote {
+  font-style: italic;
+  border-left: 0.2rem solid lighten($color-accent, 10%);
+  padding-left: $spacing-unit;
+}
+
 // Tables
 table {
   width: 100%;

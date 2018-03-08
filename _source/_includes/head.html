@@ -3,8 +3,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>{% if page.title %}{{ page.title | markdownify | strip_html }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.tagline }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | normalize_whitespace | limit: 140 | default: site.description }}" />
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | normalize_whitespace | truncate: 140 | default: site.description }}" />
 
   <link rel="stylesheet" type="text/css" href="{{ '/assets/main.css' | relative_url }}" />
   {% feed_meta %}
+
+  {% include head/ogp.html %}
+  {% include head/favicons.html %}
 </head>
