@@ -7,6 +7,8 @@ layout: default
   </header>
 
   <div class="posts-list">
+    {{ content }}
+
     {% for post in paginator.posts %}
     {% include post.html %}
     {% endfor %}
