@@ -13,7 +13,7 @@ baseurl: ""
 
 author:
   name: Gaboo
-  url: http://esporo.net/forum/members/gaboo
+  url: "https://esporo.net/forum/u/gaboo"
 
 # Build settings
 source: _source

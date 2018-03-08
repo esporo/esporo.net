@@ -14,6 +14,26 @@ html {
   @extend %container;
 }
 
+html,
+body {
+  min-height: 100vh;
+  overflow-y: visible;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .masthead,
+  .content {
+    flex: 0 0 auto;
+  }
+
+  .colophon {
+    flex: 1 0 auto;
+  }
+}
+
 /*
     Site Header
 */
@@ -288,6 +308,18 @@ html {
 
     .nav-links {
       margin-top: $spacing-unit;
+    }
+
+    .forums-announcement {
+      background: $color-background;
+      box-shadow: 0 0.1rem 0.5rem rgba($color-text, 0.2);
+      padding: $spacing-unit / 2;
+      margin: $spacing-unit 0;
+      font-size: $font-size-small;
+
+      h1 {
+        font-size: $font-size-base;
+      }
     }
   }
 

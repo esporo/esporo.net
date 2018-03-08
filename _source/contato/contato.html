@@ -1,0 +1,34 @@
+---
+layout: page
+title: Fale com a equipe
+permalink: "/sobre/contato/"
+---
+
+<p>Quer dar alguma sugestão, crítica, dica ou tirar uma dúvida sobre o site? O Esporo está sempre disposto a ouvir o que nossos visitantes têm a dizer, e não economizamos nos meios que você pode entrar em contato.</p>
+
+<p>Você pode enviar um email para <a href="mailto:contato@esporo.net">contato@esporo.net</a>, nos chamar no <a href="https://twitter.com/esporo" rel="external">Twitter</a> e no <a href="https://www.facebook.com/esporo" rel="external">Facebook</a>. Você também pode conversar diretamente conosco no <a href="https://esporo.net/forum/">Fórum</a>, onde você será sempre muito bem vindo. Ou você pode nos enviar uma mensagem pelo formulário abaixo — simples, rápido e seguro.</p>
+
+<hr />
+
+<form action="https://formspree.io/contato@esporo.net" method="POST">
+  <p>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" placeholder="Alien Marciano" required autofocus />
+  </p>
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="alien@marte.ufo" />
+  </p>
+  <p>
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" required></textarea>
+    <input type="hidden" name="_next" value="//esporo.net/sobre/contato/ok/" />
+    <input type="hidden" name="_subject" value="Contato através do site" />
+    <input type="hidden" name="_format" value="plain" />
+    <input type="hidden" name="_language" value="pt-BR" />
+    <input type="text" name="_gotcha" />
+  </p>
+  <p>
+    <button type="submit">Enviar</button>
+  </p>
+</form>

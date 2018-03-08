@@ -140,7 +140,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
 
   &.emoji {
     height: $font-size-base;
@@ -154,6 +153,7 @@ img {
 
 figure {
   text-align: center;
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
 }
 
 .align {
@@ -178,5 +178,65 @@ figure {
       margin: $spacing-unit / 2 auto;
       max-width: 100%;
     }
+  }
+}
+
+/*
+    Forms
+*/
+input[type="email"],
+input[type="text"],
+textarea {
+  display: block;
+  padding: $spacing-unit / 4;
+  background: $color-background;
+  font: inherit;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.1rem 0.5rem rgba($color-details, 0.25);
+  width: 100%;
+  outline: none;
+}
+
+textarea {
+  height: 15rem;
+  resize: none;
+}
+
+@include on-laptop {
+  input[type="email"],
+  input[type="text"] {
+    max-width: 40rem;
+  }
+}
+
+label {
+  display: block;
+}
+
+input[name="_gotcha"] {
+  display: none;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: linear-gradient(to bottom, $color-accent, darken($color-accent, 10%));
+  font: 700 #{$font-size-small}/#{1} $font-family-main;
+  border: 0.1rem solid $color-details;
+  border-radius: 0.3rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: $spacing-unit / 2;
+  box-shadow: 0 0.1rem 0.5rem rgba($color-details, 0.25);
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    background: linear-gradient(to bottom, lighten($color-accent, 10%), $color-accent);
   }
 }
