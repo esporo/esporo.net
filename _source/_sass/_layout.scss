@@ -215,7 +215,7 @@ html {
           }
         }
 
-        img {
+        img:first-child {
           float: left;
           height: 13rem;
           width: 22rem;
@@ -434,7 +434,54 @@ html {
 /*
     Games
 */
-.game {
+.game-card {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  border: 0.1rem solid $color-background;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 1.5rem rgba($color-details, 0.4);
+  padding: $spacing-unit / 4 $spacing-unit / 2;
+  text-align: center;
+  margin-bottom: $spacing-unit;
+
+  @include on-palm {
+    width: 100%;
+  }
+
+  .game-logo {
+    display: block;
+    width: 20rem;
+    height: 8rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    font-size: 0;
+    color: transparent;
+    filter: drop-shadow(0 0 1.5rem $color-details);
+  }
+
+  .game-info {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    filter: drop-shadow(0 0 1.5rem $color-text);
+    color: $color-background;
+
+    svg {
+      height: $font-size-small * 1.5;
+      width: $font-size-small * 1.5;
+      vertical-align: middle;
+      fill: $color-background;
+    }
+  }
+}
+
+.layout-game {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -460,6 +507,13 @@ html {
     margin: 0 auto $spacing-unit;
   }
 
+  .game-description {
+    width: 100%;
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .game-store {
     margin: $spacing-unit * 2 auto;
     text-align: center;
@@ -472,9 +526,28 @@ html {
         vertical-align: -0.15rem;
       }
     }
+
+    &.alert {
+      font-size: calc(#{$font-size-base} * 1.25);
+      font-weight: 300;
+
+      time {
+        font-weight: 400;
+      }
+    }
   }
 
   .game-links {
+    h2 {
+      font-weight: 300;
+      text-align: center;
+      font-family: $font-family-headings;
+
+      strong {
+        font-weight: 400;
+      }
+    }
+
     .featured-boxes {
       display: table;
       width: 100%;
