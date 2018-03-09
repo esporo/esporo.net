@@ -51,7 +51,6 @@ body {
     svg {
       height: inherit;
       width: inherit;
-      filter: drop-shadow(0 0 .3rem rgba($color-accent, 0.4));
     }
   }
 
@@ -235,10 +234,10 @@ body {
           }
         }
 
-        img:first-child {
+        img {
           float: left;
           height: 13rem;
-          width: 22rem;
+          max-width: 22rem;
           object-fit: cover;
           margin: 0 $spacing-unit / 2 0 0;
           flex: 0 0 22rem;
