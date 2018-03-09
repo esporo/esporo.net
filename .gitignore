@@ -3,4 +3,4 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 stats.php
-build/
+deploy
