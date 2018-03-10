@@ -57,7 +57,7 @@ _debounce = (func, wait, immediate) ->
     return
 
 iframes = document.getElementsByTagName('iframe')
-isVideo = /(youtube)|(vimeo)|(matterport)/i
+isVideo = /(youtube)|(vimeo)|(cloudup)/i
 videos = _filter(iframes, (iframe) ->
   isVideo.test iframe.getAttribute('src')
 )
