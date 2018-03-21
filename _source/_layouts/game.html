@@ -23,7 +23,7 @@ layout: default
 {% endif %}
 
 {% if page.release.retired %}
-<p class="game-store alert retired">Esse jogo foi encerrado em <time datetime="{{ page.release.retired | date: 'date_to_xmlschema' }}">{{ page.release.retired | date: '%d/%m/%Y' }}</time>.</p>
+<p class="game-store alert retired">Esse jogo foi encerrado em <time datetime="{{ page.release.retired | date: date_to_xmlschema }}">{{ page.release.retired | date: '%d/%m/%Y' }}</time>.</p>
 {% endif %}
 
 {% if page.meta %}

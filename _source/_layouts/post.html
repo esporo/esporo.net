@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
 
     <div class="post-meta">
-      <time class="post-date" datetime="{{ page.date | date: 'date_to_xmlschema' }}">{{ page.date | date: '%d/%m/%Y' }}</time>
+      <time class="post-date" datetime="{{ page.date | date: date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>
 
       <span class="post-author">
         <a href="{{ site.author.url }}" rel="author">{{ site.author.name }}</a>
