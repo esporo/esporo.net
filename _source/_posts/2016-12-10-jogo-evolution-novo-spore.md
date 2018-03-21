@@ -3,7 +3,7 @@ title: Novo jogo Evolution promete ser um novo (e melhorado) Spore
 date: "2016-12-10 21:52:54 -0200"
 category: Miscelânea
 image:
-  path: "https://steamuserimages-a.akamaihd.net/ugc/195172462393961154/F95F4D02FBF2EAF068F2766CDD90F338EAFE522C/?interpolation=lanczos-none&output-format=jpeg"
+  path: "https://esporodb.files.wordpress.com/2018/03/evolutiongame.jpg"
 tags:
   - Spore
   - Evolution
