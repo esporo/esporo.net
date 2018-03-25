@@ -4,16 +4,28 @@ tagline: A comunidade brasileira de Spore.
 description: Comunidade online de Spore e Darkspore com notícias, tutoriais, guias, fórum de discussão e downloads para seu jogo.
 email: contato@esporo.net
 
-lang: pt-BR
+lang: pt_BR
 encoding: utf-8
 timezone: "America/Sao_Paulo"
 
 url: "https://esporo.net"
 baseurl: ""
 
-author:
-  name: Gaboo
-  url: "https://esporo.net/forum/u/gaboo"
+# SEO settings
+twitter:
+  username: esporo
+
+logo: "/assets/images/logo.jpg"
+
+social:
+  name: Esporo
+  links:
+    - "https://www.facebook.com/esporo"
+    - "https://twitter.com/esporo"
+    - "https://youtube.com/esporotv"
+    - "https://plus.google.com/+esporonet"
+
+google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
 # Build settings
 source: _source
@@ -50,6 +62,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: arthur
 
 collections:
   games:
@@ -65,5 +78,6 @@ plugins:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-coffeescript
