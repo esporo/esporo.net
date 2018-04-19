@@ -10,19 +10,23 @@ permalink: "/sobre/contato/"
 
 <hr />
 
-<form action="https://getsimpleform.com/messages?form_api_token=1db6b74c6b1ce09843bd8d45d9a222a0" method="POST">
+<form action="https://formspree.io/contato@esporo.net" method="POST">
   <p>
     <label for="name">Nome:</label>
     <input type="text" id="name" name="name" placeholder="Alien Marciano" required autofocus />
   </p>
   <p>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="alien@marte.ufo" />
+    <label for="_replyto">Email:</label>
+    <input type="email" id="_replyto" name="_replyto" placeholder="alien@marte.ufo" />
   </p>
   <p>
     <label for="message">Mensagem:</label>
     <textarea id="message" name="message" required></textarea>
-    <input type="hidden" name="redirect_to" value="https://esporo.net/sobre/contato/ok/" />
+    <input type="hidden" name="_next" value="https://esporo.net/sobre/contato/ok/" />
+    <input type="hidden" name="_subject" value="Mensagem através do formulário do site" />
+    <input type="hidden" name="_format" value="plain" />
+    <input type="hidden" name="_language" value="pt-BR" />
+    <input type="text" name="_gotcha" style="display:none" />
   </p>
   <p>
     <button type="submit">Enviar</button>
