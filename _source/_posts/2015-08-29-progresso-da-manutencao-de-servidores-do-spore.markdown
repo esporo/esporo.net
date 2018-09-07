@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Progresso da manutenção de servidores do Spore"
-date: "2018-08-29 18:52:24 -0300"
+date: "2015-08-29 18:52:24 -0300"
 tags:
   - Spore
   - status de serviço
