@@ -1,19 +1,13 @@
-const data_url = 'https://esporo.net/stats.php';
+$.ajax({
+  url: "http://www.spore.com/rest/stats",
+  cache: false,
+  dataType: "xml",
+  success: function(xml, status){
+    totalUploads = xml.find('totalUploads').text(),
+    totalUsers = xml.find('totalUsers').text(),
+    dayUploads = xml.find('dayUploads').text(),
+    dayUsers = xml.find('dayUsers').text();
 
-fetch(data_url)
-.then(resp  =>  resp.json())
-.then(function(data) {
-  append('totalUploads', data.totalUploads);
-  append('totalUsers', data.totalUsers);
-  append('dayUploads', data.dayUploads);
-  append('dayUsers', data.dayUsers);
-})
-.catch(function(error) {
-  console.log(error)
+    $('#totalUploads').text(totalUploads);
+  }
 });
-
-function append(element, value) {
-  number = value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-
-  document.getElementById(element).innerHTML += number;
-}
