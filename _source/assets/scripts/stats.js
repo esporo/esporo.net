@@ -1,21 +1,20 @@
-$.ajax({
-  url: "http://www.spore.com/rest/stats",
-  cache: false,
-  dataType: "xml",
-  crossDomain: true,
-  xhrFields: {
-    withCredentials: true
-  },
-  headers: {
-    "accept": "application/xml",
-    "Access-Control-Allow-Origin":"*"
-  },
-  success: function(xml, status){
-    totalUploads = xml.find('totalUploads').text(),
-    totalUsers = xml.find('totalUsers').text(),
-    dayUploads = xml.find('dayUploads').text(),
-    dayUsers = xml.find('dayUsers').text();
+var request = new XMLHttpRequest();
+var url = '//www.spore.com/rest/stats';
 
-    $('#totalUploads').text(totalUploads);
-  }
-});
+if(request) {
+ request.open('GET', url, true);
+ request.withCredentials = "true";
+ request.send();
+}
+
+var invocation = new XMLHttpRequest();
+var url = 'http://www.spore.com/rest/stats';
+var body = 'Arun';
+
+ if(invocation)
+{
+    invocation.open('POST', url, true);
+    invocation.setRequestHeader('X-PINGOTHER', 'pingpong');
+    invocation.setRequestHeader('Content-Type', 'application/xml');
+    invocation.send(body);
+}
