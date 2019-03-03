@@ -41,19 +41,13 @@ pagination:
   title: ":title <span>(parte :num de :max)</span>"
 
 autopages:
-  enabled: true
+  enabled: false
   categories:
-    enabled: true
+    enabled: false
   collections:
-    enabled: true
+    enabled: false
   tags:
-    layouts:
-      - "archive.html"
-    title: "Posts sobre <b>:tag</b>"
-    permalink: "/noticias/tag/:tag"
-    slugify:
-      mode: "raw"
-      cased: true
+    enabled: false
 
 defaults:
   -
