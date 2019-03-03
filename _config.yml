@@ -43,14 +43,14 @@ pagination:
 autopages:
   enabled: true
   categories:
-    enabled: false
+    enabled: true
   collections:
-    enabled: false
+    enabled: true
   tags:
     layouts:
       - "archive.html"
     title: "Posts sobre <b>:tag</b>"
-    permalink: "/noticias/tag/:tag/"
+    permalink: "/noticias/tag/:tag"
     slugify:
       mode: "raw"
       cased: true
