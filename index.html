@@ -1,0 +1,24 @@
+---
+layout: home-page
+title: A comunidade brasileira de Spore
+image: 'https://i.imgur.com/rarTHv2.jpg'
+---
+
+<section class="blog">
+  <div class="blog-content">
+
+      <h2 class="blog-title">Últimas notícias</h2>
+
+      {%- for post in site.posts limit: 5 -%}
+
+        {%- include blog/loop-archive.html -%}
+
+      {%- endfor -%}
+
+      <footer class="blog-archives">
+        <a class="blog-archive-link" href="{{ '/noticias/' | relative_url }}">Mais Notícias</a>
+      </footer>
+  </div>
+
+  {%- include blog/sidebar.html -%}
+</section>

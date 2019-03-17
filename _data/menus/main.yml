@@ -1,0 +1,12 @@
+- url: "/noticias/"
+  title: Notícias
+- url: "/jogos/"
+  title: Galáxia Spore
+- url: "https://forum.esporo.net/"
+  title: Fórum
+  external: true
+- url: "https://guia.esporo.net/"
+  title: Guia Galáctico
+  external: true
+- url: "/downloads/"
+  title: Downloads

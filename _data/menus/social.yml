@@ -1,0 +1,15 @@
+- title: Assine o Feed
+  url: "https://esporo.net/feed.xml"
+  service: rss
+- title: Siga o @esporo
+  url: "https://twitter.com/esporo"
+  service: twitter
+  external: true
+- title: EsporoTV
+  url: "https://www.youtube.com/user/esporotv"
+  service: youtube
+  external: true
+- title: Facebook
+  url: "https://www.facebook.com/esporo"
+  service: facebook
+  external: true

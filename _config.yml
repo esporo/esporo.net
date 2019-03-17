@@ -1,80 +1,79 @@
-# Site settings
-name: Esporo
-tagline: A comunidade brasileira de Spore.
-description: Comunidade online de Spore e Darkspore com notícias, tutoriais, guias, fórum de discussão e downloads para seu jogo.
+# Site Settings
+title: Esporo
+description: >-
+  A comunidade brasileira de Spore.
+
 email: contato@esporo.net
+lang: pt-BR
+author: arthrfrts
 
-lang: pt-br
-encoding: utf-8
-timezone: "America/Sao_Paulo"
+# Theme Settings
+spark:
+  fonts: # Custom fonts should exist in `/assets/fonts/` and `/assets/css/fonts.scss`.
+    body: '"Proxima Nova", system-ui, sans-serif'
+    title: '"SPORE", sans-serif'
+  colors:
+    text: "#142533"
+    brand: "#2987C7"
+    accent: "#FCD704"
+    details: "#A7DA78"
+    background: "#FFFFFF"
 
-url: "https://esporo.net"
-baseurl: ""
-
-# SEO settings
+# SEO Settings
 twitter:
   username: esporo
+  card: summary
 
 logo: "/assets/images/logo.jpg"
 
 social:
   name: Esporo
   links:
-    - "https://www.facebook.com/esporo"
     - "https://twitter.com/esporo"
-    - "https://youtube.com/esporotv"
-    - "https://plus.google.com/+esporonet"
+    - "https://www.facebook.com/esporo"
+    - "https://www.youtube.com/user/esporotv"
 
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
-# Build settings
-source: _source
-destination: _site
+# Content settings
+collections:
+  games:
+    output: true
+    permalink: "/jogos/:title/"
+  pages:
+    output: true
+    permalink: "/:title/"
 
-permalink: "/noticias/post/:year/:title/"
+# Build Settings
+permalink: "/noticias/post/:name/"
+theme: jekyll-theme-spark
+
 pagination:
   enabled: true
   collection: "posts"
   per_page: 5
+  permalink: "/arquivo/:num/"
+  title: ":title (:num de :max)"
+  sort_field: "date"
   sort_reverse: true
-  permalink: "/arquivo/parte/:num/"
-  title: ":title <span>(parte :num de :max)</span>"
 
 autopages:
-  enabled: false
+  enabled: true
+  collections: disabled
   categories:
-    enabled: false
-  collections:
-    enabled: false
+    layouts:
+      - "archive.html"
+    title: "Posts arquivados em :cat"
+    permalink: "/noticias/categoria/:cat"
   tags:
-    enabled: false
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: arthur
-
-collections:
-  games:
-    output: true
-    permalink:  "/jogos/:name/"
-  svg:
-    output: false
-
-sass:
-  style: compressed
-
-include:
-  - _headers
+    layouts:
+      - archive.html
+    title: "Posts marcados com :tag"
+    permalink: "/noticias/tag/:tag"
 
 plugins:
   - jemoji
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-paginate-v2
-  - jekyll-coffeescript
+  - jekyll-seo-tag
