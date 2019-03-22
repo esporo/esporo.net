@@ -2,78 +2,95 @@
 title: Esporo
 description: >-
   A comunidade brasileira de Spore.
-
+logo: "/assets/images/logo.jpg"
+  
 email: contato@esporo.net
 lang: pt-BR
-author: arthrfrts
+timezone: "America/Sao_Paulo"
+
+url: "https://esporo.net"
+baseurl: ""
+
+collections:
+  games:
+    output: true
+    permalink: "/jogos/:title/"
+    
+permalink: "/noticias/post/:title/"
 
 # Theme Settings
 spark:
-  fonts: # Custom fonts should exist in `/assets/fonts/` and `/assets/css/fonts.scss`.
-    body: '"Proxima Nova", system-ui, sans-serif'
-    title: '"SPORE", sans-serif'
-  colors:
-    text: "#142533"
-    brand: "#2987C7"
-    accent: "#FCD704"
-    details: "#A7DA78"
-    background: "#FFFFFF"
-
-# SEO Settings
+  custom_fonts: true # set to true to load fonts.css
+  show_excerpts: false # set to true to show post excerpts, not the entire post content.
+  
+# SEO settings
 twitter:
-  username: esporo
   card: summary
-
-logo: "/assets/images/logo.jpg"
+  username: esporo
 
 social:
   name: Esporo
   links:
     - "https://twitter.com/esporo"
-    - "https://www.facebook.com/esporo"
     - "https://www.youtube.com/user/esporotv"
+    - "https://www.flickr.com/photos/esporo"
+    - "https://www.facebook.com/esporo"
+    
+google_site_verification: "to_set"
 
-google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
-
-# Content settings
+# Collections settings
 collections:
   games:
     output: true
     permalink: "/jogos/:title/"
-  pages:
-    output: true
-    permalink: "/:title/"
+  
+franchises-order:
+  - Spore
+  - Darkspore
+  - Consoles
 
-# Build Settings
-permalink: "/noticias/post/:name/"
-theme: jekyll-theme-spark
+games-order:
+  - base
+  - bundle
+  - pack
+  - beta
 
+
+# Build settings
 pagination:
   enabled: true
   collection: "posts"
-  per_page: 5
-  permalink: "/arquivo/:num/"
+  per_page: 10
+  permalink: "/p/:num/"
   title: ":title (:num de :max)"
   sort_field: "date"
   sort_reverse: true
 
 autopages:
   enabled: true
-  collections: disabled
+  collections:
+    enabled: false
   categories:
     layouts:
       - "archive.html"
-    title: "Posts arquivados em :cat"
-    permalink: "/noticias/categoria/:cat"
+    title: ":title — Arquivo de Notícias"
+    permalink: "/noticias/categoria/:cat/"
+    slugify:
+      mode: raw
+      cased: true
   tags:
+    enabled: false
     layouts:
-      - archive.html
-    title: "Posts marcados com :tag"
-    permalink: "/noticias/tag/:tag"
+      - "archive.html"
+    title: ":title — Arquivo de Notícias"
+    permalink: "/noticias/tag/:tag/"
+    slugify:
+      mode: raw
+      cased: true
 
 plugins:
-  - jemoji
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate-v2
   - jekyll-seo-tag
+  - jekyll-octicons
+  - jekyll-paginate-v2

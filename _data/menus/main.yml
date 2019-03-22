@@ -1,12 +1,18 @@
-- url: "/noticias/"
-  title: Notícias
-- url: "/jogos/"
-  title: Galáxia Spore
-- url: "https://forum.esporo.net/"
-  title: Fórum
+- title: Notícias
+  url: "/noticias/"
+
+- title: O que é Spore?
+  url: "/jogos/"
+
+- title: Fórum
+  url: "https://forum.esporo.net/"
   external: true
-- url: "https://guia.esporo.net/"
-  title: Guia Galáctico
-  external: true
-- url: "/downloads/"
-  title: Downloads
+  
+- title: Tutoriais
+  url: "/noticias/tag/tutoriais/"
+  
+- title: Downloads
+  url: "/downloads/"
+  
+- title: Sobre
+  url: "/sobre/"

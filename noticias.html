@@ -1,13 +1,7 @@
 ---
-layout: blog
-title: Arquivo de notícias
+layout: archive
+title: Arquivo de Notícias
+permalink: "/noticias/"
 pagination:
   enabled: true
 ---
-<div class="post-list">
-  {%- for post in paginator.posts -%}
-    {%- include blog/loop-archive.html -%}
-  {%- endfor -%}
-</div>
-
-{%- include blog/blog-navigation.html -%}
