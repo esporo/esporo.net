@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre esse site
+permalink: "/sobre/"
 ---
 
 Esporo foi lançado em 9 de agosto de 2005 como um fã-site sobre Spore para o público brasileiro, ocasionalmente falando de outros jogos semelhantes, como No Man’s Sky e The Universim. Nos esforçamos para divulgar as últimas novidades sobre os jogos de simulação da linha Spore, além conteúdos exclusivos e de qualidade. Nós também oferecemos um espaço de discussão e troca de conteúdos, o Fórum, e em breve um espaço para troca de experiências, tutoriais e informações — o Guia Galáctico.

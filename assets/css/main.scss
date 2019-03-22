@@ -1,0 +1,17 @@
+---
+# Hello, Jekyll!
+---
+
+$font-family-base: 'Proxima Nova', sans-serif;
+$font-family-title: 'SPORE', sans-serif;
+
+$color-text: #142533;
+$color-accent: #2987C7;
+
+@import "spark";
+
+p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
