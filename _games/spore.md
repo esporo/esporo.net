@@ -6,21 +6,19 @@ franchise: Spore
 type: base
 assets:
   logo: "https://i.imgur.com/hjLq3pe.png"
-  packshot: "https://i.imgur.com/edPXvnMl.jpg"
+  packshot: "https://i.imgur.com/sb0OABh.jpg"
 info:
   platforms:
-    - PC
-    - macOS
+  - PC
+  - macOS
   release: 2008-09-05
   developer: Maxis
   publisher: Electronic Arts
   rating: 10
 links:
-  news: "spore"
-  forum: "https://forum.esporo.net/t/spore/"
+  news: spore
+  forum: "https://forum.esporo.net/t/spore"
   store: "https://www.origin.com/bra/pt-br/store/spore/spore"
-  guide: "https://guia.esporo.net/jogos/spore/"
-  tv: "PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi"
 ---
 
 ## Como você vai criar o seu universo?

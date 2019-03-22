@@ -3,7 +3,7 @@ title: Esporo
 description: >-
   A comunidade brasileira de Spore.
 logo: "/assets/images/logo.jpg"
-  
+
 email: contato@esporo.net
 lang: pt-BR
 timezone: "America/Sao_Paulo"
@@ -15,14 +15,16 @@ collections:
   games:
     output: true
     permalink: "/jogos/:title/"
-    
+
 permalink: "/noticias/post/:title/"
+
+theme: "jekyll-theme-spark"
 
 # Theme Settings
 spark:
   custom_fonts: true # set to true to load fonts.css
   show_excerpts: false # set to true to show post excerpts, not the entire post content.
-  
+
 # SEO settings
 twitter:
   card: summary
@@ -35,7 +37,7 @@ social:
     - "https://www.youtube.com/user/esporotv"
     - "https://www.flickr.com/photos/esporo"
     - "https://www.facebook.com/esporo"
-    
+
 google_site_verification: "to_set"
 
 # Collections settings
@@ -43,7 +45,7 @@ collections:
   games:
     output: true
     permalink: "/jogos/:title/"
-  
+
 franchises-order:
   - Spore
   - Darkspore
@@ -89,8 +91,4 @@ autopages:
       cased: true
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-octicons
-  - jekyll-paginate-v2
+  - jekyll-admin

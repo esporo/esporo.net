@@ -1,60 +1,37 @@
 ---
 layout: game
-title: "Spore Creatures"
-image: "https://i.imgur.com/zhnppish.jpg"
+title: Spore Creatures
+image: "https://i.imgur.com/WvfByCwh.jpg"
 franchise: Consoles
 type: base
 assets:
-  logo: "https://i.imgur.com/hjLq3pe.png"
+  logo: "https://i.imgur.com/H0qSTOp.png"
   packshot: "https://i.imgur.com/hNRHj9v.jpg"
 info:
   platforms:
-    - iOS
-    - Nintendo DS
+  - Nintendo DS
   release: 2008-09-07
-  developer: Maxis
+  shutdown: 2014-06-30
+  developer: Griptonite
   publisher: Electronic Arts
-  rating: 10
+  rating: L
 links:
-  news: "spore"
-  forum: "https://forum.esporo.net/t/spore/"
-  store: "https://www.origin.com/bra/pt-br/store/spore/spore"
-  guide: "https://guia.esporo.net/jogos/spore/"
-  tv: "PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi"
+  news: spore-creatures
+  forum: "https://forum.esporo.net/t/spore-creatures"
 ---
 
-## Como você vai criar o seu universo?
+## Crie e evolua sua criatura para salvar a galáxia!
 
-Crie um novo mundo ao mesmo tempo em que embarca na jornada mais fantástica de todos os tempos. Você terá ao seu alcance ferramentas de criação simples e divertidas e, com elas, fará com que suas próprias criaturas evoluam, formem tribos, construam civilizações, modelem mundos e explorem o universo!
+Salve sua espécie e a galáxia inteira em _Spore Creatures_. Guie e evolua sua criatura, começando como uma simples espécie e explorando os seus arredores.
 
-- **CRIE seu próprio universo.** Desde micróbios que vivem em simples poças de água até poderosas espaçonaves intergalácticas, tudo está em suas mãos.
-- **EVOLUA sua criatura.** É a sobrevivência do mais divertido enquanto suas escolhas reverberam através das gerações para finalmente decidir o destino de sua civilização.
-- **EXPLORE seu planeta e muito mais.** Você dominará o universo ou seu amado planeta será destruído por uma raça alienígena superior?
-- **COMPARTILHE com o mundo.** As criações de todos os jogadores são compartilhadas automaticamente, fazendo com que o jogo permaneça sempre novo e surpreendente.
+- **CRIE** suas próprias criaturas.
+- **EXPLORE** seu mundo e resolva quebra-cabeças para avançar.
+- **FAÇA AMIGOS** ou **LUTE** com outras criaturas.
+- **COLECIONE** criaturas, partes e poderosos Bio-Powers.
+- **CONECTE-SE** com outros jogadores via wi-fi para compartilhar e se exibir.
 
 ---
 
 #### EsporoTV
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed?listType=playlist&list=PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi&autoplay=1&playsinline=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
----
-
-### Requisitos do sistema
-
-#### Windows
-
-- **Sistema:** Windows XP, Vista ou superior
-- **Processador:** Pentium 4 2.0 GHz ou equivalente
-- **Memória RAM:** 512 MB (XP), 768 MB (Vista)
-- **Armazenamento:** 4 GB de espaço livre, com 1 GB adicional para criações
-- **Placa de vídeo:** 128 MB de memória dedicada e suporte a Pixel Shader 2.0
-
-#### macOS
-
-- **Sistema:** macOS X 10.5.3 “Leopard” ou superior
-- **Processador:** Intel Core Duo
-- **Memória RAM:** 1 GB
-- **Armazenamento:** 4 GB de espaço livre, com 1 GB adicional para criações
-- **Placa de vídeo:** ATI X1600 or NVIDIA 7300 GT com 128 MB de memória dedicada, ou Intel Integrated GMA X3100
+<iframe width="806" height="453" src="https://www.youtube.com/embed/a3BXjYX5s9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

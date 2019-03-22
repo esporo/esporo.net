@@ -1,43 +1,39 @@
 ---
 layout: game
 title: "Spore: Aventuras Galácticas"
-image: "https://i.imgur.com/zhnppish.jpg"
-franchise: Darkspore
+image: "https://i.imgur.com/LPwwQ7ih.jpg"
+franchise: Spore
 type: pack
 assets:
-  logo: "https://i.imgur.com/hjLq3pe.png"
-  packshot: "https://i.imgur.com/edPXvnMl.jpg"
+  logo: "https://i.imgur.com/SkX9IZH.png"
+  packshot: "https://i.imgur.com/OUhz4tA.jpg"
 info:
   platforms:
-    - PC
-    - macOS
-  release: 2009-09-05
+  - PC
+  - macOS
+  release: 2009-06-23
   developer: Maxis
   publisher: Electronic Arts
   rating: 10
 links:
-  news: "spore"
-  forum: "https://forum.esporo.net/t/spore/"
-  store: "https://www.origin.com/bra/pt-br/store/spore/spore"
-  guide: "https://guia.esporo.net/jogos/spore/"
-  tv: "PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi"
+  news: aventuras-galacticas
+  forum: "https://forum.esporo.net/t/aventuras-galacticas"
+  store: "https://www.origin.com/bra/pt-br/store/spore/spore-galactic-adventures/expansion/spore-galactic-adventures"
 ---
 
-## Como você vai criar o seu universo?
+## Transforme sua criatura em um Herói Galáctico!
 
-Crie um novo mundo ao mesmo tempo em que embarca na jornada mais fantástica de todos os tempos. Você terá ao seu alcance ferramentas de criação simples e divertidas e, com elas, fará com que suas próprias criaturas evoluam, formem tribos, construam civilizações, modelem mundos e explorem o universo!
+Transforme suas criaturas Spore em lendários Capitães do Espaço. Pela primeira vez, desembarque ao lado de seus aliados para viver aventuras cheias de ação nos planetas. Complete tarefas, junte recompensas e até crie e compartilhe suas próprias missões!
 
-- **CRIE seu próprio universo.** Desde micróbios que vivem em simples poças de água até poderosas espaçonaves intergalácticas, tudo está em suas mãos.
-- **EVOLUA sua criatura.** É a sobrevivência do mais divertido enquanto suas escolhas reverberam através das gerações para finalmente decidir o destino de sua civilização.
-- **EXPLORE seu planeta e muito mais.** Você dominará o universo ou seu amado planeta será destruído por uma raça alienígena superior?
-- **COMPARTILHE com o mundo.** As criações de todos os jogadores são compartilhadas automaticamente, fazendo com que o jogo permaneça sempre novo e surpreendente.
+- **DISPUTE** várias missões criadas pela Maxis, explorando planetas por toda galáxia.
+- **PROMOVA** eu capitão espacial e ganhe mais de trinta acessórios novos e poderosos.
+- **CRIE** suas póprias missões com o novo Criador de Aventuras e compartilhe-as online.
 
 ---
 
 #### EsporoTV
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed?listType=playlist&list=PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi&autoplay=1&playsinline=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/jZZZ1svMqRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -58,3 +54,5 @@ Crie um novo mundo ao mesmo tempo em que embarca na jornada mais fantástica de 
 - **Memória RAM:** 1 GB
 - **Armazenamento:** 4 GB de espaço livre, com 1 GB adicional para criações
 - **Placa de vídeo:** ATI X1600 or NVIDIA 7300 GT com 128 MB de memória dedicada, ou Intel Integrated GMA X3100
+
+**Você precisa de _[Spore](/jogos/spore/)_ para jogar esse pacote.**
