@@ -7,5 +7,6 @@ gem "jekyll-theme-spark"
 
 
 group :jekyll_plugins do
-  gem "jekyll-admin"
+  gem "jemoji"
+  gem "jekyll-paginate-v2", "~> 2.0.0"
 end

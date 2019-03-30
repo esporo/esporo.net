@@ -46,6 +46,7 @@ collections:
     output: true
     permalink: "/jogos/:title/"
 
+# Build settings
 franchises-order:
   - Spore
   - Darkspore
@@ -57,8 +58,25 @@ games-order:
   - pack
   - beta
 
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: gaboo
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "games" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "game"
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
 
-# Build settings
+
 pagination:
   enabled: true
   collection: "posts"
@@ -81,7 +99,7 @@ autopages:
       mode: raw
       cased: true
   tags:
-    enabled: false
+    enabled: true
     layouts:
       - "archive.html"
     title: ":title — Arquivo de Notícias"
@@ -91,4 +109,5 @@ autopages:
       cased: true
 
 plugins:
-  - jekyll-admin
+  - jemoji
+  - jekyll-paginate-v2

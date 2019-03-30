@@ -1,0 +1,60 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+<div class="blog">
+  <div class="post-loop">
+    {%- if page.autopages -%}
+      <header class="archive-header">
+        <h1 class="archive-title">
+          {%- if page.pagination.category -%}
+            <span class="archive-type">Arquivo da categoria:</span>
+          {%- else -%}
+            <span class="archive-type">Arquivo da tag:</span>
+          {% endif %}
+
+          {{ page.autopages.display_name -}}</h1>
+      </header>
+    {%- endif -%}
+
+    {%- for post in paginator.posts -%}
+      {%- include archive/post.html -%}
+    {%- endfor -%}
+
+    {%- if paginator.total_pages > 1 -%}
+      <nav class="blog-navigation">
+        {%- if paginator.previous_page_path -%}
+          <a class="nav-link prev-link" href="{{- paginator.previous_page_path | relative_url -}}" rel="prev">&larr; Página anterior</a>
+        {%- else -%}
+          <span class="nav-link prev-link disabled-link">&larr; Página anterior</span>
+        {%- endif -%}
+
+        {%- if paginator.next_page_path -%}
+          <a class="nav-link next-link" href="{{- paginator.next_page_path | relative_url -}}" rel="next">Próxima página &rarr;</a>
+        {%- else -%}
+          <span class="nav-link next-link disabled-link">Próxima página &rarr;</span>
+        {%- endif -%}
+      </nav>
+    {%- endif -%}
+  </div>
+
+  <aside class="sidebar">
+    {%- for widget in site.data.widgets -%}
+      <section class="widget widget-social">
+
+        {%- if widget.title -%}
+          <header class="widget-header">
+            <h5 class="widget-title">
+              {{- widget.title -}}</h5>
+          </header>
+        {%- endif -%}
+
+        <div class="widget-content">
+          {%- include {{ widget.key | prepend: 'archive/widgets/' | append: '.html' }} -%}
+        </div>
+      </section>
+    {%- endfor -%}
+  </aside>
+</div>
