@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Will Wright revela detalhes dos recursos online de Spore na Entertainment Gathering"
-date: "2006-03-26 23:08"
+date: "2006-02-26 23:08"
 category: Spore
 tags:
   - Spore

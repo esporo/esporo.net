@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Will Wright fala de Spore na SoCal"
-date: "2006-03-05 23:06"
+date: "2006-02-05 23:06"
 category: Spore
 tags:
   - Spore
