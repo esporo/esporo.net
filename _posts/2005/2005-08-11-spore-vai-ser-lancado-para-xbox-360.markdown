@@ -5,7 +5,9 @@ date: "2005-08-11 19:24"
 category: Spin-offs
 tags:
   - Spore
-  - consoles
+  - rumores
+  - plataformas
+  - Xbox 360
   - E3
 ---
 

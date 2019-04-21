@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Logo de Spore revelado!"
+title: "Logo de Spore revelado"
 date: "2005-10-02 22:16"
 category: Spore
 tags:

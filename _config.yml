@@ -22,6 +22,7 @@ theme: "jekyll-theme-spark"
 
 # Theme Settings
 spark:
+  gauges_site_id: "5caf9b8244e6c84ea9bb43ba"
   custom_fonts: true # set to true to load fonts.css
   show_excerpts: false # set to true to show post excerpts, not the entire post content.
 
@@ -107,7 +108,16 @@ autopages:
     slugify:
       mode: raw
       cased: true
+      
+jekyll_compose:
+  draft_default_front_matter:
+    layout: post
+    category: Spore
+    tags:
+  post_default_front_matter:
+    published: true
 
 plugins:
   - jemoji
   - jekyll-paginate-v2
+  - jekyll-compose
