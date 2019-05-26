@@ -15,4 +15,4 @@ vem!
 
 O artigo também descreve as fases do jogo e inclui algumas imagens, mas eu não
 acho tão completo quanto a prévia que tivemos pelo GamersCentral — [você pode
-conferir nossa tradução aqui]({%- post_url 2007/2007-08-30-tradução-da-prévia-de-spore-na-gamersglobal -%}).
+conferir nossa tradução aqui]({%- post_url 2007/2007-08-30-traducao-da-previa-de-spore-na-gamersglobal -%}).
