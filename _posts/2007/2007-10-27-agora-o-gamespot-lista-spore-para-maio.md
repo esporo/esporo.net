@@ -8,8 +8,7 @@ tags:
 - rumores
 - lançamento
 ---
-Depois de causar rebuliço [com a última data]({%- post_url 2007/2007-09-13-rumores-da-data-de-lançamento-de-spore-são-falsos -%})
-que eles inventaram para Spore, a GameStop agora está listando o lançamento do
-jogo para primeiro de maio.
+Depois de causar rebuliço com a última data que eles inventaram para Spore, a
+GameStop agora está listando o lançamento do jogo para primeiro de maio.
 
 Vai saber.
