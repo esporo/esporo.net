@@ -83,7 +83,7 @@ mais interessante e do que descobrimos de novo a seguir.
 > um jogo simplificado de estratégia em tempo real. Você será capaz de atribuir
 > tarefas diferentes a criaturas diferentes, então você terá roupas de
 > “embaixadores” para suas criaturas sociáveis, e roupas de caçadores e coletores
-> para as criaturas responsáveis pela coleta de alimentos e caçar. Isso ajudará 
+> para as criaturas responsáveis pela coleta de alimentos e caçar. Isso ajudará
 > você a acompanhar quem está fazendo o quê.
 
 **Impressões de Spore** ([IGN](https://www.ign.com/articles/2007/08/25/gc-2007-spore-hands-on)):
@@ -144,4 +144,3 @@ mais interessante e do que descobrimos de novo a seguir.
 > criaturas coloridas que havíamos testemunhado antes, e quando a apresentação
 > chegou ao fim foi difícil não ficar impressionado com o escopo e a escala da
 > visão de Spore.
-

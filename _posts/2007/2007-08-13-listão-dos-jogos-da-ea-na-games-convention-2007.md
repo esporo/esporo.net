@@ -3,7 +3,7 @@ layout: post
 date: "2007-08-13 02:41:00"
 title: Listão dos jogos da EA na Games Convention 2007
 category: EA
-tags: 
+tags:
   - Spore
   - eventos
   - Games Convention

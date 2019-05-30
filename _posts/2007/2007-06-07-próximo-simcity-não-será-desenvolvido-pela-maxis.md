@@ -3,7 +3,7 @@ layout: post
 date: "2007-06-07 19:40:00 -0300"
 title: Próximo SimCity não será desenvolvido pela Maxis
 category: Maxis
-tags: 
+tags:
   - SimCity
 ---
 

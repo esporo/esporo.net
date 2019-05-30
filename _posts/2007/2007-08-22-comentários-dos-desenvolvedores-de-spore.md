@@ -3,7 +3,7 @@ layout: post
 date: "2007-08-22 19:11:00 -0300"
 title: Comentários dos desenvolvedores de Spore
 category: Spore
-tags: 
+tags:
   - Spore
   - vídeos
   - eventos

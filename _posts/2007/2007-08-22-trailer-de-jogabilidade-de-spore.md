@@ -3,7 +3,7 @@ layout: post
 date: "2007-08-22 19:01:00 -0300"
 title: Trailer de jogabilidade de Spore
 category: Spore
-tags: 
+tags:
   - Spore
   - vídeos
   - eventos
