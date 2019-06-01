@@ -1,15 +1,15 @@
 ---
 layout: post
 date: '2007-08-25 19:24:00 -0300'
-title: 'Prévias: SPORE na Games Convention'
-category: SPORE
+title: 'Prévias: Spore na Games Convention'
+category: Spore
 tags:
-- SPORE
+- Spore
 - prévias
 - eventos
 - Games Convention
 ---
-Na última quinta-feira (23) o SPORE finalmente foi demonstrado pra imprensa na
+Na última quinta-feira (23) o Spore finalmente foi demonstrado pra imprensa na
 Games Convention, na cidade alemã de Leipzig.
 
 A gente descobriu alguns detalhes com essa demonstração. A maior delas, talvez,
@@ -25,9 +25,9 @@ completas publicadas pelos sites por aí. Preferimos fazer um resumo do que foi
 mais interessante e do que descobrimos de novo a seguir.
 
 
-**Os cinco estágios de ~~luto~~ SPORE** ([Kotaku](http://kotaku.com/gaming/gc07/the-four-stages-of-grief-spore-293202.php)):
+**Os cinco estágios de ~~luto~~ Spore** ([Kotaku](http://kotaku.com/gaming/gc07/the-four-stages-of-grief-spore-293202.php)):
 
-> Nós tivemos a chance de assistir a uma longa demonstração de SPORE hoje que
+> Nós tivemos a chance de assistir a uma longa demonstração de Spore hoje que
 > teve desenvolvedores jogando as primeiras quatro das cinco fases do jogo.
 >
 > O jogo inicia com uma galáxia repleta de estrelas brilhantes. Clicando em
@@ -44,9 +44,9 @@ mais interessante e do que descobrimos de novo a seguir.
 > forma de pêra com uma cauda bulbosa, três tentáculos na face e dois olhos
 > grandes.
 
-**Prévia de SPORE** ([GameSpy](http://pc.gamespy.com/pc/spore/814526p1.html)):
+**Prévia de Spore** ([GameSpy](http://pc.gamespy.com/pc/spore/814526p1.html)):
 
-> Ouvir sobre o que é SPORE e vê-lo em ação são duas experiências totalmente
+> Ouvir sobre o que é Spore e vê-lo em ação são duas experiências totalmente
 > diferentes. Afinal, como você pode começar a compreender um jogo em que você
 > começa como um simples organismo microscópico e depois evolui para uma espécie
 > espacial a fim de explorar — e talvez conquistar — o cosmos? Como seria um
@@ -55,7 +55,7 @@ mais interessante e do que descobrimos de novo a seguir.
 > demonstração em portas fechadas na Games Convention em Leipzig.
 >
 > A vida primitiva era simples, cheia de organismos unicelulares nadando em uma
-> gosma pré-histórica. É aqui que SPORE começa a ensinar os básicos. Como um
+> gosma pré-histórica. É aqui que Spore começa a ensinar os básicos. Como um
 > simples organismo unicelular, você nada por aí e come bolhas e cresce. Com o
 > tempo, você vai encontrar peças de criatura. Elas podem ser encontradas ou
 > adquiridas atacando outro organismo. Depois de coletar uma determinada peça,
@@ -86,7 +86,7 @@ mais interessante e do que descobrimos de novo a seguir.
 > para as criaturas responsáveis pela coleta de alimentos e caçar. Isso ajudará
 > você a acompanhar quem está fazendo o quê.
 
-**Impressões de SPORE** ([IGN](https://www.ign.com/articles/2007/08/25/gc-2007-spore-hands-on)):
+**Impressões de Spore** ([IGN](https://www.ign.com/articles/2007/08/25/gc-2007-spore-hands-on)):
 
 > Conforme fomos criando mais funções em nossa tribo, aproveitamos para
 > diferenciá-los visualmente. Há um editor de acessórios e cores prático que
@@ -109,7 +109,7 @@ mais interessante e do que descobrimos de novo a seguir.
 > criaturas sendo adicionadas à nossa tribo, não demorou muito para que **os quinze
 > membros necessários para começar a fase de Civilização** fosse alcançado.
 
-**GC 2007: Impressões de SPORE** ([GameSpot](https://www.gamespot.com/articles/gc-07-spore-impressions/1100-6177159/)):
+**GC 2007: Impressões de Spore** ([GameSpot](https://www.gamespot.com/articles/gc-07-spore-impressions/1100-6177159/)):
 
 > Como mencionamos antes, a fase Tribal de sua evolução assumirá uma forma
 > parecida com um jogo de estratégia em tempo real simplificado. Você terá uma
@@ -143,4 +143,4 @@ mais interessante e do que descobrimos de novo a seguir.
 > fosse mais distante da nossa exploraçào solitária pelo continente habitado por
 > criaturas coloridas que havíamos testemunhado antes, e quando a apresentação
 > chegou ao fim foi difícil não ficar impressionado com o escopo e a escala da
-> visão de SPORE.
+> visão de Spore.

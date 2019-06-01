@@ -7,7 +7,7 @@ tags:
   - SimCity
 ---
 
-Com o desenvolvimento do SPORE à toda na Maxis e a EA Sims trabalhando com 49584 expansões pro The Sims 2, a Electronic Arts tirou SimCity das mãos da Maxis e deu a série para a Tilted Mill, conhecida pelo jogo Caesar IV.
+Com o desenvolvimento do Spore à toda na Maxis e a EA Sims trabalhando com 49584 expansões pro The Sims 2, a Electronic Arts tirou SimCity das mãos da Maxis e deu a série para a Tilted Mill, conhecida pelo jogo Caesar IV.
 
 As reações foram instantâneas: os fãs da série criaram tópicos em fóruns dizendo que “vão matar SimCity”. O anúncio vem acompanhado das imagens do novo jogo, que vai se chamar _SimCity Societies_, e o presidente da Tilted Mill respondeu às críticas dos fãs:
 

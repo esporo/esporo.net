@@ -1,21 +1,21 @@
 ---
 layout: "post"
-title: "Novos detalhes sobre as fases de SPORE"
+title: "Novos detalhes sobre as fases de Spore"
 date: "2008-02-13 14:13"
-category: SPORE
-tags: SPORE SPOREpédia lançamento
+category: Spore
+tags: Spore Sporepédia lançamento
 ---
 
-Depois do anúncio da data de lançamento de SPORE ontem, vários sites publicaram entrevistas com o pessoal da Maxis, revelando alguns detalhes adicionais sobre como o jogo vai funcionar e algumas mudanças de jogabilidade que aconteceram desde a demonstração do jogo na Games Convention, ano passado. Aqui vai uma lista compreensível do que foi revelado:
+Depois do anúncio da data de lançamento de Spore ontem, vários sites publicaram entrevistas com o pessoal da Maxis, revelando alguns detalhes adicionais sobre como o jogo vai funcionar e algumas mudanças de jogabilidade que aconteceram desde a demonstração do jogo na Games Convention, ano passado. Aqui vai uma lista compreensível do que foi revelado:
 
 **Geral:**
 - O editor permite que você grave vídeos de sua criatura e os envie para o YouTube automaticamente.
 - O jogo terá três níveis de dificuldade: fácil, médio e difícil.
-- A SPOREpédia será compartilhada entre jogadores no Windows e no Mac, mas não com o DS e Mobile.
-- Você poderá adicionar amigos na SPOREpédia. As criações de amigos serão baixadas automaticamente.
+- A Sporepédia será compartilhada entre jogadores no Windows e no Mac, mas não com o DS e Mobile.
+- Você poderá adicionar amigos na Sporepédia. As criações de amigos serão baixadas automaticamente.
 - O editor de Criaturas será lançado de graça alguns meses antes do jogo final.
 - Já estão planejando expansões.
-- As coleções de criações da SPOREpédia vão se chamar “SPOREcasts”.
+- As coleções de criações da Sporepédia vão se chamar “Sporecasts”.
 
 **Criatura:**
 - É possível criar criaturas humanas, mas é bem difícil.

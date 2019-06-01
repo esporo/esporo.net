@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Robin Williams jogando SPORE
+title: Robin Williams jogando Spore
 date: '2006-05-18 11:32:00 -0300'
-category: SPORE
+category: Spore
 tags:
-- SPORE
+- Spore
 - vídeos
 - E3
 ---
-Robin Williams teve a sorte de jogar a demonstração de SPORE no evento fechado para a imprensa na E3, e a gente tem a sorte que temos vídeos disso acontecendo. Confira abaixo ele criando uma criatura e divertindo o público:
+Robin Williams teve a sorte de jogar a demonstração de Spore no evento fechado para a imprensa na E3, e a gente tem a sorte que temos vídeos disso acontecendo. Confira abaixo ele criando uma criatura e divertindo o público:
 
 <iframe width="680" height="510" src="https://www.youtube.com/embed/vHX3WbetnJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

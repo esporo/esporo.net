@@ -2,9 +2,9 @@
 layout: "post"
 title: "GameSpy: A próxima obra-prima de Will Wright coloca o universo em suas mãos"
 date: "2005-08-15 01:39"
-category: SPORE
+category: Spore
 tags:
-  - SPORE
+  - Spore
   - E3
   - prévias
 ---

@@ -3,12 +3,12 @@ layout: "post"
 title: "Entrevista com a equipe da Maxis sobre o lançamento"
 date: "2008-02-12 16:15"
 category: Maxis
-tags: SPORE lançamento entrevistas
+tags: Spore lançamento entrevistas
 ---
 
-Que dia! A data de lançamento de SPORE finalmente foi anunciada e muitas informações estão aparecendo por aí.
+Que dia! A data de lançamento de Spore finalmente foi anunciada e muitas informações estão aparecendo por aí.
 
-A Newsweek publicou uma entrevista em três partes com Will Wright e outros desenvolvedores do time de SPORE na Maxis. Confira a tradução de uma parte abaixo:
+A Newsweek publicou uma entrevista em três partes com Will Wright e outros desenvolvedores do time de Spore na Maxis. Confira a tradução de uma parte abaixo:
 
 > **Quando nos encontramos em seu escritório pela primeira vez para falarmos sobre esse jogo estávamos em 2005. Agora é 2008, e vocês finalmente estão prontos para anunciar uma data de lançamento. O que aconteceu? Por que está demorando tanto para esse jogo ficar pronto?**
 >

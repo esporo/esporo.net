@@ -2,9 +2,9 @@
 layout: post
 date: '2007-07-26 20:20:00 -0300'
 title: Vídeo da apresentação de Will Wright no TED 2007
-category: SPORE
+category: Spore
 tags:
-- SPORE
+- Spore
 - eventos
 - vídeos
 ---

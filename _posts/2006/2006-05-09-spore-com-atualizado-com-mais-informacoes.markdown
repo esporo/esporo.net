@@ -1,23 +1,23 @@
 ---
 layout: "post"
-title: "SPORE.com atualizado com mais informações!"
+title: "Spore.com atualizado com mais informações!"
 date: "2006-05-09 18:36"
-category: SPORE
+category: Spore
 tags:
-  - SPORE
-  - SPORE.com
+  - Spore
+  - Spore.com
   - recursos online
 ---
 
-O [site oficial de SPORE](http://www.spore.com/) foi atualizado com as primeiras informações oficiais do jogo, incluindo novas imagens.
+O [site oficial de Spore](http://www.spore.com/) foi atualizado com as primeiras informações oficiais do jogo, incluindo novas imagens.
 
 Confira abaixo a descrição oficial do jogo:
 
 ---
 
-**Sobre SPORE**
+**Sobre Spore**
 
-Da mente de Will Wright, o criador de The Sims, vem SPORE, uma jornada épica que leva você desde a origem da evolução através do desenvolvimento de uma civilização e tecnologia até os pontos mais distantes da galáxia.
+Da mente de Will Wright, o criador de The Sims, vem Spore, uma jornada épica que leva você desde a origem da evolução através do desenvolvimento de uma civilização e tecnologia até os pontos mais distantes da galáxia.
 
 **Fase da Poça**
 

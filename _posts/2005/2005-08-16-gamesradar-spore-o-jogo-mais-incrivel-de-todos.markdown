@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "GamesRadar: SPORE - O jogo mais incrível de todos?"
+title: "GamesRadar: Spore - O jogo mais incrível de todos?"
 date: "2005-08-16 18:18"
-category: SPORE
+category: Spore
 tags:
-  - SPORE
+  - Spore
   - E3
   - prévias
 ---

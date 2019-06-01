@@ -1,15 +1,15 @@
 ---
 layout: "post"
-title: "Desenhos conceituais de SPORE"
+title: "Desenhos conceituais de Spore"
 date: "2005-12-25 22:46"
-category: SPORE
+category: Spore
 tags:
-  - SPORE
+  - Spore
   - imagens
   - desenvolvimento
 ---
 
-O [GamingSteve](http://www.gamingsteve.com/) vem postando alguns desenhos conceituais feitos pelo time de SPORE para o desenvolvimento. Veja elas abaixo:
+O [GamingSteve](http://www.gamingsteve.com/) vem postando alguns desenhos conceituais feitos pelo time de Spore para o desenvolvimento. Veja elas abaixo:
 
 ![Desenvolvimento da cabana de comida](https://esporobkp.files.wordpress.com/2019/03/20051221-healing.jpg)
 _O esquema de como a cabana de comida vai evoluir na Fase Tribal._

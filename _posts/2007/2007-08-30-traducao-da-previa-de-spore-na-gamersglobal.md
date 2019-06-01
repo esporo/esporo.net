@@ -1,10 +1,10 @@
 ---
 layout: post
 date: '2007-08-30 01:21:00 -0300'
-title: Tradução da prévia de SPORE na GamersGlobal
-category: SPORE
+title: Tradução da prévia de Spore na GamersGlobal
+category: Spore
 tags:
-- SPORE
+- Spore
 - prévias
 - eventos
 - Games Convention
@@ -23,33 +23,33 @@ mouse de computador](https://i.imgur.com/4LOuEsD.jpg)
 
 **Will Wright criou SimCity e The Sims, ganhando muito dinheiro primeiro para
 seu estúdio, a Maxis, e depois para sua nova proprietária, a Electronic Arts.
-SPORE tem um papel a mais: no fluxo aparentemente sem fim de continuações e
+Spore tem um papel a mais: no fluxo aparentemente sem fim de continuações e
 clones que a EA está distribuindo, esse jogo de estratégia sandbox é um dos
 únicos títulos originais. GamersGlobal teve a chance de dar uma olhada extensa
 na versão mais recente do jogo na Games Convention 2007, aproximadamente oito
 meses antes de seu possível lançamento em abril de 2008.**
 
-### Descobrindo SPORE
+### Descobrindo Spore
 
 Enquanto vários jogos estavam disponíveis para o público jogar na Games
 Convention desse ano (aproximadamente 180 mil jogadores estavam presentes), para
-conseguir chegar na apresentação de SPORE na Leipzig não foi fácil. Você
+conseguir chegar na apresentação de Spore na Leipzig não foi fácil. Você
 precisava (a) ter acesso ao setor de negócios da Games Convention (se
 registrando como um jornalista), (b) chegar no hall da EA (marcando um horário)
 e (c) encontrar e entrar na porta abaixo. Ainda bem que a GamersGlobal conseguiu
 e vai poder falar com você sobre o que vimos lá. Vamos começar com a parte mais
-significante de SPORE, os vários editores (ou podemos dizer o grande editor que
+significante de Spore, os vários editores (ou podemos dizer o grande editor que
 permite editar quase tudo no jogo). Depois, vamos falar das cinco fases distintas
 do jogo, que são totalmente conectadas umas às outras pela primeira vez em uma
 apresentação do jogo.
 
-![Uma porta branca com uma placa escrito “SPORE” e uma folha de papel colada,
+![Uma porta branca com uma placa escrito “Spore” e uma folha de papel colada,
 indicando ser proibido tirar fotos](https://i.imgur.com/HV8ih7v.jpg)
 _Apenas alguns jornalistas puderam passar por essa porta._
 
 ### Edite tudo: células, criaturas, naves, edifícios…
 
-SPORE é um jogo sandbox. Embora existam cinco fases chamadas Célula, Criatura,
+Spore é um jogo sandbox. Embora existam cinco fases chamadas Célula, Criatura,
 Tribo, Civilização[^1] e Espaço, “ganhar” não é um objetivo. Afinal, é um jogo
 de Will Wright. Desde o começo, quando você começa a jogar como uma forma de
 vida que consiste em apenas algumas células, nadando nos oceanos de Gaia, você
@@ -76,12 +76,12 @@ infinitas. Agora, adicione um "tipo de pele" à sua criatura. E um esquema de
 cores. Sem olhar para o relógio, você pode gastar meia hora em algo que é, em
 termos de jogabilidade, apenas uma pequena atualização para seu personagem.
 
-![Telas de quatro editores de conteúdo de SPORE, com o objeto sendo criado e as
+![Telas de quatro editores de conteúdo de Spore, com o objeto sendo criado e as
 diferentes peças de montar que podem ser adicionadas a ele ao lado, em uma lista](https://i.imgur.com/bUBIikd.jpg)
 _Quatro editores do jogo. Em sentido relógio do canto superior esquerdo: célula,
 criatura, edifício, nave._
 
-Usando a Internet, SPORE compartilha as criações que você cria nos diferentes
+Usando a Internet, Spore compartilha as criações que você cria nos diferentes
 estágios do jogo com outros jogadores ao redor do mundo, então sua criatura pode
 aparecer como uma criatura não jogável em outro jogo de outras pessoas. Da mesma
 forma, muitas das formas de vida e edifícios que você encontrará serão criações
@@ -107,12 +107,12 @@ criaturas bípedes com a quantidade certa de membros e características de algum
 forma se assemelham a seres humanos, e construir cidades para eles que se
 parecem com metrópoles contemporâneas, a grande maioria das criaturas criadas
 pelo usuário pode parecer muito estranho. "Não queremos que os jogadores joguem
-com humanos", diz Darren Montgomery, "SPORE é sobre formas de vida completamente
+com humanos", diz Darren Montgomery, "Spore é sobre formas de vida completamente
 novas".
 
 ### Fase 1: Célula
 
-![Tela da primeira fase de SPORE, com uma célula gigante flutuando em uma poça d'água esverdeada](https://i.imgur.com/F9PLpev.jpg)
+![Tela da primeira fase de Spore, com uma célula gigante flutuando em uma poça d'água esverdeada](https://i.imgur.com/F9PLpev.jpg)
 _Na primeira fase, você cresce de uma estrutura celular muito simples para uma
 forma de vida anfíbia._
 
@@ -136,7 +136,7 @@ civilização agressiva mais tarde.
 
 ### Fase 2: Criatura
 
-![Tela da segunda fase de SPORE, com uma criatura bípede no meio de um continente alienígena](https://i.imgur.com/KllfziF.jpg)
+![Tela da segunda fase de Spore, com uma criatura bípede no meio de um continente alienígena](https://i.imgur.com/KllfziF.jpg)
 _Essa é uma criatura mais evoluída. Quando você começa a fase, você não terá nem
 pernas nem braços._
 
@@ -174,11 +174,11 @@ a mesma partitura musical.
 
 ### Fase 3: Tribo
 
-![Tela da terceira fase de SPORE, com aldeões de uma tribo com varas de pesca](https://i.imgur.com/3PI3bz4.jpg)
+![Tela da terceira fase de Spore, com aldeões de uma tribo com varas de pesca](https://i.imgur.com/3PI3bz4.jpg)
 _A terceira fase introduz o conceito de ferramentas; nossa tribo de quatro patas
 pode agora usar varas de pesca._
 
-A fase da Tribo é onde SPORE se torna mais do que apenas um "jogo casual com um
+A fase da Tribo é onde Spore se torna mais do que apenas um "jogo casual com um
 editor poderoso". O tempo de jogo é estimado entre 90 minutos e 2 horas. Sua
 criatura adquiriu inteligência — agora você terá que evoluir uma Civilização.
 Enquanto havia muitas criaturas diferentes no último estágio que eram totalmente
@@ -219,17 +219,17 @@ conquistar todas as outras tribos…
 
 ### Fase 4: Civilização
 
-![Tela da quarta fase de SPORE, com o horizonte de uma cidade alienígena com prédios futuristas](https://i.imgur.com/NtIJ9Ik.jpg)
+![Tela da quarta fase de Spore, com o horizonte de uma cidade alienígena com prédios futuristas](https://i.imgur.com/NtIJ9Ik.jpg)
 _A fase da Civilização lembra um Sid Meier's Alpha Centauri em tempo real._.
 
-Por cerca de duas a três horas, você jogará a quarta fase de SPORE - novamente,
+Por cerca de duas a três horas, você jogará a quarta fase de Spore - novamente,
 isso pode ser muito mais longo se você gastar muito tempo com os editores. Sua
 tribo já formou uma cidade, onde você não vê um par de pessoas correndo por aí,
 mas dezenas. Embora o DNA e a comida tenham sido a moeda dos estágios anteriores,
 agora é dinheiro. E enquanto você estava controlando criaturas únicas ou pequenos
 grupos de membros da tribo por unidades, agora você está construindo e usando
 veículos. Novamente, estes podem ser usados ​​para interagir pacificamente com
-outras cidades-estados, mas também para atacá-las. Então, SPORE se torna um
+outras cidades-estados, mas também para atacá-las. Então, Spore se torna um
 típico jogo de estratégia em tempo real (mas com menos unidades). Obviamente,
 construir unidades que superam as do seu oponente é a coisa mais importante. Mas
 você também pode construir uma Prefeitura a partir do zero, o que influencia a
@@ -241,7 +241,7 @@ tornar a superpotência econômica. Cidades são espaços circulares com muitos
 pontos de construção dentro de suas paredes. Tal como acontece com as criaturas,
 os edifícios variam muito de cidade para cidade (e de jogo para jogo). Ao criar
 um Edifício, você pode combinar formas básicas e adicionar texturas, cores e
-assim por diante. Enquanto os edifícios, mesmo no mundo fantástico de SPORE,
+assim por diante. Enquanto os edifícios, mesmo no mundo fantástico de Spore,
 tendem a se estabelecer em um ponto, o mesmo princípio de design é usado pelo
 editor do veículo. Isso significa que você pode colocar pneus, pistas,
 aerofólios e assim por diante, onde quer que você goste, e logo após ver seu
@@ -249,11 +249,11 @@ veículo em movimento, voando, mergulhando ou o que for. Claro, você não preci
 projetar cada tanque ou avião novamente; Você pode simplesmente comprar veículos
 de jogos anteriores. Quando você mostra que pode dominar todo um planeta, o
 último estágio pode ser aberto - o que Darren Montgomery chama de "jogo
-principal" de SPORE.
+principal" de Spore.
 
 ### Fase 5: Espaço
 
-![Tela da quinta fase de SPORE, exibindo um planeta alienígena com montanhas que parecem cones de sorvete rosa](https://i.imgur.com/wF56kmv.jpg)
+![Tela da quinta fase de Spore, exibindo um planeta alienígena com montanhas que parecem cones de sorvete rosa](https://i.imgur.com/wF56kmv.jpg)
 _Na fase do Espaço, você influencia planetas inteiros (tela antiga; não mostra a
 interface atual)._
 
@@ -276,15 +276,15 @@ arma do juízo final em seu OVNI que pode destruir planetas inteiros. Ou você
 pode mudar a temperatura e tornar um mundo de gelo habitável ou um mundo
 exuberante em um deserto árido. É difícil para nós avaliarmos este estágio
 porque só o vimos em um vídeo, mas temos a sensação de que deve haver mais do
-que podemos descrever neste momento, se SPORE realmente quiser manter os
+que podemos descrever neste momento, se Spore realmente quiser manter os
 jogadores fascinados por 10 horas ou mais neste estágio.
 
-### O que pensamos sobre SPORE
+### O que pensamos sobre Spore
 
-Pela primeira vez, podemos imaginar SPORE como um jogo contínuo, em vez de
+Pela primeira vez, podemos imaginar Spore como um jogo contínuo, em vez de
 apenas partes únicas. E Darren Montgomery confirmou que o jogo está "completo"
 em termos de ser jogável da fase de Célula ao Espaço, embora ainda haja muito
-equilíbrio e ajuste fino para ser feito. Sem dúvida, SPORE é um dos jogos mais
+equilíbrio e ajuste fino para ser feito. Sem dúvida, Spore é um dos jogos mais
 inovadores em produção. E confiamos totalmente em Will Wright para criar um jogo
 sandbox ou de deus que tenha um alto valor de rejogabilidade. Mas, para ser
 honesto, os gráficos são um pouco coloridos demais para o nosso gosto, as
@@ -293,11 +293,11 @@ reunindo DNA, comida ou partes e cantando/dançando. Dito isto, ver uma
 demonstração de uma estranha forma de vida é uma coisa completamente diferente
 de criar e evoluir essa criatura você mesmo — e amá-la com todos os seus olhos,
 pares de pernas peludas, trompetes triplos e outras saliências. Então, sim,
-estamos ansiosos para abril de 2008, quando SPORE pode ser lançado, e talvez
+estamos ansiosos para abril de 2008, quando Spore pode ser lançado, e talvez
 seja o jogo que ainda vamos amar jogar um ano depois. Além disso, a constante
 modificação de sua criatura, veículo ou OVNI é claramente parecida com as
 principais tendências na web e nos jogos sociais. Ainda assim, neste momento não
-apostaríamos todo o nosso dinheiro com a suposição de que SPORE será um sucesso
+apostaríamos todo o nosso dinheiro com a suposição de que Spore será um sucesso
 instantâneo, 10-de-10. Mas tem potencial para se tornar tudo isso? Nós achamos
 que sim.
 

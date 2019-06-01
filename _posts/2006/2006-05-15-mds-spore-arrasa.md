@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "MDS SPORE ARRASA!!11!!1!"
+title: "MDS Spore ARRASA!!11!!1!"
 date: "2006-05-15 20:46:00 -0300"
-category: SPORE
+category: Spore
 tags: 
-  - SPORE
+  - Spore
   - prévias
   - E3
 ---

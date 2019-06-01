@@ -5,11 +5,11 @@ date: "2006-05-07 11:24"
 category: EA
 tags:
   - EA
-  - SPORE
+  - Spore
   - E3
 ---
 
-Esse ano SPORE será exibido oficialmente pela primeira vez ao público aberto na E3! Confira abaixo a lineup completa de jogos que vão aparecer na conferência da EA:
+Esse ano Spore será exibido oficialmente pela primeira vez ao público aberto na E3! Confira abaixo a lineup completa de jogos que vão aparecer na conferência da EA:
 
 - Army of Two — PS3, Xbox 360 (2007);
 - Battlefield 2142 — PC (primavera, 2006);
@@ -21,5 +21,5 @@ Esse ano SPORE será exibido oficialmente pela primeira vez ao público aberto n
 - NASCAR 07 — PSP;
 - NBA Live 07 — PS3, Xbox 360;
 - NCAA Football 07 — Xbox 360, Xbox, PS2, PSP (inverno, 2006);
-- **SPORE — PC (a ser anunciado)**;
+- **Spore — PC (a ser anunciado)**;
 - Superman Returns: The Videogame — PC, PS2, PSP, Xbox, GameCube, DS (2006).

@@ -2,16 +2,16 @@
 layout: post
 date: '2007-08-15 01:32:00 -0300'
 title: Will Wright dá entrevista ao GameTrailers
-category: SPORE
+category: Spore
 tags:
-- SPORE
+- Spore
 - Maxis
 - equipe
 - Will Wright
 - entrevistas
 - vídeos
 ---
-O Game Trailers entrevistou Will Wright e alguns membros da equipe de SPORE na
+O Game Trailers entrevistou Will Wright e alguns membros da equipe de Spore na
 Maxis. No vídeo é possível ver um pouco de imagens que não foram reveladas da
 demonstração do jogo na GC.
 
@@ -24,7 +24,7 @@ Outros detalhes interessantes: o time está focado agora no polimento do jogo e
 em testes. Não há mais desenvolvimento de recursos novos, e sim aprimoramento e
 balanceamento das mecânicas já implementadas. A fase da célula não vai incluir
 criaturas compartilhadas por outros jogadores (pelo visto, células não serão
-compartilhadas pela SPOREpédia). No fim, Will reafirma que o jogo vai ser lançado
+compartilhadas pela Sporepédia). No fim, Will reafirma que o jogo vai ser lançado
 em outras plataformas depois do lançamento para PC e Nintendo DS. Ele também
 comenta que pode haver uma expansão no futuro.
 

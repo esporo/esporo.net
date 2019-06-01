@@ -1,13 +1,13 @@
 ---
 layout: "post"
-title: "Novo vídeo de SPORE na SXSW"
+title: "Novo vídeo de Spore na SXSW"
 date: "2007-03-13 00:33"
-category: SPORE
+category: Spore
 tags:
-  - SPORE
+  - Spore
   - vídeos
 ---
 
-O fã-site [xSPORE](http://www.xspore.com/) conseguiu um vídeo de quase vinte minutos da apresentação de Will Wright na SXSW. A apresentação é dedicada à fase do espaço do jogo, e responde várias perguntas que tinhamos sobre essa fase. Por exemplo, você pode sair da sua nave em um planeta!
+O fã-site [xSpore](http://www.xspore.com/) conseguiu um vídeo de quase vinte minutos da apresentação de Will Wright na SXSW. A apresentação é dedicada à fase do espaço do jogo, e responde várias perguntas que tinhamos sobre essa fase. Por exemplo, você pode sair da sua nave em um planeta!
 
 [Assista o vídeo aqui!](http://www.xspore.com/player/player.php?video_id=16)

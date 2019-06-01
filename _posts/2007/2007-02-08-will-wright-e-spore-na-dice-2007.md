@@ -1,14 +1,14 @@
 ---
 layout: post
 date: '2007-02-08 23:44:00 -0300'
-title: Will Wright e SPORE na DICE 2007
-category: SPORE
+title: Will Wright e Spore na DICE 2007
+category: Spore
 tags:
-- SPORE
+- Spore
 - prévias
 - eventos
 ---
-A [GameSpy](http://pc.gamespy.com/pc/spore/762995p1.html) publicou uma prévia de SPORE baseado na demonstração de Will Wright para a DICE Summit 07.
+A [GameSpy](http://pc.gamespy.com/pc/spore/762995p1.html) publicou uma prévia de Spore baseado na demonstração de Will Wright para a DICE Summit 07.
 
 Nenhuma informação nova sobre a jogabilidade, mas Will Wright revelou que o jogo antes tinha mais fases baseadas em outros jogos:
 

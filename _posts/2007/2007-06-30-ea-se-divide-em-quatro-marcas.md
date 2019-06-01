@@ -16,6 +16,6 @@ Agora a EA vai publicar títulos em uma das seguintes marcas:
 - **EA Games**: os jogos mais “maduros”, como Dead Space e Need for Speed.
 - **EA Sims**: pelo visto esse é específico para The Sims e SimCity.
 
-A princípio, tudo leva a crer que SPORE será um título da EA Games, mas eu não sei a quantas anda o envolvimento da Maxis com os jogos “Sim”. Talvez SPORE seja lançado como um título EA Sims?
+A princípio, tudo leva a crer que Spore será um título da EA Games, mas eu não sei a quantas anda o envolvimento da Maxis com os jogos “Sim”. Talvez Spore seja lançado como um título EA Sims?
 
 [O site da Reuters tem mais informações](http://www.reuters.com/article/consumerproducts-SP/idUSN1840696120070618).

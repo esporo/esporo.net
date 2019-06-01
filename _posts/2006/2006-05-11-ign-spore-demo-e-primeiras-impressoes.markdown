@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'IGN: SPORE, demo e primeiras impressões'
+title: 'IGN: Spore, demo e primeiras impressões'
 date: "2006-05-11 21:58 -0300"
-category: SPORE
+category: Spore
 tags:
-- SPORE
+- Spore
 - prévias
 - E3
 ---

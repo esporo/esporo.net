@@ -1,14 +1,14 @@
 ---
 layout: post
-title: SPORE vence recebe prêmios no Game Critics Awards
+title: Spore vence recebe prêmios no Game Critics Awards
 date: '2006-05-31 11:26:00 -0300'
-category: SPORE
+category: Spore
 tags:
-- SPORE
+- Spore
 - prêmios
 - E3
 ---
-SPORE venceu três das quatro categorias que estava concorrendo no GCA 2006:
+Spore venceu três das quatro categorias que estava concorrendo no GCA 2006:
 
 - Melhor Jogo Original
 - Melhor Jogo para PC

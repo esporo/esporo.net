@@ -1,15 +1,15 @@
 ---
 layout: post
 date: '2007-03-10 12:21:00 -0300'
-title: Vídeos de SPORE na GDC 2007
-category: SPORE
+title: Vídeos de Spore na GDC 2007
+category: Spore
 tags:
-- SPORE
+- Spore
 - eventos
 - vídeos
 - GDC
 ---
-O fã-site espanhol SPORE.es publicou vários vídeos das demonstrações de SPORE na GDC 2007, confira abaixo!:
+O fã-site espanhol Spore.es publicou vários vídeos das demonstrações de Spore na GDC 2007, confira abaixo!:
 
 **Fase da Poça:**
 

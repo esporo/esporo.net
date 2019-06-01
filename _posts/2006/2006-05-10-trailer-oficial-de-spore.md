@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Trailer (e logo!) oficial de SPORE
-category: SPORE
+title: Trailer (e logo!) oficial de Spore
+category: Spore
 date: "2006-05-10 17:09:00 -0300"
 tags: 
-  - SPORE
+  - Spore
   - vídeos
   - E3
 ---
 
-Pra abrir a enxurrada de novas informações da E3 esse ano, o GameSpot acabou de divulgar o trailer oficial de SPORE. 
+Pra abrir a enxurrada de novas informações da E3 esse ano, o GameSpot acabou de divulgar o trailer oficial de Spore. 
 
 É uma animação que não inclui clipes de jogabilidade, mas exibe toda a evolução do Willosaur, a criatura que está sendo mostrada nas demonstrações do jogo. Confira!
 
@@ -17,4 +17,4 @@ Pra abrir a enxurrada de novas informações da E3 esse ano, o GameSpot acabou d
 
 Diretamente da EA, confira o novo logo oficial!
 
-![Logotipo de SPORE, com uma galáxia no lugar da letra “o”](https://i.imgur.com/mnRzbBc.jpg)
+![Logotipo de Spore, com uma galáxia no lugar da letra “o”](https://i.imgur.com/mnRzbBc.jpg)
