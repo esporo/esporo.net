@@ -1,17 +1,17 @@
 ---
 layout: post
 date: '2007-09-13 01:28:00 -0300'
-title: Rumores da data de lançamento de Spore são falsos
-category: Spore
+title: Rumores da data de lançamento de SPORE são falsos
+category: SPORE
 tags:
 - lançamento
 - rumores
 ---
-Um outro fã-site publicou um rumor de que a data de lançamento de Spore seria em
+Um outro fã-site publicou um rumor de que a data de lançamento de SPORE seria em
 22 de fevereiro de 2008, segundo a página do jogo na loja online Amazon.com.
 
 Só pra lembrar nossos leitores de que **ainda não há uma data de lançamento
-definida para Spore**. Nem a EA nem a Maxis anunciaram algo que não fosse “na
+definida para SPORE**. Nem a EA nem a Maxis anunciaram algo que não fosse “na
 primavera de 2008”, então é sempre bom não se empolgar com esses rumores baseados
 em lojas ou “alguém me disse”.
 

@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "GameSpy: Preview de Spore na GDC 2005"
+title: "GameSpy: Preview de SPORE na GDC 2005"
 date: "2005-08-10 18:41"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - prévias
   - GDC
 ---
@@ -17,4 +17,4 @@ tags:
 >
 > Falando em compartilhar conteúdo, nós descobrimos mais sobre como as pessoas vão interagir com as coisas de outras pessoas. Quando você cria algo, assumindo que você está conectado à Internet, isso vai ser enviado para o mundo aproveitar. Mas isso não significa que a sua criação vai apenas desaparecer. Você poderá acompanhar como suas criações estão se virando no universo. Você receberá “Relatórios do Multiverso” que vão dizer quantas pessoas conheceram sua espécie e como elas vão reagir. Todo o mundo vai matar suas criaturas à primeira vista? As pessoas vão usar os edifícios diferentes que você criou? Você vai poder descobrir!
 >
-> Spore parece ser um produto único. Pelo que pudemos ver ele vai parecer mais um brinquedo que um jogo. É menos sobre conquistar seus objetivos e mais sobre brincar com as ferramentas e criar coisas legais. Isso pode não ser o suficiente para segurar a atenção de jogadores hardcore, mas com certeza vai encontrar uma audiência gigante. Fique ligado em mais detalhes!
+> SPORE parece ser um produto único. Pelo que pudemos ver ele vai parecer mais um brinquedo que um jogo. É menos sobre conquistar seus objetivos e mais sobre brincar com as ferramentas e criar coisas legais. Isso pode não ser o suficiente para segurar a atenção de jogadores hardcore, mas com certeza vai encontrar uma audiência gigante. Fique ligado em mais detalhes!

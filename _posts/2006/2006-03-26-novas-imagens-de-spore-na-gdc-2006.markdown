@@ -1,15 +1,15 @@
 ---
 layout: "post"
-title: "Novas imagens de Spore na GDC 2006"
+title: "Novas imagens de SPORE na GDC 2006"
 date: "2006-03-26 11:03"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - imagens
   - GDC
 ---
 
-Novas imagens dos protótipos e dos documentos de desenvolvimento de Spore. Não foi exibido jogabilidade nem nada na GDC desse ano, e essas imagens são meio difíceis de entender sem ver a apresentação mesmo, então é mais por curiosidade mesmo:
+Novas imagens dos protótipos e dos documentos de desenvolvimento de SPORE. Não foi exibido jogabilidade nem nada na GDC desse ano, e essas imagens são meio difíceis de entender sem ver a apresentação mesmo, então é mais por curiosidade mesmo:
 
 ![Várias criaturas em uma colina](https://esporobkp.files.wordpress.com/2019/03/20060328-cnet3.jpg)
 
@@ -43,7 +43,7 @@ Novas imagens dos protótipos e dos documentos de desenvolvimento de Spore. Não
 
 ![Slide da apresentação mostrando como elementos se espalham pela galáxia](https://esporobkp.files.wordpress.com/2019/03/20060328-wired4.jpg)
 
-![Capas de histórias em quadrinho fictícias feitas com Spore](https://esporobkp.files.wordpress.com/2019/03/dsc02183.jpg)
+![Capas de histórias em quadrinho fictícias feitas com SPORE](https://esporobkp.files.wordpress.com/2019/03/dsc02183.jpg)
 
 ![Desenho da capa do jogo SimEverything](https://esporobkp.files.wordpress.com/2019/03/dsc02184.jpg)
 

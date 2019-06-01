@@ -3,7 +3,7 @@ layout: "post"
 title: "Conferência com os investidores da EA é hoje"
 date: "2008-01-31 10:43"
 category: EA
-tags: Spore lançamento
+tags: SPORE lançamento
 ---
 
 A conferência da EA com seus investidores é hoje às 18h. Você pode acompanhar a ligação online [aqui](http://investor.ea.com/phoenix.zhtml?c=88189&p=IROL-eventDetails&EventId=1744236).

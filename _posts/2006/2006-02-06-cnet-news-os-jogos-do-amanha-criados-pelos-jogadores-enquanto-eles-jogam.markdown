@@ -2,9 +2,9 @@
 layout: "post"
 title: "CNET News: Os jogos do amanhã, criados pelos jogadores enquanto eles jogam"
 date: "2006-02-06 23:39"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - Will Wright
   - recursos online
 ---
@@ -16,4 +16,4 @@ tags:
 >
 > [...]
 >
-> O novo jogo de Wright, chamado de Spore, populará planetas fictícios com animais e cidades criadas totalmente por outros jogadores. Allard diz que o Xbox 360 estimulara outros desenvolvedores a permitirem que seus jogadores adicionem coisas aos mundos, e até mesmo vender suas criações através da loja central do Xbox.
+> O novo jogo de Wright, chamado de SPORE, populará planetas fictícios com animais e cidades criadas totalmente por outros jogadores. Allard diz que o Xbox 360 estimulara outros desenvolvedores a permitirem que seus jogadores adicionem coisas aos mundos, e até mesmo vender suas criações através da loja central do Xbox.

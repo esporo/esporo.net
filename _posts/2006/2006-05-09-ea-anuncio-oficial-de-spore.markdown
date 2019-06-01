@@ -1,25 +1,25 @@
 ---
-title: 'EA: Anúncio oficial de Spore'
+title: 'EA: Anúncio oficial de SPORE'
 layout: post
 author: gaboo
 date: '2006-05-09 11:41:51'
-category: Spore
+category: SPORE
 tags:
-- Spore
+- SPORE
 - anúncios oficiais
 - EA
 - Maxis
 ---
 
-Finalmente! A EA acabou de publicar o anúncio oficial de Spore. Confira na íntegra abaixo:
+Finalmente! A EA acabou de publicar o anúncio oficial de SPORE. Confira na íntegra abaixo:
 
 > ## A próxima evolução do mundo dos jogos está chegando
 >
-> Spore conduz o jogador através de uma jornada épica, da origem e evolução da vida até o desenvolvimento de civilizações e tecnologias que, eventualmente, o levarão até os confins do espaço.
+> SPORE conduz o jogador através de uma jornada épica, da origem e evolução da vida até o desenvolvimento de civilizações e tecnologias que, eventualmente, o levarão até os confins do espaço.
 >
 > Esta odisséia tem início nos primórdios da vida, onde o jogador assume a forma de um simples micróbio lutando para sobreviver. Deste ponto em diante, os diversos editores intuitivos do jogo irão ajudá-lo a seguir o caminho da evolução e, de forma divertida, transformar sua criatura de um ser microscópico em uma raça inteligente, capaz de usar ferramentas. O jogador deverá então guiar sua espécie à medida que ela constrói, e ele projeta, vilas, edifícios, cidades e veículos. Durante sua trajetória até se tornar uma civilização global, a espécie depende do jogador para decidir sobre qual caminho seguir, entre a caça e a coleta, entre a força e o diálogo, entre a paz e a guerra!
 >
-> Toda a ação do jogo acontece em um mundo enorme e ricamente povoado por criaturas evoluídas por outros jogadores e compartilhadas através dos servidores centrais de Spore. No momento certo, o jogador poderá embarcar sua criatura em um disco voador, onde ela esquecerá de seu passado unicelular e se lançará no espaço em uma grande viagem repleta de descobertas, criação de planetas ou destruição de civilizações! Durante esta viagem através de um universo virtualmente sem limites e formado por mundos únicos, a Sporepedia pessoal do jogador é atualizada, registrando todas as raças e planetas que encontrou durante sua exploração.
+> Toda a ação do jogo acontece em um mundo enorme e ricamente povoado por criaturas evoluídas por outros jogadores e compartilhadas através dos servidores centrais de SPORE. No momento certo, o jogador poderá embarcar sua criatura em um disco voador, onde ela esquecerá de seu passado unicelular e se lançará no espaço em uma grande viagem repleta de descobertas, criação de planetas ou destruição de civilizações! Durante esta viagem através de um universo virtualmente sem limites e formado por mundos únicos, a SPOREpedia pessoal do jogador é atualizada, registrando todas as raças e planetas que encontrou durante sua exploração.
 >
 > ### Principais características
 >
@@ -37,4 +37,4 @@ Finalmente! A EA acabou de publicar o anúncio oficial de Spore. Confira na ínt
 >
 > Graças ao uso de animações baseadas em processos, as criaturas e o veículos desenvolvidos pelo jogador irão se mover de acordo com seu processo de criação. Seu comportamento e suas interações serão baseados nos dados que o jogador usou durante sua criação e de acordo com os encontros durante o jogo. Isto significa que não existem caminhos pré-determinados a serem seguidos. O jogo evolui de acordo com as decisões do jogador.
 >
-> Caso o jogador fique curioso e queira saber mais sobre a criação e o processo evolutivo de uma determinada criatura que encontrou pelo caminho, ele só precisa consultar a Sporepedia. Contendo informações sobre a origem de todas as criaturas encontradas no jogo, a Sporepedia é outra forma de explorar o universo de expressão criativa sem limites que é Spore.
+> Caso o jogador fique curioso e queira saber mais sobre a criação e o processo evolutivo de uma determinada criatura que encontrou pelo caminho, ele só precisa consultar a SPOREpedia. Contendo informações sobre a origem de todas as criaturas encontradas no jogo, a SPOREpedia é outra forma de explorar o universo de expressão criativa sem limites que é SPORE.

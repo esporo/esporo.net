@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "IGN: GDC 2006: Will Wright e Spore"
+title: "IGN: GDC 2006: Will Wright e SPORE"
 date: "2006-03-24 12:06"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - prévias
   - GDC
   - recursos online
@@ -16,7 +16,7 @@ tags:
 >
 > Uma coisa que foi deixada clara, no caso de alguém ainda não saber, é que isso não é um simulador online. Não é um jogo multiplayer. Eles usam o termo “Jogo Massivo de Um Jogador” porque tudo o que um jogador faz e afeta é apenas no seu próprio jogo que apenas pega conteúdo de outros jogadores.
 >
-> Basicamente, quando um jogador está conectado à internet e cria conteúdo para o jogo, ele será enviado automaticamente para os servidores de Spore. Isso inclui itens como criaturas, construções, veículos, flora e planetas terraformados.
+> Basicamente, quando um jogador está conectado à internet e cria conteúdo para o jogo, ele será enviado automaticamente para os servidores de SPORE. Isso inclui itens como criaturas, construções, veículos, flora e planetas terraformados.
 >
 > Agora, quando jogadores criam eles mesmos os objetos, enquanto as coisas deles estão sendo enviadas, outras coisas serão baixadas para povoar o ambiente baseado na criatura que foi criada ou nas escolhas que foram feitas. Por exemplo, depois de criar uma criatura, o jogo vai procurar por outras criaturas que podem ser colocadas no ambiente para preencher o ecossistema com criaturas de hábitos e habilidades apropriadas.
 

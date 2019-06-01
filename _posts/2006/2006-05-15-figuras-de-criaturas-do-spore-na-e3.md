@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Figuras de criaturas do Spore na E3
+title: Figuras de criaturas do SPORE na E3
 date: '2006-05-15 22:24:00 -0300'
-category: Spore
+category: SPORE
 tags:
-- Spore
+- SPORE
 - E3
 - imagens
 ---
-Na apresentação especial para a imprensa na E3 a EA exibiu uns modelos em 3D de criaturas que foram criadas pelo editor do Spore. As imagens são do [Joystiq](http://www.joystiq.com/2006/05/11/spore-figurines-at-e3/):
+Na apresentação especial para a imprensa na E3 a EA exibiu uns modelos em 3D de criaturas que foram criadas pelo editor do SPORE. As imagens são do [Joystiq](http://www.joystiq.com/2006/05/11/spore-figurines-at-e3/):
 
 ![Detalhe do rosto de uma criatura que lembra um sapo listrado](https://i.imgur.com/ZZYuBcQ.jpg)
 

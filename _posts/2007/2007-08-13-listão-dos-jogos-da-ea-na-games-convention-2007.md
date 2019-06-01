@@ -4,13 +4,13 @@ date: "2007-08-13 02:41:00"
 title: Listão dos jogos da EA na Games Convention 2007
 category: EA
 tags:
-  - Spore
+  - SPORE
   - eventos
   - Games Convention
 ---
 
 
-A Electronic Arts divulgou hoje o listão de jogos da empresa que estão no evento alemão Games Convention ’07. Spore, que não esteve na E3 justamente para estar no GC, é um deles.
+A Electronic Arts divulgou hoje o listão de jogos da empresa que estão no evento alemão Games Convention ’07. SPORE, que não esteve na E3 justamente para estar no GC, é um deles.
 
 - Army Of Two;
 - Battlefield: Bad Company;
@@ -38,6 +38,6 @@ A Electronic Arts divulgou hoje o listão de jogos da empresa que estão no even
 - The Simpsons Game;
 - SKATE;
 - Smarty Pants;
-- Spore;
+- SPORE;
 - The Orange Box;
 - Warhammer Online: Age Of Reckoing.

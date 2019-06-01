@@ -1,15 +1,15 @@
 ---
 layout: "post"
-title: "Spore.com atualizado com mais informações!"
+title: "SPORE.com atualizado com mais informações!"
 date: "2006-05-09 18:36"
-category: Spore
+category: SPORE
 tags:
-  - Spore
-  - Spore.com
+  - SPORE
+  - SPORE.com
   - recursos online
 ---
 
-O [site oficial de Spore](http://www.spore.com/) foi atualizado com as primeiras informações oficiais do jogo, incluindo novas imagens.
+O [site oficial de SPORE](http://www.spore.com/) foi atualizado com as primeiras informações oficiais do jogo, incluindo novas imagens.
 
 Confira abaixo a descrição oficial do jogo:
 

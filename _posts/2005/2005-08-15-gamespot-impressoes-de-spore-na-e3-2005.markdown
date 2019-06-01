@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "GameSpot: Impressões de Spore na E3 2005"
+title: "GameSpot: Impressões de SPORE na E3 2005"
 date: "2005-08-15 01:27"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - E3
   - prévias
 ---
@@ -17,4 +17,4 @@ tags:
 >
 > Ao afastar a câmera ainda mais, você poderá ver a galáxia inteira e viajar para outros sistemas estelares criados por outros jogadores. Nessa visão, você poderá jogar como um conquistador intergaláctico, ou você pode apenas tentar fazer contatos amigáveis com outras raças. Fazendo isso vai permitir que você realize missões para outras espécies. Wright comparou esse estilo de jogabilidade com a liberdade de GTA.
 >
-> Spore é visualmente intrigante e parece conseguir tornar os sistemas dinâmicos altamente complexos da evolução em simples e intuitivas ilustrações. Uma vez que o jogo calcula tudo processualmente, você não terá que editar nenhuma das suas criaturas ou edifícios (embora você possa se quiser), e você poderá assistir sua civilização crescer desde um simples micróbio. O jogo está agendado para ser lançado na primavera do ano que vem.
+> SPORE é visualmente intrigante e parece conseguir tornar os sistemas dinâmicos altamente complexos da evolução em simples e intuitivas ilustrações. Uma vez que o jogo calcula tudo processualmente, você não terá que editar nenhuma das suas criaturas ou edifícios (embora você possa se quiser), e você poderá assistir sua civilização crescer desde um simples micróbio. O jogo está agendado para ser lançado na primavera do ano que vem.

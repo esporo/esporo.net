@@ -1,14 +1,14 @@
 ---
 layout: post
 date: '2007-10-27 02:24:00 -0300'
-title: 'Confirmado: Spore em desenvolvimento para o Nintendo Wii'
-category: Spore
+title: 'Confirmado: SPORE em desenvolvimento para o Nintendo Wii'
+category: SPORE
 tags:
-- Spore
+- SPORE
 - plataformas
 ---
 Em uma entrevista ao jornal britânico [The Guardian](http://www.guardian.co.uk/technology/2007/oct/26/willwright),
-Will Wright confirmou que Spore terá uma versão para o Wii, o novo videogame da
+Will Wright confirmou que SPORE terá uma versão para o Wii, o novo videogame da
 Nintendo.
 
 Segundo o Will, ele gosta muito mais do Wii do que dos outros videogames dessa

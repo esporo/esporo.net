@@ -2,17 +2,17 @@
 layout: post
 title: Mais informações sobre as tecnologias de criação
 date: '2006-08-02 15:08:00 -0300'
-category: Spore
+category: SPORE
 tags:
-- Spore
+- SPORE
 - prévias
-- Sporepédia
+- SPOREpédia
 ---
-O [Kikizo publicou uma prévia repleta de detalhes técnicos](http://games.kikizo.com/news/200607/141_p1.asp) sobre as tecnologias que o time está criando para Spore.
+O [Kikizo publicou uma prévia repleta de detalhes técnicos](http://games.kikizo.com/news/200607/141_p1.asp) sobre as tecnologias que o time está criando para SPORE.
 
 Ao que parece, os editores do jogo serão todos ferramentas com a mesma funcionalidade de arrastar e soltar:
 
-> “Nós estamos tentando fazer esses editores muito simples e muito expressivos também”, explica Will Wright. “Para cada estágio do jogo, existe um editor associado. Tudo o que você vai ver nesse jogo é criado pelo jogador, e compartilhado automaticamente com outros jogadores enquanto você joga, e esse é um conceito importante em Spore”.
+> “Nós estamos tentando fazer esses editores muito simples e muito expressivos também”, explica Will Wright. “Para cada estágio do jogo, existe um editor associado. Tudo o que você vai ver nesse jogo é criado pelo jogador, e compartilhado automaticamente com outros jogadores enquanto você joga, e esse é um conceito importante em SPORE”.
 >
 > Um dos primeiros editores que você vai usar está na fase de criatura, a segunda de seis etapas evolutivas do jogo. Começando com uma coluna simples, jogadores poderão espichar e alongar a espinha, criando a base de uma criatura. Nela, você pode começar a adicionar partes, escolhendo uma seleção de braços, pernas, e mais, arrastando elas e colocando em qualquer parte da base da criatura que você quiser. Você decide se ela será carnívora, herbívora ou onívora, e também se vai adicionar partes do rosto, texturas de pele, e detalhes finais — em qualquer lugar —, resultando em uma criatura selvagemente única.
 
@@ -22,7 +22,7 @@ A pintura será feita pelo computador. O jogador escolhe um padrão de textura e
 
 Bem como a textura, as animações também são feitas pelo computador, que analisa a forma e as partes adicionadas pelo jogador:
 
-> O próximo passo é animar a criatura. O computador vai analisar o que você construiu e mostrar como a criatura se movimentará no mundo, tanto comportamento quanto ações, e até mesmo exibirá tipos de ataque ou reações emocionais. Combinando com o estilo cartunizado do universo Spore, emoções e expressões serão feitas de um jeito exagerado e engraçado que é fácil de interpretar. “Jogadores terão uma diversidade tremenda de coisas que eles poderão construir”, conclui Wright.
+> O próximo passo é animar a criatura. O computador vai analisar o que você construiu e mostrar como a criatura se movimentará no mundo, tanto comportamento quanto ações, e até mesmo exibirá tipos de ataque ou reações emocionais. Combinando com o estilo cartunizado do universo SPORE, emoções e expressões serão feitas de um jeito exagerado e engraçado que é fácil de interpretar. “Jogadores terão uma diversidade tremenda de coisas que eles poderão construir”, conclui Wright.
 
 Kikizo também descreve como será a jogabilidade das primeiras fases do jogo:
 
@@ -33,8 +33,8 @@ Kikizo também descreve como será a jogabilidade das primeiras fases do jogo:
 > Quando os ovos estiverem prontos para chocar, jogadores voltarão para o editor e poderão usar os pontos que eles ganharam na geração anterior para reinvestir na criatura. “Isso é algo como a evolução”, explica Wright. “Eu posso conseguir pés melhores porque eu quero que ele ande mais depressa, e um par de braços a mais para que ele tenha oito braços, ou para mudar a aparência dele, então eu posso colocar uns olhos bobos ou algo mais sério, que pode deixar tudo bem diferente com uma mudança simples”.
 
 
-Segundo Will, os editores serão algo de nicho para os jogadores. Como em The Sims, poucos jogadores realmente usam os editores extensivamente. A maioria dos jogadores prefere baixar coisas de fansites, e o jogo quer trazer toda essa estrutura para dentro com a Sporepédia, para que esse compartilhamento seja mais rápido.
+Segundo Will, os editores serão algo de nicho para os jogadores. Como em The Sims, poucos jogadores realmente usam os editores extensivamente. A maioria dos jogadores prefere baixar coisas de fansites, e o jogo quer trazer toda essa estrutura para dentro com a SPOREpédia, para que esse compartilhamento seja mais rápido.
 
 Kikizo também detalha que, quando você evolui, sua criatura sai do editor como um filhote, e enquanto você é um filhote você deve aprender a interagir com seus “irmãos” para aprender mais habilidades. Isso vai fazer sua criatura mais social, o que será útil quando você quiser formar um bando. Quando esse bando estiver montado, você começa a fase da tribo.
 
-Quando você atinge a fase espacial, você poderá ver todo o planeta, e observar o padrão metereológico dele. Enquanto tudo isso acontece, a Sporepédia organiza todas as criações que a sua criatura interagiu durante o jogo. Essas criações serão salvas como cartas de um baralho de Super Trunfo, e você poderá imprimir essas cartas e jogar com outros jogadores. 
+Quando você atinge a fase espacial, você poderá ver todo o planeta, e observar o padrão metereológico dele. Enquanto tudo isso acontece, a SPOREpédia organiza todas as criações que a sua criatura interagiu durante o jogo. Essas criações serão salvas como cartas de um baralho de Super Trunfo, e você poderá imprimir essas cartas e jogar com outros jogadores. 

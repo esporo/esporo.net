@@ -2,11 +2,11 @@
 layout: "post"
 title: "Will Wright na conferência da revista New Yorker"
 date: "2007-05-20 01:09"
-category: Spore
+category: SPORE
 tags:
   - Will Wright
   - vídeos
-  - Spore
+  - SPORE
 ---
 
 Depois do atraso do jogo e dos meses sem notícias, temos algumas boas novidades! Will Wright apresentou a versão mais nova do jogo na conferência da revista New Yorker esse mês.
@@ -15,7 +15,7 @@ Algumas novidades que conseguimos conferir pelo vídeo. Você começa o jogo esc
 
 A gente também pode conferir o novo editor de criaturas. Suas texturas são mais realistas e as animações estão **muito melhores**!
 
-Algo que mudou completamente foi a Sporepedia. Os cartões não se agrupam mais, mas trazem várias informações sobre as criações (as estatisticas de combate e saúde, etc).
+Algo que mudou completamente foi a SPOREpedia. Os cartões não se agrupam mais, mas trazem várias informações sobre as criações (as estatisticas de combate e saúde, etc).
 
 Confira a conferência completa nos vídeos abaixo:
 

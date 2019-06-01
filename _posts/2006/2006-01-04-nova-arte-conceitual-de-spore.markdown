@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "Nova arte conceitual de Spore"
+title: "Nova arte conceitual de SPORE"
 date: "2006-01-04 22:58"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - imagens
   - desenvolvimento
 ---

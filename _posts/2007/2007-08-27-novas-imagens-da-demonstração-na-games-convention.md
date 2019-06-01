@@ -2,13 +2,13 @@
 layout: post
 date: '2007-08-27 01:23:00 -0300'
 title: Novas imagens da demonstração na Games Convention
-category: Spore
+category: SPORE
 tags:
-- Spore
+- SPORE
 - imagens
 ---
 Aproveitando a demonstração na Games Convention, a Maxis divulgou novas imagens
-oficiais do Spore. Confira na nossa galeria. É possível ver a nova interface do
+oficiais do SPORE. Confira na nossa galeria. É possível ver a nova interface do
 jogo, que é menor e concentrada no campo esquerdo da tela. Parece mais simples e
 mais organizada. Também dá pra notar a melhor qualidade gráfica do jogo, com
 efeitos de luz e transparência, principalmente na fase da Célula.

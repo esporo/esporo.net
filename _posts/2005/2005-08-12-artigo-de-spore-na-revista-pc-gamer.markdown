@@ -1,14 +1,14 @@
 ---
 layout: "post"
-title: "Artigo de Spore na revista PC Gamer"
+title: "Artigo de SPORE na revista PC Gamer"
 date: "2005-08-12 23:53"
-category: Spore
+category: SPORE
 tags:
-  - Spore
+  - SPORE
   - artigos
 ---
 
-O fã-site [Snooty Spore](http://www.snootyspore.com) escaneou um artigo recente da revista PC Gamer, que você pode conferir abaixo. Não tem nenhuma informação nova que eu já não tenha postado aqui no Esporo, mas tem uma tabelinha comparativa de cada fase do jogo que é bacana.
+O fã-site [Snooty SPORE](http://www.snootyspore.com) escaneou um artigo recente da revista PC Gamer, que você pode conferir abaixo. Não tem nenhuma informação nova que eu já não tenha postado aqui no Esporo, mas tem uma tabelinha comparativa de cada fase do jogo que é bacana.
 
 ![Página da revista PC Gamer](https://i.imgur.com/ZID4slk.jpg)
 _No destaque: “Wright será coroado como o primeiro gênio dos jogos”_
