@@ -77,6 +77,10 @@ defaults:
     values:
       layout: "page"
 
+plugins:
+  - jemoji
+  - jekyll-paginate-v2
+  - jekyll-compose
 
 pagination:
   enabled: true
@@ -108,16 +112,6 @@ autopages:
     slugify:
       mode: raw
       cased: true
-      
-jekyll_compose:
-  draft_default_front_matter:
-    layout: post
-    category: Spore
-    tags:
-  post_default_front_matter:
-    published: true
 
-plugins:
-  - jemoji
-  - jekyll-paginate-v2
-  - jekyll-compose
+include:
+  - _md-writer
