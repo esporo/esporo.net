@@ -1,8 +1,9 @@
 # Site Settings
 title: Esporo
+tagline: A comunidade brasileira de Spore.
 description: >-
-  A comunidade brasileira de Spore.
-logo: "/assets/images/logo.jpg"
+  A comunidade brasileira para Spore, com conteúdos personalizados para download, fóruns de discussão e ajuda, guias de jogo e as últimas notícias.
+logo: "/assets/images/logo.png"
 
 email: contato@esporo.net
 lang: pt-BR
@@ -11,20 +12,26 @@ timezone: "America/Sao_Paulo"
 url: "https://esporo.net"
 baseurl: ""
 
-collections:
-  games:
-    output: true
-    permalink: "/jogos/:title/"
-
-permalink: "/noticias/post/:title/"
-
 theme: "jekyll-theme-spark"
 
 # Theme Settings
 spark:
-  gauges_site_id: "5caf9b8244e6c84ea9bb43ba"
-  custom_fonts: true # set to true to load fonts.css
-  show_excerpts: false # set to true to show post excerpts, not the entire post content.
+  date_format:
+    day: "%d de %B de %Y"
+    month: "%B de %Y"
+    year: "%Y"
+  directories:
+    posts: "/noticias/"
+    games: "/jogos/"
+  disclaimer: >-
+    O Esporo é mantido por fãs. Spore e Maxis são propriedade da Electronic Arts.
+  comments: true
+  comments_notice: >-
+    - Campos marcados com (*) são obrigatórios.
+
+    - Seu email não será publicado.
+
+    - As [regras do fórum](https://forum.esporo.net/d/9-regras-do-f-rum) também se aplicam aos comentários
 
 # SEO settings
 twitter:
@@ -36,10 +43,9 @@ social:
   links:
     - "https://twitter.com/esporo"
     - "https://www.youtube.com/user/esporotv"
-    - "https://www.flickr.com/photos/esporo"
     - "https://www.facebook.com/esporo"
 
-google_site_verification: "to_set"
+google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
 # Collections settings
 collections:
@@ -48,70 +54,20 @@ collections:
     permalink: "/jogos/:title/"
 
 # Build settings
-franchises-order:
-  - Spore
-  - Darkspore
-  - Consoles
-
-games-order:
-  - base
-  - bundle
-  - pack
-  - beta
+repository: esporo.net
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "posts"
     values:
       layout: "post"
       author: gaboo
   - scope:
-      path: "" # an empty string here means all files in the project
-      type: "games" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "games"
     values:
       layout: "game"
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "page"
-
-plugins:
-  - jemoji
-  - jekyll-paginate-v2
-  - jekyll-compose
-
-pagination:
-  enabled: true
-  collection: "posts"
-  per_page: 10
-  permalink: "/p/:num/"
-  title: ":title (:num de :max)"
-  sort_field: "date"
-  sort_reverse: true
-
-autopages:
-  enabled: true
-  collections:
-    enabled: false
-  categories:
-    layouts:
-      - "archive.html"
-    title: ":title — Arquivo de Notícias"
-    permalink: "/noticias/categoria/:cat/"
-    slugify:
-      mode: raw
-      cased: true
-  tags:
-    enabled: true
-    layouts:
-      - "archive.html"
-    title: ":title — Arquivo de Notícias"
-    permalink: "/noticias/tag/:tag/"
-    slugify:
-      mode: raw
-      cased: true
 
 include:
   - _md-writer

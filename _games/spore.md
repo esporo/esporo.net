@@ -1,23 +1,23 @@
 ---
 layout: game
 title: Spore
-image: "https://i.imgur.com/zhnppish.jpg"
-franchise: Spore
-type: base
-assets:
-  logo: "https://i.imgur.com/hjLq3pe.png"
-  packshot: "https://i.imgur.com/sb0OABh.jpg"
+image: /assets/images/games/spore/cover.jpg
+group: Spore
 info:
-  platforms:
-  - PC
-  - macOS
+  logo: /assets/images/games/spore/logo.png
+  boxart: /assets/images/games/spore/boxart.jpg
+  status: Lançado
   release: 2008-09-05
-  developer: Maxis
-  publisher: Electronic Arts
   rating: 10
+  platforms:
+    - PC
+    - macOS
+media:
+  gallery: /assets/images/games/spore/gallery/
+  playlist: PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi
 links:
-  news: spore
   forum: "https://forum.esporo.net/t/spore"
+  news: /tag/spore/
   store: "https://www.origin.com/bra/pt-br/store/spore/spore"
 ---
 
@@ -30,29 +30,9 @@ Crie um novo mundo ao mesmo tempo em que embarca na jornada mais fantástica de 
 - **EXPLORE seu planeta e muito mais.** Você dominará o universo ou seu amado planeta será destruído por uma raça alienígena superior?
 - **COMPARTILHE com o mundo.** As criações de todos os jogadores são compartilhadas automaticamente, fazendo com que o jogo permaneça sempre novo e surpreendente.
 
----
-
-#### EsporoTV
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed?listType=playlist&list=PLuqGmEU88yGgxOCJKGinBqV0tKO7dwWxi&autoplay=1&playsinline=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
----
-
-### Requisitos do sistema
-
-#### Windows
-
-- **Sistema:** Windows XP, Vista ou superior
-- **Processador:** Pentium 4 2.0 GHz ou equivalente
-- **Memória RAM:** 512 MB (XP), 768 MB (Vista)
-- **Armazenamento:** 4 GB de espaço livre, com 1 GB adicional para criações
-- **Placa de vídeo:** 128 MB de memória dedicada e suporte a Pixel Shader 2.0
-
-#### macOS
-
-- **Sistema:** macOS X 10.5.3 “Leopard” ou superior
-- **Processador:** Intel Core Duo
-- **Memória RAM:** 1 GB
-- **Armazenamento:** 4 GB de espaço livre, com 1 GB adicional para criações
-- **Placa de vídeo:** ATI X1600 or NVIDIA 7300 GT com 128 MB de memória dedicada, ou Intel Integrated GMA X3100
+ | Windows | macOS
+ **Sistema** | Windows XP ou Vista | macOS X 10.5.3 “Leopard” ou superior
+**Processador**  | Pentium 4 2.0 GHz ou equivalente | Intel Core Duo
+**Memória**  | 512 MB (XP), 768 MB (Vista) | 1 GB
+**Armazenamento**  | 5 GB | 5 GB
+**Placa de vídeo**  | 128 MB de memória dedicada com suporte a Pixel Shader 2.0 | ATI X1600 or NVIDIA 7300 GT com 128 MB de memória dedicada, ou Intel Integrated GMA X3100
