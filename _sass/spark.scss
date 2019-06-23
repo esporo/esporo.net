@@ -1,0 +1,24 @@
+// Type variables
+$font-family-base: 'Proxima Nova', sans-serif !default;
+$font-size-base: 14px !default;
+$font-line-height: 1.5 !default;
+$font-weight-base: 400 !default;
+
+// Color pallette
+$color-text: #000112 !default;
+$color-accent: #4e9dd8 !default;
+$color-background: #FFFFFF !default;
+$color-grey: #939496 !default;
+$color-grey-lighter: #F0F1F4 !default;
+$color-grey-darker: #6E6D70 !default;
+
+// Structure
+$content-width: 960px !default;
+$spacing-unit: 20px !default;
+$on-laptop: 800px !default;
+$on-palm: 600px !default;
+
+@import "spark/mixins",
+        "spark/reset",
+        "spark/base",
+        "spark/layout";

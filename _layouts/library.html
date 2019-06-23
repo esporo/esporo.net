@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{%- assign games_by_groups = site.games | group_by: "group" -%}
+
+{%- for group in games_by_groups reversed -%}
+  
+  <section class="game-group">
+    <header class="group-header">
+      <h2 class="group-title">{{- group.name -}}</h2>
+    </header>
+    
+    <div class="group-content" data-library-gallery>
+      {%- for game in group.items -%}
+        <figure class="game-card">
+          <a href="{{- game.url -}}" rel="bookmark">
+            <img src="{{- game.info.boxart -}}" alt="{{- game.title -}}" />
+          </a>
+        </figure>
+      {%- endfor -%}
+    </div>
+  </section>
+{%- endfor -%}

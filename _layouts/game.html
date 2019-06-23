@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="content game">
+  {%- if page.image -%}
+    <div class="content-cover">
+      <img src="{{ page.image }}" alt="{{ page.title }}" />
+    </div>
+  {%- endif -%}
+
+  <div class="game-container">
+    {% include games/sidebar.html %}
+
+    <div class="game-page">
+      <header class="content-header">
+        {%- if page.info.logo -%}
+          <div class="game-logo">
+            <a href="{{ page.url }}" rel="bookmark">
+              <img class="logo" src="{{ page.info.logo }}" alt="{{ page.title }}" />
+            </a>
+          </div>
+        {%- else -%}
+          <h1 class="game-title">
+            <a href="{{ page.url }}" rel="bookmark">
+              {{- page.title -}}
+            </a>
+          </h1>
+        {%- endif -%}
+      </header>
+
+      {{ content }}
+
+      {%- if page.media.gallery -%}
+        <aside class="game-images">
+          <h3>Galeria de imagens</h3>
+          
+          {%- include gallery.html folder=page.media.gallery -%}
+        </aside>
+      {%- endif -%}
+
+      {%- if page.media.playlist -%}
+        <section class="game-videos">
+          <h3>Vídeos</h3>
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list={{- page.media.playlist -}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+      {%- endif -%}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,73 @@
+<aside class="game-sidebar">
+  {%- if page.info.boxart -%}
+    <figure class="game-boxart">
+      <a href="{{ page.url }}" rel="bookmark">
+        <img src="{{ page.info.boxart }}" alt="Ilustração da caixa do jogo" />
+      </a>
+    </figure>
+  {%- endif -%}
+
+    <ul class="info-list">
+      {%- if page.info.status -%}
+        <li class="info status">
+          <span class="info-prop">Status:</span>
+          <strong class="info-value">{{ page.info.status }}</strong>
+        </li>
+      {%- endif -%}
+      {%- if page.info.release -%}
+        <li class="info release-date">
+          <span class="info-prop">Data de lançamento:</span>
+          <strong class="info-value">{{ page.info.release | localize: site.spark.date_format.day | downcase }}</strong>
+        </li>
+      {%- endif -%}
+
+      {%- if page.info.platforms -%}
+        <li class="info platforms">
+          <span class="info-prop">Plataformas:</span>
+          <strong class="info-value">{{ page.info.platforms | join: ", " }}</strong>
+        </li>
+      {%- endif -%}
+
+      {%- if page.info.rating -%}
+        <li class="info rating">
+          <span class="info-prop">Classificação:</span>
+          <strong class="info-value">
+            {%- if page.info.rating == 0 -%}
+              Livre para todos os públicos
+            {%- else -%}
+              Não recomendado para menores de {{ page.info.rating }} anos
+            {%- endif -%}
+          </strong>
+        </li>
+      {%- endif -%}
+    </ul>
+
+    <nav class="game-links">
+      {%- for link in page.links -%}
+        <a class="game-link {{ link | first }}" href="{{ link | last }}" rel="external">
+          {%- if link[0] == 'forum' -%}
+            <svg class="svg-icon" role="presentation">
+              <title>Fóruns</title>
+              <use xlink:href="{{- '/assets/icons/ui.svg#' | append: 'chat' | relative_url -}}" />
+            </svg>
+
+            <span class="link-label">Fórum</span>
+          {%- elsif link[0] == 'news' -%}
+            <svg class="svg-icon" role="presentation">
+              <title>Notícias</title>
+              <use xlink:href="{{- '/assets/icons/ui.svg#' | append: 'feed' | relative_url -}}" />
+            </svg>
+
+            <span class="link-label">Notícias</span>
+          {%- else -%}
+            <svg class="svg-icon" role="presentation">
+              <title>Loja</title>
+              <use xlink:href="{{- '/assets/icons/ui.svg#' | append: 'cart' | relative_url -}}" />
+            </svg>
+
+            <span class="link-label">Loja</span>
+          {%- endif -%}
+        </a>
+      {%- endfor -%}
+    </nav>
+</aside>

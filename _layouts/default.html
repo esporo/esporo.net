@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{- site.lang -}}">
+  {%- include head.html -%}
+  <body>
+
+    <div id="site" class="site-wrapper">
+      {%- include header.html -%}
+
+      <main class="site-content">
+        {{- content -}}
+      </main>
+
+      {%- include footer.html -%}
+    </div>
+
+    {%- if content contains "iframe" -%}
+      <script type="text/javascript" src="{{- '/assets/js/embeds.js' | relative_url -}}"></script>
+    {%- endif -%}
+    {%- if content contains "data-gallery" or content contains "data-library-gallery" -%}
+      <script type="text/javascript" src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
+      <script type="text/javascript" src="{{ '/assets/js/flickity.js' | relative_url }}"></script>
+      <script type="text/javascript" src="{{ '/assets/js/galleries.js' | relative_url }}"></script>
+    {%- endif -%}
+    {%- if content contains "data-comment-form" -%}
+      <script type="text/javascript" src="{{ '/assets/js/comments.js' | relative_url }}"></script>
+    {%- endif -%}
+    {%- if jekyll.environment == "production" -%}
+      {%- include analytics.html -%}
+    {%- endif -%}
+  </body>
+</html>

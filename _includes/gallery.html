@@ -1,0 +1,9 @@
+<figure data-gallery class="game-gallery">
+  {%- assign gallery = site.static_files | sort_natural -%}
+  
+  {%- for file in site.static_files -%}
+    {%- if file.path contains include.folder -%}
+      <img class="gallery-image" data-flickity-lazyload="{{ file.path }}" alt="{{ file.path | split: '.' | last }}" />
+    {%- endif -%}
+  {%- endfor -%}
+</figure>

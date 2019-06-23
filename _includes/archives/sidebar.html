@@ -1,0 +1,76 @@
+<div class="sidebar">
+  {%- include archives/custom-widgets.html -%}
+  
+  {%- if site.social.links -%}
+    <aside class="widget social-links">
+      <h4 class="widget-title">Social</h4>
+        
+      <div class="widget-content">
+        {%- for social in site.social.links -%}
+          {%- assign service = social | remove: "https://" | remove: "www." | split: "." | first -%}
+          
+          <a class="social-link" href="{{- social -}}" rel="external">
+            <svg class="social-icon" role="img">
+              <title>{{ service | capitalize }}</title>
+              <use xlink:href="{{- '/assets/icons/social.svg#' | append: service | relative_url -}}" />
+            </svg>
+          </a>
+        {%- endfor -%}
+        
+        <a class="social-link" href="{{- '/feed.xml' | absolute_url -}}" rel="alternate">
+          <svg class="social-icon" role="img">
+            <title>Feed RSS</title>
+            <use xlink:href="{{- '/assets/icons/social.svg#rss' | relative_url -}}" />
+          </svg>
+        </a>
+       </div>
+    </aside>
+  {%- endif -%}
+  
+  {%- if site.categories -%}
+    <aside class="widget categories">
+      <h4 class="widget-title">Categorias</h4>
+      
+      <div class="widget-content">
+        <ul class="categories-list">
+          {%- assign categories = site.categories | sort_tags_by_posts_count -%}
+          
+          {%- for category in categories -%}
+            {%- assign category_slug = category | first | slugify -%}
+            
+            <li>
+              <a href="{{- site.jekyll-archives.permalinks.category | replace: ':name', category_slug | relative_url -}}">
+                <span class="category-title">{{ category | first }}</span>
+                
+                <span class="category-count">({{ category | last }})</span>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </aside>
+  {%- endif -%}
+  
+  {%- if site.tags -%}
+    <aside class="widget tags">
+      <h4 class="widget-title">
+        Tags frequentes
+      </h4>
+      
+      <div class="widget-content">
+        {%- assign tags = site.tags | sort_tags_by_posts_count -%}
+        
+        {%- for tag in tags limit: 30 -%}
+          {%- assign tag_slug = tag | first | slugify -%}
+          <a class="tag-link" href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag_slug | relative_url }}" style="font-size: 1.{{- tag | last | divided_by: 10 -}}em;">
+            <span class="tag-title">{{ tag | first }}</span>
+            
+            <span class="tag-count">({{ tag | last }})</span>
+          </a>
+        {%- endfor -%}
+      </div>
+    </aside>
+  {%- endif -%}
+  
+  {{ site.year }}
+</div>

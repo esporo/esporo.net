@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{%- if site.posts -%}
+  {% assign featured_post = site.posts | where: "sticky", true | first %}
+
+  {%- if featured_post -%}
+    <div class="featured-post">
+      {%- include archives/post.html featured=true -%}
+    </div>
+  {%- endif -%}
+
+  <div class="blog home">
+    <div class="blog-content">
+      {%- assign home_posts = site.posts | where_exp: "item", "item.sticky != true" -%}
+
+      {% for post in home_posts limit: 11 %}
+        {%- if forloop.first -%}
+          {%- include archives/post.html -%}
+        {%- else -%}
+          {%- include archives/post.html hide_contents=true -%}
+        {%- endif -%}
+      {% endfor %}
+
+      {%- if site.spark.directories.posts -%}
+        <nav class="blog-navigation">
+          <a href="{{- site.spark.directories.posts -}}">
+            Arquivo de notícias
+          </a>
+        </nav>
+      {%- endif -%}
+    </div>
+
+    {%- include archives/sidebar.html -%}
+  </div>
+{%- endif -%}
