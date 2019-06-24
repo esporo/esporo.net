@@ -1,23 +1,22 @@
 ---
 layout: game
 title: Spore Origins
-image: "https://i.imgur.com/rIzz3kZh.jpg"
-franchise: Consoles
-type: base
-assets:
-  logo: "https://i.imgur.com/kgKIOQN.png"
-  packshot: "https://i.imgur.com/a79BoGKl.png"
+image: /assets/images/games/spore-origins/cover.jpg
+group: Spin-offs
 info:
+  logo: /assets/images/games/spore-origins/logo.png
+  boxart: /assets/images/games/spore-origins/boxart.png
+  status: Desligado
+  release: 2008-09-07
+  rating: 0
   platforms:
-  - iOS
-  - Android
-  release: 2008-08-25
-  shutdown: 2014-06-30
-  developer: Tricky Software
-  publisher: EA Mobile
-  rating: L
+    - iOS
+    - Android
+media:
+  gallery: /assets/images/games/spore-origins/gallery/
+  playlist: PLuqGmEU88yGgILMgWLqn25B83Yrdr1UJy
 links:
-  news: spore-origins
+  news: /tags/spore-origins
   forum: "https://forum.esporo.net/t/spore-origins"
 ---
 
@@ -29,10 +28,3 @@ Coloque o acelerômetro de seu iPhone à prova girando, balançando e virando su
 - **APERTE, EMPURRE e CUTUQUE** sua criatura no Criador de Criaturas, personalizando sua textura, forma e partes do corpo para combinar com o jeito que você joga.
 - **EXPERIMENTE** dois modos empolgantes: Evolução e Sobrevivência.
 - **SOBREVIVA** por 35 níveis desafiadores com criaturas bizarras.
-
-
----
-
-#### EsporoTV
-
-<iframe width="695" height="521" src="https://www.youtube.com/embed/xNvRicy4QBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

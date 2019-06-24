@@ -13,35 +13,35 @@ layout: blog
           </a>
         </p>
     {%- endif -%}
-    
+
     <h2 class="content-title">
       <a href="{{- page.url | relative_url -}}" rel="bookmark">
         {{- page.title -}}
       </a>
     </h2>
-    
+
     <p class="content-meta">
       <time class="content-date" datetime="{{- page.date | date_to_xmlschema -}}">{{- page.date | localize: site.spark.date_format.day | downcase -}}</time>
-      
-      {%- if page.author -%}
+
+      {% if page.author %}
         {%- assign author = site.data.authors[page.author] -%}
         <span class="content-author">por <a href="{{- author.url -}}" rel="author">{{- author.name -}}</a></span>
       {%- endif -%}
     </p>
   </header>
-  
+
   <div class="content-body">
     {{ page.content }}
   </div>
-  
+
   {%- if page.tags -%}
     <footer class="content-footer">
       <p class="content-meta">
         <strong>Arquivado em:</strong>
-        
+
         {% for tag in page.tags -%}
           {%- assign tag_name = tag | slugify -%}
-          
+
           <a href="{{- site.jekyll-archives.permalinks.tag | replace: 'name', tag_name -}}" rel="tag">{{- tag -}}</a>{%- unless forloop.last -%}, {% else -%}.{%- endunless -%}
         {%- endfor -%}
       </p>
@@ -56,7 +56,7 @@ layout: blog
       <strong class="content-title">{{ page.previous.title }}</strong>
     </a>
   {%- endif -%}
-  
+
   {%- if page.next.url -%}
     <a class="content-link nav-next" href="{{ page.next.url }}" rel="prev">
       <span class="content-meta">Próximo post »</span><br />

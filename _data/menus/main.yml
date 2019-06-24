@@ -7,12 +7,12 @@
 - title: Fórum
   url: "https://forum.esporo.net/"
   external: true
-  
+
 - title: Tutoriais
   url: "/noticias/tag/tutoriais/"
-  
+
 - title: Downloads
   url: "/downloads/"
-  
+
 - title: Sobre
   url: "/sobre/"

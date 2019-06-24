@@ -1,23 +1,19 @@
 ---
 layout: game
 title: Spore Creatures
-image: "https://i.imgur.com/WvfByCwh.jpg"
-franchise: Consoles
-type: base
-assets:
-  logo: "https://i.imgur.com/H0qSTOp.png"
-  packshot: "https://i.imgur.com/OFjDrsN.png"
+image: /assets/images/games/spore-creatures-ios/cover.jpg
+group: Spin-offs
 info:
-  platforms:
-  - iOS
-  - Android
+  logo: /assets/images/games/spore-creatures-ios/logo.png
+  boxart: /assets/images/games/spore-creatures-ios/boxart.png
+  status: Desligado
   release: 2010-01-25
-  shutdown: 2014-06-30
-  developer: EA Mobile
-  publisher: Electronic Arts
-  rating: L
+  rating: 0
+  platforms:
+    - iOS
+    - Android
 links:
-  news: spore-creatures
+  news: /tags/spore-creatures
   forum: "https://forum.esporo.net/t/spore-creatures"
 ---
 
@@ -29,9 +25,3 @@ Personalize sua criatura com partes de corpo no Criador de Criaturas. Existem ma
 - **EVOLUA** sua criatura para superar desafios.
 - **EXPLORE** ambientes numa jornada para salvar a galáxia.
 - **CONECTE-SE** para compartilhar e explorar.
-
----
-
-#### EsporoTV
-
-<iframe width="806" height="453" src="https://www.youtube.com/embed/-UjH1jT2Dvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -18,11 +18,11 @@ spark:
     month: "%B de %Y"
     year: "%Y"
   directories:
-    posts: "/arquivos/"
+    posts: "/noticias/"
     games: "/jogos/"
   disclaimer: >-
     O Esporo não é um site oficial. Spore e Maxis são marcas proprietárias da Electronic Arts.
-  comments: true
+  comments: false
   comments_notice: >-
     1. Campos marcados com (*) são obrigatórios.
 
@@ -37,7 +37,7 @@ repository: esporo.net
 collections:
   games:
     output: true
-    permalink: "/games/:title/"
+    permalink: "/jogos/:title/"
 
 permalink: "/:year/:month/:title/"
 
@@ -65,3 +65,16 @@ jekyll-archives:
     month: "/:year/:month/"
     category: "/categorias/:name/"
     tag: "/tags/:name/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "gaboo"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"

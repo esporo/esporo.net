@@ -16,5 +16,6 @@ $('[data-library-gallery]').flickity({
   contain: true,
   pageDots: false,
   wrapAround: true,
+  imagesLoaded: true,
   setGallerySize: false
 });

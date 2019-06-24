@@ -29,23 +29,26 @@ layout: default
         {%- endif -%}
       </header>
 
-      {{ content }}
+      <div class="content-body">
 
-      {%- if page.media.gallery -%}
-        <aside class="game-images">
-          <h3>Galeria de imagens</h3>
-          
-          {%- include gallery.html folder=page.media.gallery -%}
-        </aside>
-      {%- endif -%}
+        {{ content }}
 
-      {%- if page.media.playlist -%}
-        <section class="game-videos">
-          <h3>Vídeos</h3>
+        {%- if page.media.gallery -%}
+          <aside class="game-images">
+            <h3>Galeria de imagens</h3>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list={{- page.media.playlist -}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </section>
-      {%- endif -%}
+            {%- include gallery.html folder=page.media.gallery -%}
+          </aside>
+        {%- endif -%}
+
+        {%- if page.media.playlist -%}
+          <section class="game-videos">
+            <h3>Vídeos</h3>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list={{- page.media.playlist -}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </section>
+        {%- endif -%}
+      </div>
     </div>
   </div>
 </article>

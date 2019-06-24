@@ -1,22 +1,20 @@
 ---
 layout: game
 title: Spore Hero Arena
-image: "https://i.imgur.com/OvS2Bqjh.jpg"
-franchise: Consoles
-type: base
-assets:
-  logo: "https://i.imgur.com/OmTlIwV.png"
-  packshot: "https://i.imgur.com/jXfpd6C.jpg"
+image: /assets/images/games/spore-hero-arena/cover.jpg
+group: Spin-offs
 info:
-  platforms:
-  - Nintendo DS
+  logo: /assets/images/games/spore-hero-arena/logo.png
+  boxart: /assets/images/games/spore-hero-arena/boxart.jpg
+  status: Lançado
   release: 2009-10-06
-  shutdown: 2014-06-30
-  developer: Full Fat Productions
-  publisher: Electronic Arts
   rating: 10
+  platforms:
+    - Nintendo DS
+media:
+  gallery: /assets/images/games/spore-hero-arena/gallery/
 links:
-  news: spore-hero-arena
+  news: /tags/spore-hero-arena
   forum: "https://forum.esporo.net/t/spore-hero-arena"
 ---
 
@@ -28,9 +26,3 @@ Pela primeira vez, crie criaturas em 3D no Nintendo DS e os leve à batalha. Exp
 - **JOGUE com seus amigos.** Batalhe ou troque com até três outros amigos localmente, ou jogue com um amigo via Wi-Fi.
 - **PERSONALIZE seu herói.** Explore planetas, complete missões e defenda inimigos para ganhar partes únicas. Desbloqueie poderes especiais e novos movimentos para aperfeiçoar seu herói nas batalhas.
 - **DESCUBRA uma história original.** _Spore Hero Arena_ possui uma história completamente inédita que se passa no mesmo universo de _Spore Hero_.
-
----
-
-#### EsporoTV
-
-<iframe width="806" height="453" src="https://www.youtube.com/embed/MmnK69tEopE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
