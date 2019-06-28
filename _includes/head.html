@@ -15,5 +15,5 @@
   {%- endif -%}
 
   <link rel="stylesheet" type="text/css" href="{{ '/assets/css/site.css' | relative_url }}" />
-  <link href="{{- '/feed.xml' | absolute_url -}}" type="application/atom+xml" rel="alternate" title="{{ site.title }}" />
+  {%- feed_meta -%}
 </head>

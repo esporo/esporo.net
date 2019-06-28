@@ -5,7 +5,7 @@ date: "2005-08-11 21:19"
 category: Spore
 tags:
   - Spore
-  - site oficial
+  - Spore.com
   - Maxis
 ---
 

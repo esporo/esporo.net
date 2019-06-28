@@ -121,6 +121,53 @@
           }
         }
       }
+
+      &.spore-stats {
+
+        a {
+          font-weight: 700;
+          color: $color-accent;
+        }
+
+        .stats-list {
+          list-style: none;
+          margin-left: 0;
+          text-align: center;
+          border: 1px solid $color-grey-lighter;
+          border-radius: 8px;
+
+          li {
+            padding: $spacing-unit / 4;
+
+            &:nth-child(even) {
+              background: $color-grey-lighter;
+            }
+          }
+
+          ul {
+            list-style: none;
+            margin-left: 0;
+            display: flex;
+            flex-flow: row nowrap;
+
+            li {
+              flex: 0 0 50%;
+            }
+          }
+
+          .stats-prop {
+            @include relative-font-size(0.75);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+          }
+
+          .stats-value {
+            display: block;
+            @include relative-font-size(1.125);
+          }
+        }
+      }
     }
   }
 }

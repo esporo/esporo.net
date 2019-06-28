@@ -4,7 +4,7 @@ title: "Site da Maxis sai do ar de novo"
 date: "2008-01-07 10:16"
 category: Maxis
 tags:
-  - site oficial
+  - Spore.com
   - Spore
 ---
 

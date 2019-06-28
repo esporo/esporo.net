@@ -13,7 +13,7 @@ info:
     - PC
     - macOS
 links:
-  news: /tags/spore-criador-de-criaturas
+  news: /tags/criador-de-criaturas
   forum: "https://forum.esporo.net/t/criador-de-criaturas"
   store: "https://www.origin.com/bra/pt-br/store/spore/spore-creature-creator"
 ---

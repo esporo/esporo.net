@@ -42,7 +42,7 @@ layout: blog
         {% for tag in page.tags -%}
           {%- assign tag_name = tag | slugify -%}
 
-          <a href="{{- site.jekyll-archives.permalinks.tag | replace: 'name', tag_name -}}" rel="tag">{{- tag -}}</a>{%- unless forloop.last -%}, {% else -%}.{%- endunless -%}
+          <a href="{{- site.jekyll-archives.permalinks.tag | replace: ':name', tag_name -}}" rel="tag">{{- tag -}}</a>{%- unless forloop.last -%}, {% else -%}.{%- endunless -%}
         {%- endfor -%}
       </p>
     </footer>
@@ -64,7 +64,3 @@ layout: blog
     </a>
   {%- endif -%}
 </nav>
-
-{%- if site.spark.comments -%}
-  {%- include comments.html -%}
-{%- endif -%}

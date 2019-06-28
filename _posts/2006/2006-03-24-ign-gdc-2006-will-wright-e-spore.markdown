@@ -7,7 +7,7 @@ tags:
   - Spore
   - prévias
   - GDC
-  - recursos online
+  - serviços online
 ---
 
 [IGN](http://pc.ign.com/articles/698/698259p2.html):

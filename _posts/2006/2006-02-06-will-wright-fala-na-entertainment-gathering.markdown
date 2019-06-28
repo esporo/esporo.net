@@ -6,7 +6,7 @@ category: Spore
 tags:
   - Spore
   - Will Wright
-  - recursos online
+  - serviços online
 ---
 
 No início deste mês, J. Allard (Vice-Presidente de Jogos, Microsoft), Bing Gordon (Diretor Criativo, EA), James Korris (Instituto de Tecnologias Criativas da USC) e Will Wright (Designer de Spore, Maxis / EA) fizeram palestras no Entertainment Gathering. O tema era Interatividade & Jogos, e a mensagem principal provavelmente era que os jogos estão se voltando mais para um estilo aberto de comunidade. Comparável com a Wikipedia, no futuro os jogadores serão os que criam o conteúdo para jogos, que serão mais uma plataforma para esse conteúdo ser jogado.

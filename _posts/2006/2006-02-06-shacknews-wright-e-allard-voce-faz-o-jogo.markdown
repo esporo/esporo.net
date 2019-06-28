@@ -6,7 +6,7 @@ category: Spore
 tags:
   - Spore
   - Will Wright
-  - recursos online
+  - serviços online
 ---
 
 [ShackNews](http://www.shacknews.com/onearticle.x/40647):

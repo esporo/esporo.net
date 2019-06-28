@@ -6,7 +6,7 @@ category: Spore
 tags:
   - Spore
   - Spore.com
-  - recursos online
+  - serviços online
 ---
 
 O [site oficial de Spore](http://www.spore.com/) foi atualizado com as primeiras informações oficiais do jogo, incluindo novas imagens.
