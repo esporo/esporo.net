@@ -28,9 +28,9 @@
   </div>
 
   <nav class="site-navigation">
-    {%- if site.data.menus.main -%}
+    {%- if site.data.menu -%}
       <div class="site-menu">
-        {%- for item in site.data.menus.main -%}
+        {%- for item in site.data.menu -%}
           <a class="menu-item" href="{{ item.url }}" {% if item.external %}rel="external"{%- endif -%}>
             {{- item.title -}}
           </a>
