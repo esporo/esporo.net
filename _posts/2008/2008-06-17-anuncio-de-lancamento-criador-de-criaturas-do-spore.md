@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Anúncio de lançamento: Criador de Criaturas do Spore"
+title: "Anúncio de Lançamento: Criador de Criaturas do Spore"
 date: "2008-06-17 17:26"
 category: Spore
 tags:

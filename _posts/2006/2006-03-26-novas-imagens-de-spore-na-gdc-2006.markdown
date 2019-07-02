@@ -7,6 +7,7 @@ tags:
   - Spore
   - imagens
   - GDC
+  - Caryl Shaw
 ---
 
 Novas imagens dos protótipos e dos documentos de desenvolvimento de Spore. Não foi exibido jogabilidade nem nada na GDC desse ano, e essas imagens são meio difíceis de entender sem ver a apresentação mesmo, então é mais por curiosidade mesmo:

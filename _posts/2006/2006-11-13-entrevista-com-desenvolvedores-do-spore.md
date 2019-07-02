@@ -7,6 +7,8 @@ tags:
 - Spore
 - entrevistas
 - Maxis
+- Chaim Gingold
+- Chris Hecker
 ---
 Chaim Gingold, o desenvolvedor dos editores, e Chris Hecker, um dos responsáveis pela animação processual das criações, foram entrevistados pelo Joystiq sobre o desenvolvimento de Spore.
 
