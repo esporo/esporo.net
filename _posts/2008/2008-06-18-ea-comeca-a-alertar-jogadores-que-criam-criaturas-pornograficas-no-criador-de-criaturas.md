@@ -18,7 +18,7 @@ Quem noticiou isso foi uma repórter da revista PC Gamer, [Kristen Salvatore](ht
 > Your Electronic Arts account has been flagged for violating the Electronic Arts Inc Terms of Service. We believe that the violation or behavior is serious enough to bring to your attention as it may impact your future access to the service.
 >
 > Violation:  
-<Violation: Inappropriate Content –Creature <violation type:Nudity> < Asset Name:Boobalicious>
+> <Violation: Inappropriate Content –Creature <violation type:Nudity> < Asset Name:Boobalicious>
 >
 > Understanding the EA Terms of Service is extremely important, should you have any general questions or concerns please review the Terms of Service. Should you then need additional assistance, or wish to appeal a violation, you can contact us.
 >
