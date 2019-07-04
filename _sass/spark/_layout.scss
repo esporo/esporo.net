@@ -64,7 +64,8 @@
     }
 
     .site-menu {
-      display: flex;
+      flex: 1 0 auto;
+      display: inline-flex;
       flex-flow: row nowrap;
       color: $color-background;
       font-weight: 600;
@@ -174,7 +175,7 @@
     width: 100px;
     filter: saturate(25) grayscale(50);
   }
-  
+
   > :last-child {
     p {
       margin-bottom: 0;

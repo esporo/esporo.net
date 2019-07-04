@@ -8,8 +8,8 @@
   url: "https://forum.esporo.net/"
   external: true
 
-- title: Tutoriais
-  url: "/noticias/tag/tutoriais/"
+- title: Dicas e Truques
+  url: "/guia/"
 
 - title: Downloads
   url: "/downloads/"
