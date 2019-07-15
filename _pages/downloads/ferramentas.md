@@ -4,6 +4,8 @@ title: Ferramentas para o Spore
 permalink: "/downloads/ferramentas/"
 ---
 
+
+
 Nessa página você encontra links para o download das ferramentas de modificação e de desenvolvimento do Spore. Você pode usá-las para modificar o jogo ou criar serviços web através da API de desenvolvimento.
 
 O Esporo não se responsabiliza pelos efeitos que modificações feitas com essas ferramentas possam causar no seu jogo.
