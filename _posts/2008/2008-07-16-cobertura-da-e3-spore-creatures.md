@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Cobertura da E3: Spore Creatures"
+title: "Cobertura da E3 2008: Spore Creatures"
 date: "2008-07-16 21:57"
 category: Spin-offs
 tags:
