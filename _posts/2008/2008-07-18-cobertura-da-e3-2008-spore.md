@@ -14,11 +14,11 @@ Esse post é reservado para centralizarmos todas as novidades reveladas da E3 so
 
 **Vídeos da demonstração:**
 
-<iframe src="http://widgets.ign.com/video/embed/content.html?url=https://www.ign.com/videos/2008/07/14/spore-pc-games-gameplay-do-the-evolution" width="468" height="263" scrolling="no" frameborder="0" allowfullscreen></iframe>
+<iframe src="//widgets.ign.com/video/embed/content.html?url=https://www.ign.com/videos/2008/07/14/spore-pc-games-gameplay-do-the-evolution" width="468" height="263" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
 **Entrevistas:**
 
-<iframe src="http://widgets.ign.com/video/embed/content.html?url=https://www.ign.com/videos/2008/07/17/spore-pc-games-interview-e3-2008-spore-interview" width="468" height="263" scrolling="no" frameborder="0" allowfullscreen></iframe>
+<iframe src="//widgets.ign.com/video/embed/content.html?url=https://www.ign.com/videos/2008/07/17/spore-pc-games-interview-e3-2008-spore-interview" width="468" height="263" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/gcJSmSMbZak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
