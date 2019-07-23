@@ -8,7 +8,7 @@ tags: Spore eventos E3 prêmios
 
 Spore já está recebendo os prêmios pela apresentação na E3 2008.
 
-A [IGN](http://pc.ign.com/articles/893/893894p1.html) deu o prêmio de Melhor Jogo de Estratégia:
+A [IGN](http://pc.ign.com/articles/893/893894p1.html) deu o prêmio de Melhor Jogo de Estratégia, o Prêmio Especial de Inovação e o Melhor Jogo para PC:
 
 > Em qualquer outro ano, Empire Total War ou Warhammer 40.000: Dawn of War II teriam levado esse prêmio com facilidade. Ambos são exemplos dos melhores desenvolvedores do gênero com seus melhores jogos. Empire finalmente vai permitir batalhas de grande escala vindas da série Total War, com cenas Napoleônicas tanto na terra quanto no mar. Dawn of War II traz toda a inovação dos desenvolvedores da Relic, e leva a franquia para novas direções empolgantes. Porém, 2008 é o ano de Spore, o esperado novo jogo de Will Wright, e o jogo que nos fascina de várias maneiras. Spore mistura tantas formas diferentes de jogabilidade, entre elas jogos arcade, estratégia em tempo real, jogos de ação e até mesmo simulação de cidades. E então existe a quantidade incrível de conteúdo gerado por usuário e a forma que ele é compartilhado entre todos que jogam. Em uma indústria que é feita de clones de sucessos, é seguro dizer que não há nada parecido com Spore, e é apenas um dos motivos que ele nos intriga.
 
