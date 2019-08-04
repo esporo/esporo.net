@@ -16,34 +16,35 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: hidden
+          element: "hidden"
           value: "post"
-      - name: title
+      - name: "title"
         field:
-          element: text
+          element: "text"
           value: ""
       - name: "tags"
         field:
-          element: multiselect
+          element: "multiselect"
           label: "Tags"
           options: "https://esporo.net/assets/lists/tags.jsonp?callback=tags"
-          alterable: true
+          alterable: "true"
       - name: "category"
         field:
-          element: select
+          element: "select"
           label: "Category"
           options: "https://esporo.net/assets/lists/categories.jsonp?callback=categories"
-          alterable: true
+          alterable: "true"
       - name: "sticky"
       	field:
-          element: checkbox
+          element: "checkbox"
           label: "Featured"
-          value: true
+          value: "true"
       - name: "image"
       	field:
           element: text
           label: "Cover Image"
           type: text
+          value: ""
       - name: "date"
         field:
           element: hidden
