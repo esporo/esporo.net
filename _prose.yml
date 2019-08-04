@@ -41,7 +41,7 @@ prose:
           value: true
       - name: "image"
       	field:
-          element: "image"
+          element: "text"
           label: "Cover Image"
       - name: "date"
         field:
