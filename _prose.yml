@@ -34,6 +34,15 @@ prose:
           label: "Category"
           options: "https://esporo.net/assets/lists/categories.jsonp?callback=categories"
           alterable: true
+      - name: "sticky"
+      	field:
+          element: "checkbox"
+          label: "Featured"
+          value: true
+      - name: "image"
+      	field:
+          element: "image"
+          label: "Cover Image"
       - name: "date"
         field:
           element: "hidden"
