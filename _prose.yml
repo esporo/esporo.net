@@ -2,15 +2,18 @@ prose:
   rooturl: "_posts"
   siteurl: "https://esporo.net/"
   relativeLinks: "https://esporo.net/assets/lists/posts.jsonp?callback=posts"
-  media: "assets/uploads/posts"
+  media: "/assets/uploads/prose"
   ignore:
     - index.html
-    - _pages/jogos.html
-    - _pages/noticias.html
+    - _config.yml
+    - _prose.yml
+    - arquivo.html
     - _layouts/
     - _locales/
     - _includes/
-    - _plugins
+    - _plugins/
+    - _pages/jogos.html
+    - _pages/noticias.html
     - _sass/
   metadata:
     _posts:
@@ -27,25 +30,23 @@ prose:
           element: "multiselect"
           label: "Tags"
           options: "https://esporo.net/assets/lists/tags.jsonp?callback=tags"
-          alterable: "true"
+          alterable: true
       - name: "category"
         field:
           element: "select"
           label: "Category"
           options: "https://esporo.net/assets/lists/categories.jsonp?callback=categories"
-          alterable: "true"
       - name: "sticky"
-      	field:
+        field:
           element: "checkbox"
-          label: "Featured"
-          value: "true"
+          label: "Sticky"
+          value: true
       - name: "image"
-      	field:
-          element: text
+        field:
+          element: "text"
           label: "Cover Image"
-          type: text
-          value: ""
+          type: "text"
       - name: "date"
         field:
-          element: hidden
+          element: "hidden"
           value: CURRENT_DATETIME
