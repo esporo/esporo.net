@@ -36,6 +36,7 @@ prose:
           element: "select"
           label: "Category"
           options: "https://esporo.net/assets/lists/categories.jsonp?callback=categories"
+          alterable: true
       - name: "sticky"
         field:
           element: "checkbox"
@@ -45,7 +46,7 @@ prose:
         field:
           element: "text"
           label: "Cover Image"
-          type: "text"
+          type: "image"
       - name: "date"
         field:
           element: "hidden"
