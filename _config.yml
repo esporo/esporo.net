@@ -35,6 +35,7 @@ permalink: "/:year/:month/:title/"
 
 include:
   - _pages
+  - _redirects
 
 plugins:
   - jekyll-feed
