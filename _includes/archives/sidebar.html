@@ -62,7 +62,7 @@
 
         {%- for tag in tags limit: 30 -%}
           {%- assign tag_slug = tag | first | slugify -%}
-          <a class="tag-link" href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag_slug | relative_url }}" style="font-size: 1.{{- tag | last | divided_by: 10 -}}em;">
+          <a class="tag-link" href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag_slug | relative_url }}" style="font-size: {{- tag | last | divided_by: 500.00 | plus: 1 | append: "em" -}};">
             <span class="tag-title">{{ tag | first }}</span>
 
             <span class="tag-count">({{ tag | last }})</span>
