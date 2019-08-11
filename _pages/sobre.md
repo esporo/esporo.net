@@ -28,7 +28,7 @@ O Esporo também está no [Twitter](https://twitter.com/esporo) e no [Facebook](
 
 O Esporo leva sua privacidade a sério. Utilizamos um serviço de estatísticas de acesso chamado [Gauges](https://gaug.es/), que interpreta apenas o tipo de informação que o seu navegador envia — coisas como resolução da tela, versão do navegador, sistema operacional e qual link o trouxe até esse site. Nós não coletamos o seu endereço de IP, apenas as informações de geolocalização oferecidas pelo seu sistema operacional. Essa informação é apagada regularmente, e apenas uma estatística é mantida. Nós tomamos precauções para que essa informação esteja sempre protegida.
 
-Você pode optar por bloquear o acesso do Pão com Mortadela à essas informações a qualquer momento. Em navegadores como o Safari e o Firefox, você pode ativar os controles de segurança na barra de endereço. Nós não temos informações de como fazer isso no Chrome.
+Você pode optar por bloquear o acesso do Esporo à essas informações a qualquer momento. Em navegadores como o Safari e o Firefox, você pode ativar os controles de segurança na barra de endereço. Nós não temos informações de como fazer isso no Chrome.
 
 Nós usamos essa informação apenas para entender que tipo de tecnologia nossos leitores usam e o tamanho de nossa audiência. Por exemplo, essa informação é útil na hora de desenvolver um novo recurso para o site e sabermos quais navegadores devem ser testados para atender senão toda, ao menos a maioria da audiência.
 
