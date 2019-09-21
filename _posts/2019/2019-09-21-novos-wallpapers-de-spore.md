@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "2019-09-21 16:13:16"
+date: "2019-09-21 16:13:16 -0300"
 title: Novos wallpapers de Spore!
 image: "/assets/images/wallpapers/tronnic/01.jpg"
 category: Spore
