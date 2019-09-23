@@ -26,13 +26,13 @@ Essa semana foram enviadas 2.974 novas criações para a Sporepédia, e 937 novo
 
 ### Novas criações no Esporocast
 
-Eu adicionei 11 novas criaturas no [Esporocast](https://www.spore.com/sporepedia#qry=ssc-501057576550), nosso sporecast colaborativo com as melhores criações da comunidade.
+Eu adicionei 11 novas criaturas no [Esporocast](http://www.spore.com/sporepedia#qry=ssc-501057576550), nosso sporecast colaborativo com as melhores criações da comunidade.
 
-[![Saber-Tooth Felyna por Python09](//static.spore.com/static/thumb/501/074/000/501074000708.png)](https://www.spore.com/sporepedia#qry=sast-501074000708%3Assc-501057576550) [![Lemonatt por Catherin3](//static.spore.com/static/thumb/501/073/999/501073999261.png)](https://www.spore.com/sporepedia#qry=sast-501073999261%3Assc-501057576550) [![Boomer por naegi](//static.spore.com/static/thumb/501/073/998/501073998756.png)](https://www.spore.com/sporepedia#qry=sast-501073998756%3Assc-501057576550) [![YFTD empire por Unholypimpin](//static.spore.com/static/thumb/501/073/998/501073998788.png)](https://www.spore.com/sporepedia#qry=sast-501073998788%3Assc-501057576550) [![Zentron por Finiburger](//static.spore.com/static/thumb/501/073/998/501073998276.png)](https://www.spore.com/sporepedia#qry=sast-501073998276%3Assc-501057576550) [![Cinder Elemental por schnautzr](//static.spore.com/static/thumb/501/073/997/501073997567.png)](https://www.spore.com/sporepedia#qry=sast-501073997567%3Assc-501057576550) [![Direhorn Keris'Lavem por VhouAtroph](//static.spore.com/static/thumb/501/073/997/501073997240.png)](https://www.spore.com/sporepedia#qry=sast-501073997240%3Assc-501057576550)
-[![СуперБудка por Twix24f](//static.spore.com/static/thumb/501/074/094/501074094676.png)](https://www.spore.com/sporepedia#qry=sast-501074094676%3Assc-501057576550)
-[![Eclanton por Ketrin95](//static.spore.com/static/thumb/501/074/094/501074094883.png)](https://www.spore.com/sporepedia#qry=sast-501074094883%3Assc-501057576550)
-[![BMO empire por gitany](//static.spore.com/static/thumb/501/074/095/501074095359.png)](https://www.spore.com/sporepedia#qry=sast-501074095359%3Assc-501057576550)
-[![Itsirorret - Laser Gun por Miikka64](//static.spore.com/static/thumb/501/074/093/501074093840.png)](https://www.spore.com/sporepedia#qry=sast-501074093840%3Assc-501057576550)
+[![Saber-Tooth Felyna por Python09](//static.spore.com/static/thumb/501/074/000/501074000708.png)](http://www.spore.com/sporepedia#qry=sast-501074000708%3Assc-501057576550) [![Lemonatt por Catherin3](http://static.spore.com/static/thumb/501/073/999/501073999261.png)](http://www.spore.com/sporepedia#qry=sast-501073999261%3Assc-501057576550) [![Boomer por naegi](http://static.spore.com/static/thumb/501/073/998/501073998756.png)](http://www.spore.com/sporepedia#qry=sast-501073998756%3Assc-501057576550) [![YFTD empire por Unholypimpin](http://static.spore.com/static/thumb/501/073/998/501073998788.png)](http://www.spore.com/sporepedia#qry=sast-501073998788%3Assc-501057576550) [![Zentron por Finiburger](http://static.spore.com/static/thumb/501/073/998/501073998276.png)](http://www.spore.com/sporepedia#qry=sast-501073998276%3Assc-501057576550) [![Cinder Elemental por schnautzr](http://static.spore.com/static/thumb/501/073/997/501073997567.png)](http://www.spore.com/sporepedia#qry=sast-501073997567%3Assc-501057576550) [![Direhorn Keris'Lavem por VhouAtroph](http://static.spore.com/static/thumb/501/073/997/501073997240.png)](http://www.spore.com/sporepedia#qry=sast-501073997240%3Assc-501057576550)
+[![СуперБудка por Twix24f](http://static.spore.com/static/thumb/501/074/094/501074094676.png)](http://www.spore.com/sporepedia#qry=sast-501074094676%3Assc-501057576550)
+[![Eclanton por Ketrin95](http://static.spore.com/static/thumb/501/074/094/501074094883.png)](http://www.spore.com/sporepedia#qry=sast-501074094883%3Assc-501057576550)
+[![BMO empire por gitany](http://static.spore.com/static/thumb/501/074/095/501074095359.png)](http://www.spore.com/sporepedia#qry=sast-501074095359%3Assc-501057576550)
+[![Itsirorret - Laser Gun por Miikka64](http://static.spore.com/static/thumb/501/074/093/501074093840.png)](http://www.spore.com/sporepedia#qry=sast-501074093840%3Assc-501057576550)
 
 Você pode sugerir quais criações serão adicionadas no Esporocast lá no [Fórum](https://forum.esporo.net/d/18-conheca-o-esporocast)!
 
@@ -40,8 +40,8 @@ Você pode sugerir quais criações serão adicionadas no Esporocast lá no [Fó
 
 Dois novos mods estão disponíveis. Os dois foram desenvolvidos por Vanillacold:
 
-- [Vehicle part clipping](https://davoonline.com/phpBB3/viewtopic.php?f=117&t=9397&p=36797#p36797): com esse mod você pode usar os eixos X e Y do Criador de Edifícios no Criador de Veículos.
-- [Advanced CE](https://davoonline.com/phpBB3/viewtopic.php?f=117&t=9400): com esse mod você pode usar o “movimento livre” no Criador de Criaturas, permitindo que partes não precisam estar conectadas ao corpo da sua criatura.
+- [Vehicle part clipping](http://davoonline.com/phpBB3/viewtopic.php?f=117&t=9397&p=36797#p36797): com esse mod você pode usar os eixos X e Y do Criador de Edifícios no Criador de Veículos.
+- [Advanced CE](http://davoonline.com/phpBB3/viewtopic.php?f=117&t=9400): com esse mod você pode usar o “movimento livre” no Criador de Criaturas, permitindo que partes não precisam estar conectadas ao corpo da sua criatura.
 
 Eu pretendo criar uma seção de mods na nossa página de Downloads para centralizar todos os mods nas próximas semanas! Eu só ando muito ocupado ultimamente :(
 
