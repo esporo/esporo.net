@@ -3,7 +3,7 @@ date: '2019-09-23 13:28 -0300'
 layout: post
 category: Spore
 sticky: false
-published: false
+published: true
 title: 'Essa semana em SPORE: estatísticas, criações em destaque e mods'
 tags:
   - Spore
