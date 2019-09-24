@@ -3,7 +3,7 @@ date: '2019-09-24 10:23 -0300'
 layout: post
 category: Spore
 sticky: false
-published: false
+published: true
 title: YouTuber recria o Estágio Aquático de SPORE como uma Aventura
 tags:
   - Spore
