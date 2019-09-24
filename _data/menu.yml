@@ -1,12 +1,12 @@
 - title: Notícias
   url: "/noticias/"
 
-- title: O que é Spore?
-  url: "/jogos/"
-
 - title: Fórum
   url: "https://forum.esporo.net/"
   external: true
+
+- title: O que é Spore?
+  url: "/jogos/"
 
 - title: Dicas e Truques
   url: "/guia/"
