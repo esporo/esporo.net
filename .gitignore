@@ -5,3 +5,6 @@ _site/
 _md-writer/
 _mdwriter.cson
 Gemfile.lock
+
+# Local Netlify folder
+.netlify
