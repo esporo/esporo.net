@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{- site.lang -}}">
-  {%- include_cached head.html -%}
+  {%- include head.html -%}
   <body>
 
     <div id="site" class="site-wrapper">
@@ -20,9 +20,6 @@
     {%- if content contains "data-gallery" or content contains "data-library-gallery" -%}
       <script type="text/javascript" src="{{ '/assets/js/flickity.js' | relative_url }}"></script>
       <script type="text/javascript" src="{{ '/assets/js/galleries.js' | relative_url }}"></script>
-    {%- endif -%}
-    {%- if content contains "data-comment-form" -%}
-      <script type="text/javascript" src="{{ '/assets/js/comments.js' | relative_url }}"></script>
     {%- endif -%}
     {%- if content contains "data-spore-stats" -%}
       <script type="text/javascript" src="{{ '/assets/js/stats.js' | relative_url }}"></script>
