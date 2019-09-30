@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{- site.lang -}}">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, viewport-fit=cover" />
-
-    {%- if page.title -%}
-      <title>{{ page.title }} – {{ site.title }}</title>
-    {%- else -%}
-      <title>{%- if site.tagline -%}{{ site.tagline }} – {% endif -%} {{ site.title }}</title>
-    {%- endif -%}
-
-    {%- seo title=false -%}
-
-    {%- if content contains "data-gallery" or content contains "data-library-gallery" -%}
-      <link rel="stylesheet" type="text/css" href="{{ '/assets/css/flickity.css' | relative_url }}" />
-    {%- endif -%}
-
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/site.css' | relative_url }}" />
-    {%- feed_meta -%}
-  </head>
+  {%- include head.html -%}
   <body>
 
     <div id="site" class="site-wrapper">
