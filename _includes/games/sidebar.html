@@ -1,41 +1,43 @@
+{%- assign game = include.game -%}
+
 <aside class="game-sidebar">
-  {%- if page.info.boxart -%}
+  {%- if game.info.boxart -%}
     <figure class="game-boxart">
-      <a href="{{ page.url }}" rel="bookmark">
-        <img src="{{ page.info.boxart }}" alt="Ilustração da caixa do jogo" />
+      <a href="{{ game.url }}" rel="bookmark">
+        <img src="{{ game.info.boxart }}" alt="Ilustração da caixa do jogo" />
       </a>
     </figure>
   {%- endif -%}
 
     <ul class="info-list">
-      {%- if page.info.status -%}
+      {%- if game.info.status -%}
         <li class="info status">
           <span class="info-prop">Status:</span>
-          <strong class="info-value">{{ page.info.status }}</strong>
+          <strong class="info-value">{{ game.info.status }}</strong>
         </li>
       {%- endif -%}
-      {%- if page.info.release -%}
+      {%- if game.info.release -%}
         <li class="info release-date">
           <span class="info-prop">Data de lançamento:</span>
-          <strong class="info-value">{{ page.info.release | localize: site.spark.date_format.day | downcase }}</strong>
+          <strong class="info-value">{{ game.info.release | localize: site.spark.date_format.day | downcase }}</strong>
         </li>
       {%- endif -%}
 
-      {%- if page.info.platforms -%}
+      {%- if game.info.platforms -%}
         <li class="info platforms">
           <span class="info-prop">Plataformas:</span>
-          <strong class="info-value">{{ page.info.platforms | join: ", " }}</strong>
+          <strong class="info-value">{{ game.info.platforms | join: ", " }}</strong>
         </li>
       {%- endif -%}
 
-      {%- if page.info.rating -%}
+      {%- if game.info.rating -%}
         <li class="info rating">
           <span class="info-prop">Classificação:</span>
           <strong class="info-value">
-            {%- if page.info.rating == 0 -%}
+            {%- if game.info.rating == 0 -%}
               Livre para todos os públicos
             {%- else -%}
-              Não recomendado para menores de {{ page.info.rating }} anos
+              Não recomendado para menores de {{ game.info.rating }} anos
             {%- endif -%}
           </strong>
         </li>
@@ -43,7 +45,7 @@
     </ul>
 
     <nav class="game-links">
-      {%- for link in page.links -%}
+      {%- for link in game.links -%}
         <a class="game-link {{ link | first }}" href="{{ link | last }}" rel="external">
           {%- if link[0] == 'forum' -%}
             <svg class="svg-icon" role="presentation">

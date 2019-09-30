@@ -16,9 +16,9 @@ layout: default
 
       {% for post in home_posts limit: 11 %}
         {%- if forloop.first -%}
-          {%- include_cached archives/post.html -%}
+          {%- include_cached archives/post.html post=post -%}
         {%- else -%}
-          {%- include_cached archives/post.html hide_contents=true -%}
+          {%- include_cached archives/post.html post=post hide_contents=true -%}
         {%- endif -%}
       {% endfor %}
 
@@ -31,6 +31,6 @@ layout: default
       {%- endif -%}
     </div>
 
-    {%- include_cached archives/sidebar.html -%}
+    {%- include_cached archives/sidebar.html post=post -%}
   </div>
 {%- endif -%}

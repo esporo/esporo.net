@@ -1,5 +1,7 @@
 {%- if include.featured -%}
   {%- assign post = featured_post -%}
+{%- else -%}
+  {%- assign post = include.post -%}
 {%- endif -%}
 
 <article class="content post post-loop">
