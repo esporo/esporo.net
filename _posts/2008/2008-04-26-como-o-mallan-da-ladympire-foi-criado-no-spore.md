@@ -12,10 +12,10 @@ Hoje mais cedo, a Maxis enviou uma newsletter sobre como as criaturas de fãs fo
 
 > Para participar eu tive que assinar um formulário permitindo que eles usassem a minha criatura de qualquer maneira que eles quisessem. Eu estava muito empolgada e assinei na hora, enviei para eles por FAX e comecei a esperar. Nós não podíamos falar sobre isso até que as criaturas fossem divulgadas no site oficial. Agora o Spore.com exibe o desenho original da minha criatura com a criatura que foi criada no Spore, com comentários da desenvolvedora.
 
-![Desenho de uma criatura com pés e cauda de anfíbios, e uma pinça superior que sai da testa](/assets/uploads/2019/06/recreation_3.jpg)
+![Desenho de uma criatura com pés e cauda de anfíbios, e uma pinça superior que sai da testa](/uploads/2019/06/recreation_3.jpg)
 _O Mallen original._
 
-![Mesma criatura da imagem anterior, mas agora em um modelo 3D criado em Spore](/assets/uploads/2019/06/recreation_4.jpg)
+![Mesma criatura da imagem anterior, mas agora em um modelo 3D criado em Spore](/uploads/2019/06/recreation_4.jpg)
 _O Mallen feito por Kate Compton em Spore._
 
 É muito bacana. A desenvolvedora também compartilhou um pouco da experiência sobre como foi criar essa criatura:

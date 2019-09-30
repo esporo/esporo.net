@@ -11,7 +11,7 @@ tags:
 
 O pessoal do [TerraSpore](http://terraspore.com/) encontrou algumas informações a mais da edição limitada da Prima Games. Na verdade, não é uma versão limitada _do jogo_, e sim do guia do jogo (dã, eu devia ter pensado nisso).
 
-![Capa do guia especial de Spore](/assets/uploads/2019/06/prima-premium-guide.jpg)
+![Capa do guia especial de Spore](/uploads/2019/06/prima-premium-guide.jpg)
 
 **Detalhes:**
 

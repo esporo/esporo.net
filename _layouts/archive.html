@@ -34,7 +34,7 @@ layout: blog
   <div class="archive-content">
     {%- if page.posts -%}
       {%- for post in page.posts -%}
-        {%- include archives/post.html hide_contents=true -%}
+        {%- include_cached archives/post.html hide_contents=true -%}
       {%- endfor -%}
     {%- else -%}
       <h3>Nenhum post encontrado.</h3>

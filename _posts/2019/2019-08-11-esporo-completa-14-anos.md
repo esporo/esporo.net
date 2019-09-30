@@ -3,7 +3,7 @@ layout: post
 title: Esporo completa 14 anos
 date: '2019-08-11 10:05 -0300'
 sticky: true
-image: /assets/uploads/2019/08/esporo14.jpg
+image: /uploads/2019/08/esporo14.jpg
 category: Esporo
 tags:
   - meta

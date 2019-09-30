@@ -10,7 +10,7 @@ Os arquivos disponíveis aqui são instaladores para a versão em disco do Spore
 
 **Nota: Você precisará de um aplicativo como o [7-Zip](https://www.7-zip.org) para descompactar os instaladores.**
 
----
+***
 
 ## Patch 1
 
@@ -58,12 +58,12 @@ O objetivo deste patch é corrigir alguns bugs que foram relatados pelos jogador
 - Foi corrigido um problema que fazia que nem todos os membros da tribo obedecessem à ordem de ataque quando essa era dada a um grupo grande de criaturas.
 - Foi corrigido um problema que fazia que o menu principal fosse apagado quando uma criação pertencente a algum de seus outros jogos salvos fosse banida.
 
----
+***
 
 ## Patch 2
 [{% octicon cloud-download %} Patch 1.02 `(TAR 94.73mb)`](https://cloudup.com/files/i3uE8mRkTXI/download)
 
-<img src="/assets/uploads/2019/07/patch2.png" align="right" alt="Ilustração de uma criatura" role="presentation" />
+<img src="/uploads/2019/07/patch2.png" align="right" alt="Ilustração de uma criatura" role="presentation" />
 
 
 Instalar o Patch 2 fará que todas as adições inclusas no Patch 1 também sejam aplicadas. Este patch pode ser instalado sem o Patch 1.
@@ -112,7 +112,7 @@ Instalar o Patch 2 fará que todas as adições inclusas no Patch 1 também seja
 - Correção para um problema que ocorria durante a transição do estágio Tribal para o estágio de Civilização.
 - A Realização “Bebê Feio!” foi descartada.
 
----
+***
 
 ### Patch 3
 
@@ -120,7 +120,7 @@ Instalar o Patch 2 fará que todas as adições inclusas no Patch 1 também seja
 
 Como agradecimento, a Maxis oferece gratuitamente algumas partes para o Criador de Criaturas. Nós criamos 24 novos membros do exoesqueleto!
 
-![Referência de todos os novos membros de exoesqueleto adicionados no patch.](/assets/uploads/2019/07/freelimbs.png)
+![Referência de todos os novos membros de exoesqueleto adicionados no patch.](/uploads/2019/07/freelimbs.png)
 
 Você pode combiná-los com itens do [pacote de partes Medonhas & Fofinhas](/jogos/spore-medonhas-e-fofinhas/) para criar novas criaturas sensacionais.
 
@@ -130,13 +130,13 @@ Você pode combiná-los com itens do [pacote de partes Medonhas & Fofinhas](/jog
 - Foi corrigido um erro em que se visualizavam os cenários do criador nos pequenos cartões da Sporepédia
 - Atualização para manter as atividades do servidor em sincronia com as evoluções no jogo.
 
----
+***
 
 ## Patch 4
 
 [{% octicon cloud-download %} Patch 1.04 `(TAR 80.5mb)`](https://cloudup.com/files/iUF7LikVqKM/download)
 
-<img alt="Exemplo de criatura feita fora do limite de complexidade." src="/assets/uploads/2019/07/patch4.png" align="right" role="presentation" />
+<img alt="Exemplo de criatura feita fora do limite de complexidade." src="/uploads/2019/07/patch4.png" align="right" role="presentation" />
 
 ### Correções
 
@@ -152,13 +152,13 @@ Você pode combiná-los com itens do [pacote de partes Medonhas & Fofinhas](/jog
 - Permite o download de criações do site diretamente para o jogo.
 - Filmes são publicados no YouTube como particulares.
 
----
+***
 
 ## Patch 5
 
 [{% octicon cloud-download %} Patch 1.05 `(TAR 145.55mb)`](https://cloudup.com/files/i5mdNFqt4Q6/download)
 
-<img alt="Criatura com três cabeças diferentes, um exemplo de como criaturas assimétricas podem ser criadas a partir desse patch" src="/assets/uploads/2019/07/patch5.png" align="right" role="presentation" />
+<img alt="Criatura com três cabeças diferentes, um exemplo de como criaturas assimétricas podem ser criadas a partir desse patch" src="/uploads/2019/07/patch5.png" align="right" role="presentation" />
 
 ### Correções no [Spore](/jogos/spore/)
 
@@ -180,7 +180,7 @@ Você pode combiná-los com itens do [pacote de partes Medonhas & Fofinhas](/jog
 - Foi reparado um problema com portões, por meio do qual portões abertos recebiam o impulso físico incorreto.
 - Alguns travamentos relatados pelos jogadores em Aventuras Galácticas foram eliminados.
 
----
+***
 
 ## Patch 5.1
 

@@ -2,7 +2,7 @@ prose:
   rooturl: "_posts"
   siteurl: "https://esporo.net/"
   relativeLinks: "https://esporo.net/assets/lists/posts.jsonp?callback=posts"
-  media: "/assets/uploads/prose"
+  media: "/uploads/prose"
   ignore:
     - index.html
     - _config.yml

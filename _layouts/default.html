@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{- site.lang -}}">
-  {%- include head.html -%}
+  {%- include_cached head.html -%}
   <body>
 
     <div id="site" class="site-wrapper">
-      {%- include header.html -%}
+      {%- include_cached header.html -%}
 
       <main class="site-content">
         {{- content -}}
       </main>
 
-      {%- include footer.html -%}
+      {%- include_cached footer.html -%}
     </div>
 
     <script type="text/javascript" src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
@@ -28,7 +28,7 @@
       <script type="text/javascript" src="{{ '/assets/js/stats.js' | relative_url }}"></script>
     {%- endif -%}
     {%- if jekyll.environment == "production" -%}
-      {%- include analytics.html -%}
+      {%- include_cached analytics.html -%}
     {%- endif -%}
   </body>
 </html>

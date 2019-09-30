@@ -26,7 +26,7 @@ Esse post é reservado para centralizarmos todas as novidades reveladas da E3 so
 
 **Novas imagens:**
 
-{%- include gallery.html folder="images/games/spore/gallery" -%}
+{%- include_cached gallery.html folder="images/games/spore/gallery" -%}
 
 **Prévias e artigos:**
 

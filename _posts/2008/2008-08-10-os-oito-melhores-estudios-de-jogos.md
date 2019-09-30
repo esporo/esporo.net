@@ -10,7 +10,7 @@ O site GamePro fez uma lista com os oito melhores estúdios de desenvolvimento d
 
 [GamePro](http://www.gamepro.com/gamepro/international/games/features/206401.shtml):
 
-> ![Prédio do estúdio em Emeryville, Califórnia](/assets/uploads/2019/07/maxis.jpg)
+> ![Prédio do estúdio em Emeryville, Califórnia](/uploads/2019/07/maxis.jpg)
 >
 > **Maxis Software**  
 > Fundada em: 1987  

@@ -12,7 +12,7 @@ tags:
 
 A Electronic Arts anunciou hoje que a Sporepédia conseguiu mais um grande feito: em menos de uma semana no ar, o catálogo de criações do Spore já atingiu a marca de um milhão de criaturas enviadas para os servidores pelo Criador de Criaturas:
 
-![A milionésima criatura de Spore](/assets/uploads/2019/07/172809-millionth_dude011.jpg)
+![A milionésima criatura de Spore](/uploads/2019/07/172809-millionth_dude011.jpg)
 
 A milionésima criatura é **Sapiusgeenus**, criada pelo usuário FlamingChidori. Você pode [baixar ela aqui](http://www.spore.com/sporepedia#qry=usr-FlamingChidori%7C2263522171%3Asast-500003165469).
 

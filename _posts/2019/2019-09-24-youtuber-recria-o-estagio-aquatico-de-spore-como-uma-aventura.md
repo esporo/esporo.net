@@ -12,7 +12,7 @@ tags:
   - downloads
   - Aventuras Galácticas
   - aventuras
-image: /assets/uploads/prose/darkedgetv-aquatic-stage.jpg
+image: /uploads/prose/darkedgetv-aquatic-stage.jpg
 ---
 [Rebecca1208](https://www.spore.com/view/myspore/Rebecca1208), uma das maiores YouTubers de SPORE (e criadora de criações fantásticas lá na Sporepédia), fez um projeto muito bacana nos últimos meses: ela tentou recriar o Estágio Aquático de SPORE, que foi removido lá por 2006 e 2007 mas que existiu [nas primeiras demonstrações do jogo]({%- post_url 2005/2005-08-11-video-da-apresentacao-de-spore-na-gdc-2005 -%}). Rebecca criou uma playlist no YouTube com todo o processo de criação e é excelente assistir e ver o poder do Criador de Aventuras em ação:
 

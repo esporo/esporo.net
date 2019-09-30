@@ -10,7 +10,7 @@ layout: default
   {%- endif -%}
 
   <div class="game-container">
-    {% include games/sidebar.html %}
+    {% include_cached games/sidebar.html %}
 
     <div class="game-page">
       <header class="content-header">
@@ -37,7 +37,7 @@ layout: default
           <aside class="game-images">
             <h3>Galeria de imagens</h3>
 
-            {%- include gallery.html folder=page.media.gallery -%}
+            {%- include_cached gallery.html folder=page.media.gallery -%}
           </aside>
         {%- endif -%}
 

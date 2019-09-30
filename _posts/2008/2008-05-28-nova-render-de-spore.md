@@ -8,4 +8,4 @@ tags: Spore imagens renders
 
 Essa criatura parece o Yoshi!
 
-![Renderização de uma criatura que parece os Koopas, as tartarugas inimigas do Super Mario.](/assets/uploads/2019/06/spore_koopa.jpg)
+![Renderização de uma criatura que parece os Koopas, as tartarugas inimigas do Super Mario.](/uploads/2019/06/spore_koopa.jpg)

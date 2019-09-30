@@ -16,4 +16,4 @@ A Maxis divulgou mais informações do estágio tribal, incluindo o trailer, a d
 
 Nós também atualizamos a nossa galeria de imagens:
 
-{%- include gallery.html folder="assets/images/games/spore/gallery" -%}
+{%- include_cached gallery.html folder="assets/images/games/spore/gallery" -%}

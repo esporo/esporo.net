@@ -16,6 +16,6 @@ permalink: "/noticias/"
 
   {%- assign this_date = current_month -%}
 
-  {%- include archives/post.html hide_contents=true -%}
+  {%- include_cached archives/post.html hide_contents=true -%}
 
 {%- endfor -%}

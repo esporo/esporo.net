@@ -8,4 +8,4 @@ tags: Spore humor
 
 Me enviaram por email, acho que o pessoal aqui vai gostar:
 
-![Tirinha “Spore Monster”](/assets/uploads/2019/06/spore_comic.jpg)
+![Tirinha “Spore Monster”](/uploads/2019/06/spore_comic.jpg)

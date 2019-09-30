@@ -19,7 +19,7 @@ Os arquivos disponíveis aqui são instaladores para a versão em disco do Criad
 
 [{% octicon cloud-download %} Patch 1 (Completo) `(TAR 85.34mb)`](https://cloudup.com/files/id8sYd64t09/download)
 
-<img src="/assets/uploads/2019/07/patch2.png" align="right" alt="Ilustração de uma criatura" role="presentation" />
+<img src="/uploads/2019/07/patch2.png" align="right" alt="Ilustração de uma criatura" role="presentation" />
 
 ### Correções
 
@@ -45,7 +45,7 @@ Os arquivos disponíveis aqui são instaladores para a versão em disco do Criad
 
 Como agradecimento, a Maxis oferece gratuitamente algumas partes para o Criador de Criaturas. Nós criamos 24 novos membros do exoesqueleto!
 
-![Referência de todos os novos membros de exoesqueleto adicionados no patch.](/assets/uploads/2019/07/freelimbs.png)
+![Referência de todos os novos membros de exoesqueleto adicionados no patch.](/uploads/2019/07/freelimbs.png)
 
 Você pode combiná-los com itens do [pacote de partes Medonhas & Fofinhas](/jogos/spore-medonhas-e-fofinhas/) para criar novas criaturas sensacionais.
 

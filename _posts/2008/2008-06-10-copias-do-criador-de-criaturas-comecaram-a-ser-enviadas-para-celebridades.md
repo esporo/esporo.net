@@ -10,7 +10,7 @@ tags:
 
 Alguns sites de notícia começaram a receber as cópias do Criador de Criaturas do Spore. Sabemos que o [Laughing Squid](http://laughingsquid.com/spore-creature-creator-sporelebrity-contest/) já recebeu o seu, e divulgou a imagem do disco:
 
-![Disco do Criador de Criaturas](/assets/uploads/2019/06/cc-disc.jpg)
+![Disco do Criador de Criaturas](/uploads/2019/06/cc-disc.jpg)
 
 A EA Brasil e a Maxis ainda não divulgaram se cópias do Criador de Criaturas vão ser enviadas para os fã-sites.
 

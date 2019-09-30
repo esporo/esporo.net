@@ -10,4 +10,4 @@ tags:
 
 A loja online GameStop divulgou a arte da caixa do jogo Spore Creatures para Nintendo DS:
 
-![Caixa do jogo Spore Creatures para Nintendo DS](/assets/uploads/2019/06/hNRHj9v.jpg)
+![Caixa do jogo Spore Creatures para Nintendo DS](/uploads/2019/06/hNRHj9v.jpg)

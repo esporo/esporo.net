@@ -38,12 +38,20 @@ include:
   - _redirects
   - _headers
 
+keep_files:
+  - uploads
+  - assets/fonts
+  - assets/icons
+  - assets/images
+  - assets/js
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-octicons
+  - jekyll-include-cache
 
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
@@ -83,14 +91,3 @@ defaults:
       type: "games"
     values:
       layout: "game"
-
-jekyll_compose:
-  auto_open: true
-  draft_default_front_matter:
-    layout: post
-    category: Spore
-    tags:
-  post_default_front_matter:
-    layout: post
-    category: Spore
-    tags:

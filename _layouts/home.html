@@ -6,7 +6,7 @@ layout: default
 
   {%- if featured_post -%}
     <div class="featured-post">
-      {%- include archives/post.html featured=true -%}
+      {%- include_cached archives/post.html featured=true -%}
     </div>
   {%- endif -%}
 
@@ -16,9 +16,9 @@ layout: default
 
       {% for post in home_posts limit: 11 %}
         {%- if forloop.first -%}
-          {%- include archives/post.html -%}
+          {%- include_cached archives/post.html -%}
         {%- else -%}
-          {%- include archives/post.html hide_contents=true -%}
+          {%- include_cached archives/post.html hide_contents=true -%}
         {%- endif -%}
       {% endfor %}
 
@@ -31,6 +31,6 @@ layout: default
       {%- endif -%}
     </div>
 
-    {%- include archives/sidebar.html -%}
+    {%- include_cached archives/sidebar.html -%}
   </div>
 {%- endif -%}

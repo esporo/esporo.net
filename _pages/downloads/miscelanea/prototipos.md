@@ -14,7 +14,7 @@ Durante o desenvolvimento de Spore diversos protótipos foram desenvolvidos para
 
 [{% octicon cloud-download %} Cell Culture `(TAR 165.78kb)`](https://cloudup.com/files/isvl0SvsTc5/download)
 
-<img alt="Globo pontilhado com representações celulares" src="/assets/uploads/2019/07/cellculture.jpg" align="center" role="presentation" />
+<img alt="Globo pontilhado com representações celulares" src="/uploads/2019/07/cellculture.jpg" align="center" role="presentation" />
 
 O Cultura Celular é uma simulação de propagação de vida e cultura por uma superfície planetária no estilo SimCity.
 
@@ -28,7 +28,7 @@ A vida se desenvolve e se espalha de célula para célula de acordo com essas va
 
 [{% octicon cloud-download %} City Maze `(TAR 183.95kb)`](https://cloudup.com/files/i5BzD_KN9N0/download)
 
-<img alt="Globo pontilhado com representações celulares" src="/assets/uploads/2019/07/citymaze.jpg" align="center" role="presentation" />
+<img alt="Globo pontilhado com representações celulares" src="/uploads/2019/07/citymaze.jpg" align="center" role="presentation" />
 
 O Labirinto Urbano é um protótipo de simulador de cidades baseado em agentes. O jogador controla uma cidade povoada por criaturas Sim.
 
@@ -42,7 +42,7 @@ Felizes, seguros e descansados, as criaturas se multiplicarão e produzirão mai
 
 [{% octicon cloud-download %} BIOME `(TAR 181.06kb)`](https://cloudup.com/files/iIOUXjHJp2A/download)
 
-<img alt="Representação de uma galáxia feita com o BIOME" src="/assets/uploads/2019/07/biome.jpg" align="center" role="presentation" />
+<img alt="Representação de uma galáxia feita com o BIOME" src="/uploads/2019/07/biome.jpg" align="center" role="presentation" />
 
 O BIOMA é um simulador de automação celular programável que permite aos jogadores desenvolverem simulações em matriz simples do tipo SimCity.
 
@@ -60,7 +60,7 @@ O BIOMA suporta configurações de automação celular retangulares e em espirai
 
 [{% octicon cloud-download %} ParticleMan `(TAR 208.84kb)`](https://cloudup.com/files/iNaTr6qrblG/download)
 
-<img alt="Distribuição de partículas em um gráfico tridimensional" src="/assets/uploads/2019/07/particleman.jpg" align="center" role="presentation" />
+<img alt="Distribuição de partículas em um gráfico tridimensional" src="/uploads/2019/07/particleman.jpg" align="center" role="presentation" />
 
 O Homem-Partícula simula a atração gravitacional entre as partículas de uma nuvem. Foi usado para estudar a dinâmica gravitacional de sistemas, como órbitas, e a formação de galáxias e estrelas, bem como os fluxos de partículas de fontes, como pulsares e buracos negros.
 
@@ -83,7 +83,7 @@ Divirta-se brincando com os controles de física para criar diferentes tipos de 
 
 [{% octicon cloud-download %} Space `(TAR 18.1mb)`](https://cloudup.com/files/iWk8Gdh9JRd/download)
 
-<img alt="Representação de uma galáxia onde as estrelas são pontos coloridos" src="/assets/uploads/2019/07/space.jpg" align="center" role="presentation" />
+<img alt="Representação de uma galáxia onde as estrelas são pontos coloridos" src="/uploads/2019/07/space.jpg" align="center" role="presentation" />
 
 O jogador explora uma galáxia de estrelas com sua espaçonave, descobrindo novos mundos para terraformar e colonizar, além de encontrar espécies alienígenas com as quais pode fazer amizade ou entrar em guerra.
 
@@ -95,7 +95,7 @@ Colônias bem-sucedidas proporcionam mais recursos e renda para o jogador, que p
 
 [{% octicon cloud-download %} SPUG `(TAR 210.34kb)`](https://cloudup.com/files/i0wOQQu023q/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/spug.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/spug.jpg" align="center" role="presentation" />
 
 O SPUG é um protótipo de jogabilidade para o estágio de Criatura do Spore.
 
@@ -109,7 +109,7 @@ Não há nenhuma limitação para o desenvolvimento de habilidades, mesmo que se
 
 [{% octicon cloud-download %} Crowd `(TAR 374.9kb)`](https://cloudup.com/files/i7nWfG1htGg/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/crowd.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/crowd.jpg" align="center" role="presentation" />
 
 O Crowd é um protótipo do SimCity 4, desenvolvido pela equipe de protótipos do Spore.
 
@@ -123,7 +123,7 @@ O jogador pode zonear os quarteirões não-zoneados (em cinza) para atrair sims 
 
 [{% octicon cloud-download %} Gaslight `(TAR 213.63kb)`](https://cloudup.com/files/iZqDgdz3rhN/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/gaslight.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/gaslight.jpg" align="center" role="presentation" />
 
 O Gaslight simula um processo chamado estocástica, uma formação estelar autopropagada (SSPSF).
 
@@ -137,7 +137,7 @@ Quando a estrela se incendeia, aquece o material ao redor, que se afasta da estr
 
 [{% octicon cloud-download %} NetCity `(TAR 259.14kb)`](https://cloudup.com/files/igQAviU-a1t/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/netcity.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/netcity.jpg" align="center" role="presentation" />
 
 O NetCity é um simulador programável usado para explorar a evolução de comportamento complexo de componentes simples.
 
@@ -152,7 +152,7 @@ O NetCity foi inspirado pelo Soda Constructor ([sodaplay.com](http://sodaplay.co
 
 [{% octicon cloud-download %} GozangoGL `(TAR 45.1mb)`](https://cloudup.com/files/iG68jNR7IMJ/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/gozango.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/gozango.jpg" align="center" role="presentation" />
 
 GonzagoGL é um protótipo do jogo de Criaturas Spore, baseado no OpenGL.
 
@@ -166,7 +166,7 @@ GonzagoGL foi o protótipo final de jogabilidade desenvolvido para o Spore.
 
 [{% octicon cloud-download %} WaterBoy `(TAR 3.52mb)`](https://cloudup.com/files/ifvKfb27vPF/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/waterboy.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/waterboy.jpg" align="center" role="presentation" />
 
 Waterboy é um simulador de dinâmica de fluidos criado para explorar o comportamento de grandes massas de água em terrenos não-uniformes.
 
@@ -178,7 +178,7 @@ Desenvolvido em 2002, o Waterboy também demonstra a aplicação inicial da tecn
 
 [{% octicon cloud-download %} Tidepool `(TAR 204.89kb)`](https://cloudup.com/files/inhX-6uFCc9/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/tidepool.jpg" align="center" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/tidepool.jpg" align="center" role="presentation" />
 
 A Poça Primordial representa nossos primeiros passos na direção de sintetizar nossas idéias em um jogo de verdade.
 
@@ -192,7 +192,7 @@ A Poça Primordial combina uma simulação de incêndio florestal do BIOMA com a
 
 [{% octicon cloud-download %} Texture_Box `(TAR 133.95kb)`](https://cloudup.com/files/iQ7Ybaz2eHD/download)
 
-<img alt="Imagem do protótipo" src="/assets/uploads/2019/07/texturebox.jpg" align="right" role="presentation" />
+<img alt="Imagem do protótipo" src="/uploads/2019/07/texturebox.jpg" align="right" role="presentation" />
 
 TextureBox demonstra a aplicação de um simples programa de pintura de estilos em sistemas de células dinâmicas, como o BIOMA ou o Cultura Celular.
 

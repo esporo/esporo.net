@@ -8,7 +8,7 @@ tags:
   - Edição Galáctica
 ---
 
-![Caixa da Versão Galáctica](/assets/uploads/2019/07/21384350_41.jpg)
+![Caixa da Versão Galáctica](/uploads/2019/07/21384350_41.jpg)
 
 A FNAC começou hoje a pré-venda de Spore por R$139,90!
 
