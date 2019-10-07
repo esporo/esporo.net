@@ -18,4 +18,6 @@ Segundo um tuíte da Ajuda da EA, esse é um problema geral nos servidores da em
 
 Não é possível fazer login através do site da EA nem da Ajuda da EA também. Vou atualizar esse post assim que tivermos atualizações sobre o que está acontecendo.
 
+**Atualizado (20h21):** os serviços já voltaram a funcionar para Spore e Spore.com.
+
 Em outras notícias: devido a esse problema, eu vou mudar o resumo semanal de Spore para as sextas-feiras! Nos vemos lá.
