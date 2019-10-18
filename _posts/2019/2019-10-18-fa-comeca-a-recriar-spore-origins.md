@@ -2,7 +2,7 @@
 date: '2019-10-18 15:16 -0300'
 layout: post
 category: Spin-offs
-sticky: true
+sticky: false
 published: true
 title: Fã começa a recriar SPORE ORIGINS
 tags:
