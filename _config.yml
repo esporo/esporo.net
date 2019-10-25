@@ -12,6 +12,7 @@ email: spark@esporo.net
 url: "https://esporo.net"
 baseurl: ""
 
+# Content settings
 spark:
   date_format:
     day: "%d de %B de %Y"
@@ -31,6 +32,21 @@ collections:
     output: true
     permalink: "/jogos/:title/"
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "gaboo"
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "game"
+      
+# Build Settings
+incremental: true
 permalink: "/:year/:month/:title/"
 
 include:
@@ -53,6 +69,7 @@ plugins:
   - jekyll-octicons
   - jekyll-include-cache
 
+# SEO
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
 twitter:
@@ -66,28 +83,12 @@ social:
     - https://www.youtube.com/user/esporotv
     - https://www.facebook.com/esporo
 
+# Archives
 jekyll-archives:
   enabled:
-    - year
-    - month
     - categories
     - tags
   layout: "archive"
   permalinks:
-    year: "/:year/"
-    month: "/:year/:month/"
     category: "/categorias/:name/"
     tag: "/tags/:name/"
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "gaboo"
-  - scope:
-      path: ""
-      type: "games"
-    values:
-      layout: "game"
