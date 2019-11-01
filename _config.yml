@@ -46,7 +46,6 @@ defaults:
       layout: "game"
       
 # Build Settings
-incremental: true
 permalink: "/:year/:month/:title/"
 
 include:
