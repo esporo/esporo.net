@@ -7,7 +7,7 @@ tags:
   - Spore
   - Sporum
   - status de serviço
-  - recursos online
+  - serviços online
 ---
 
 Em [um post no Sporum](http://forum.spore.com/jforum/posts/list/83747.page#3976965), MaxisBazajaytee, o operador de serviços da Maxis, ofereceu uma atualização quanto à migração dos datacenters de Spore.
