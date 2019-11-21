@@ -39,11 +39,10 @@ prose:
           alterable: true
       - name: "sticky"
         field:
-          element: "button"
+          element: "checkbox"
           label: "Post em Destaque"
           help: "Posts destacados aparecem no topo da página inicial"
-          on: true
-          off: false
+          value: false
       - name: "image"
         field:
           element: "text"
