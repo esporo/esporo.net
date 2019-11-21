@@ -4,7 +4,7 @@ category: Maxis
 sticky: false
 date: '2008-08-12 09:23 -0300'
 author: gaboo
-published: false
+published: true
 title: Will Wright explica o Programa Espacial Soviético
 tags:
   - Will Wright
