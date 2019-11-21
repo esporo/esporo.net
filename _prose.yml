@@ -34,20 +34,33 @@ prose:
       - name: "category"
         field:
           element: "select"
-          label: "Category"
+          label: "Categoria"
           options: "https://esporo.net/assets/lists/categories.jsonp?callback=categories"
           alterable: true
       - name: "sticky"
         field:
-          element: "checkbox"
-          label: "Sticky"
-          value: false
+          element: "button"
+          label: "Post em Destaque"
+          help: "Posts destacados aparecem no topo da página inicial"
+          on: true
+          off: false
       - name: "image"
         field:
           element: "text"
-          label: "Cover Image"
+          label: "Imagem de Capa"
           type: "image"
       - name: "date"
         field:
           element: "text"
+          label: "Data"
           value: CURRENT_DATETIME
+      - name: "author"
+        field:
+          element: "select"
+          label: "Autor"
+          options:
+            - name: "Gaboo"
+              value: "gaboo"
+            - name: "Equipe Esporo"
+              value: "esporo"
+          
