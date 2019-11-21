@@ -41,7 +41,7 @@ prose:
         field:
           element: "checkbox"
           label: "Sticky"
-          value: true
+          value: false
       - name: "image"
         field:
           element: "text"
@@ -49,5 +49,5 @@ prose:
           type: "image"
       - name: "date"
         field:
-          element: "hidden"
+          element: "text"
           value: CURRENT_DATETIME
