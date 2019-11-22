@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "2019-11-22 15:00:00 -0300"
+date: "2019-11-22 15:16:00 -0300"
 title: "Essa semana em SPORE: 16 a 22 de novembro"
 image: "/uploads/2019/11/21/resumo.jpg"
 category: Spore
