@@ -20,10 +20,10 @@ Nenhum mod novo por enquanto, mas uma enxurrada de pedidos por novos mods aparec
 
 ### Estatísticas do jogo
 
-A Sporepédia alcançou um total de {TOTAL_ASSETS} criações e {TOTAL_USERS} usuários.
+A Sporepédia alcançou um total de 190.550.604 criações e 5.291.557 usuários.
 
-- **Criações enviadas na última semana:** {ASSETS_DIFF}
-- **Usuários novos na última semana:** {USERS_DIFF}
+- **Criações enviadas na última semana:** 4.281
+- **Usuários novos na última semana:** 1.248
 
 ***
 
