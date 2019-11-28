@@ -4,6 +4,7 @@ date: "2019-11-27 22:16:00 -0300"
 title: Spore com desconto na Steam e na Origin
 category: Spore
 image: "/uploads/2019/11/27/promocao-primavera-2019.jpg"
+sticky: true
 tags:
   - Spore
   - Medonhas & Fofinhas
