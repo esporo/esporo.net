@@ -67,6 +67,7 @@ plugins:
   - jekyll-archives
   - jekyll-octicons
   - jekyll-include-cache
+  - jekyll-compose
 
 # SEO
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
