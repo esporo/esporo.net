@@ -1,20 +1,21 @@
 ---
 layout: post
-date: "2019-11-29 07:48:00 -0300"
-title: "Essa semana em SPORE: 23 a 29 de novembro"
-image: "/uploads/2019/11/28/resumo.jpg"
+date: '2019-11-29 07:48:00 -0300'
+title: 'Essa semana em SPORE: 23 a 29 de novembro'
+image: /uploads/2019/11/28/resumo.jpg
 category: Spore
 tags:
   - Spore
   - mods
   - Esporocast
+published: true
+sticky: false
+author: gaboo
 ---
 
 _**Essa semana em SPORE** é um resumo das novidades da comunidade do jogo nos últimos dias, com links para novos mods e conteúdos bacanas, uma olhada nas estatísticas do jogo e uma atualização no Esporocast, nossa coleção de criações em destaque._
 
 ## Novos mods
-
-- [{Mod}]({Link}): descrição do mod.
 
 - [Challenging tribal stage](http://www.davoonline.com/phpBB3/viewtopic.php?f=121&t=9465): torna o estágio tribal bem mais difícil. Inclui diversas modificações.
 - [Less annoyances](http://www.davoonline.com/phpBB3/viewtopic.php?f=125&t=9463): desativa uma série de ataques aleatórios, transformando o jogo em uma experiência mais pacífica.
