@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "2019-11-29"
+date: "2019-11-29 07:48:00 -0300"
 title: "Essa semana em SPORE: 23 a 29 de novembro"
 image: "/uploads/2019/11/28/resumo.jpg"
 category: Spore
@@ -24,10 +24,10 @@ _**Essa semana em SPORE** é um resumo das novidades da comunidade do jogo nos �
 
 ## Estatísticas do jogo
 
-A Sporepédia alcançou um total de {ASSETS_TOTAL} criações e {USERS_TOTAL} usuários.
+A Sporepédia alcançou um total de 190.554.218 criações e 5.293.031 usuários.
 
-- **Criações enviadas na última semana:** {ASSETS_DIFF}
-- **Usuários novos na última semana:** {USERS_DIFF}
+- **Criações enviadas na última semana:** 3.614
+- **Usuários novos na última semana:** 1.474
 
 ***
 
