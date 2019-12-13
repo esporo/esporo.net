@@ -33,16 +33,14 @@
 
       <div class="widget-content">
         <ul class="categories-list">
-          {%- assign categories = site.categories | sort_tags_by_posts_count -%}
-
-          {%- for category in categories -%}
+          {%- for category in site.categories -%}
             {%- assign category_slug = category | first | slugify -%}
 
             <li>
               <a href="{{- site.jekyll-archives.permalinks.category | replace: ':name', category_slug | relative_url -}}">
                 <span class="category-title">{{ category | first }}</span>
 
-                <span class="category-count">({{ category | last }})</span>
+                <span class="category-count">({{ category | last | size }})</span>
               </a>
             </li>
           {%- endfor -%}
@@ -58,15 +56,25 @@
       </h4>
 
       <div class="widget-content">
-        {%- assign tags = site.tags | sort_tags_by_posts_count -%}
-
-        {%- for tag in tags limit: 30 -%}
-          {%- assign tag_slug = tag | first | slugify -%}
-          <a class="tag-link" href="{{ site.jekyll-archives.permalinks.tag | replace: ':name', tag_slug | relative_url }}" style="font-size: {{- tag | last | divided_by: 500.00 | plus: 1 | append: "em" -}};">
-            <span class="tag-title">{{ tag | first }}</span>
-
-            <span class="tag-count">({{ tag | last }})</span>
-          </a>
+        {%- capture tags -%}
+          {%- for tag in site.tags -%}
+            {%- assign tag_slug = tag | first | slugify -%}
+            
+            <a data-sort="{{- site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 -}}" class="tag-link" href="{{- site.jekyll-archives.permalink.tag | replace: ':name', tag_slug | relative_url -}}">
+              <span class="tag-title">{{- tag | first -}}</span>
+              
+              <span class="tag-count">{{- tag | last | size -}}</span>
+            </a>
+            
+            {%- unless forloop.last -%}
+              sep
+            {%- endunless -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+        {%- assign tags = tags | split: "sep" | sort -%}
+        
+        {%- for tag in tags limit: 20 -%}
+          {{ tag }}
         {%- endfor -%}
       </div>
     </aside>
