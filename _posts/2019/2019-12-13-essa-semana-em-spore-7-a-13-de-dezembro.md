@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2019-12-13 14:20:00 -0300"
-title: "Essa semana em SPORE: datas"
+title: "Essa semana em SPORE: 7 a 13 de dezembro"
 image: "/uploads/2019/12/13/resumo.jpg"
 category: Spore
 tags: ""
