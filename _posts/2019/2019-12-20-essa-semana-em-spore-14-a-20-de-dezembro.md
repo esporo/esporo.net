@@ -20,10 +20,10 @@ _**Essa semana em SPORE** é um resumo das novidades da comunidade do jogo nos �
 
 ## Estatísticas do jogo
 
-A Sporepédia alcançou um total de {ASSETS_TOTAL} criações e {USERS_TOTAL} usuários.
+A Sporepédia alcançou um total de 190.567.237 criações e 5.297.472 usuários.
 
-- **Criações enviadas na última semana:** {ASSETS_DIFF}
-- **Usuários novos na última semana:** {USERS_DIFF}
+- **Criações enviadas na última semana:** 3.161
+- **Usuários novos na última semana:** 1.164
 
 ***
 
