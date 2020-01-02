@@ -1,6 +1,5 @@
 ---
 layout: post
-date: ""
 title: "Essa semana em SPORE: datas"
 image: "/uploads/{Data}/resumo.jpg"
 category: Spore
