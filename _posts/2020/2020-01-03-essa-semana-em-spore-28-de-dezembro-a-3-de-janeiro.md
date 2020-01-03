@@ -4,7 +4,11 @@ date: "2020-01-03 13:30:00 -0300"
 title: "Essa semana em SPORE: 28 de dezembro a 3 de janeiro"
 image: "/uploads/2020/01/02/resumo.jpg"
 category: Spore
-tags: ""
+tags:
+  - resumo da semana
+  - Esporocast
+  - serviços online
+  - Sporepédia
 ---
 
 _**Essa semana em SPORE** é um resumo das novidades da comunidade do jogo nos últimos dias, com links para novos mods e conteúdos bacanas, uma olhada nas estatísticas do jogo e uma atualização no Esporocast, nossa coleção de criações em destaque._
@@ -17,10 +21,10 @@ Um novo mod essa semana, o pacote de padrões de cores [Delta Paint]({% post_url
 
 ## Estatísticas do jogo
 
-A Sporepédia alcançou um total de {ASSETS_TOTAL} criações e {USERS_TOTAL} usuários.
+A Sporepédia alcançou um total de 190.577.802 criações e 5.302.107 usuários.
 
-- **Criações enviadas na última semana:** {ASSETS_DIFF}
-- **Usuários novos na última semana:** {USERS_DIFF}
+- **Criações enviadas na última semana:** 6.023
+- **Usuários novos na última semana:** 2.024
 
 ***
 
