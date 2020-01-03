@@ -2,12 +2,14 @@
 layout: post
 title: Esporo completa 14 anos
 date: '2019-08-11 10:05 -0300'
-sticky: true
+sticky: false
 image: /uploads/2019/08/esporo14.jpg
 category: Esporo
 tags:
-  - meta
   - Esporo
+  - meta
+published: true
+author: gaboo
 ---
 
 É difícil de acreditar que eu tô escrevendo um post celebrando os 14 anos de um blog que eu criei na quinta série do ensino fundamental. Hoje o Esporo é mais velho do que eu era quando criei ele, e tô muito feliz de estar aqui celebrando mais um aniversário com a comunidade de jogadores de Spore pelo Brasil todo.
