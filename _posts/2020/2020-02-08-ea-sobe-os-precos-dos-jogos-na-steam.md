@@ -1,14 +1,18 @@
 ---
 layout: post
-date: "2020-02-08 11:31:00 -0300"
+date: '2020-02-08 11:31:00 -0300'
 title: EA aumenta os preços de seus jogos na Steam
-images: "/uploads/2020/02/08/ea.jpg"
+images: /uploads/2020/02/08/ea.jpg
 category: EA
 tags:
-  - EA
-  - Steam
-  - Origin
   - Spore
+  - EA
+  - Origin
+  - Steam
+published: true
+sticky: false
+author: gaboo
+image: /uploads/2020/02/08/ea.jpg
 ---
 
 No final do ano passado a Electronic Arts voltou a lançar jogos na Steam com _Jedi: Fallen Order_, depois de anos lançando seus jogos exclusivamente na Origin. A EA também anunciou que jogos que haviam sido lançados nos últimos anos, como _The Sims 4_ e _Apex Legends_, também seriam colocados à venda na loja da Valve nos próximos meses.
