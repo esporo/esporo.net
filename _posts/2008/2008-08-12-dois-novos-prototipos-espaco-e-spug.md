@@ -1,10 +1,8 @@
 ---
 layout: post
 category: Spore
-sticky: false
 date: '2008-08-12 22:09 -0300'
 author: gaboo
-published: false
 title: 'Dois novos protótipos: Espaço e SPUG'
 tags:
   - Spore

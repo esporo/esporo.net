@@ -1,6 +1,6 @@
 ---
 title: GOG.com lança Spore sem DRM (e com 60% de desconto!)
-date: "2016-09-22 21:52:54 -0300"
+date: '2016-09-22 21:52:54 -0300'
 category: Spore
 tags:
   - Spore
