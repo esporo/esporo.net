@@ -44,7 +44,7 @@ defaults:
       type: "games"
     values:
       layout: "game"
-      
+
 # Build Settings
 permalink: "/:year/:month/:title/"
 
@@ -70,6 +70,7 @@ plugins:
   - jekyll-compose
 
 # SEO
+adsense_property_id: "ca-pub-6140421780025442"
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
 twitter:
