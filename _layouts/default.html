@@ -26,6 +26,9 @@
     {%- endif -%}
     {%- if jekyll.environment == "production" -%}
       {%- include_cached analytics.html -%}
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     {%- endif -%}
   </body>
 </html>
