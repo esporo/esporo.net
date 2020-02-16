@@ -8,7 +8,7 @@ logo: "/assets/images/logo.png"
 lang: pt-BR
 timezone: "America/Sao_Paulo"
 
-email: spark@esporo.net
+email: contato@esporo.net
 url: "https://esporo.net"
 baseurl: ""
 
@@ -67,7 +67,7 @@ plugins:
   - jekyll-archives
   - jekyll-octicons
   - jekyll-include-cache
-  - jekyll-compose
+  - jekyll-admin
 
 # SEO
 adsense_property_id: "ca-pub-6140421780025442"
@@ -86,10 +86,10 @@ social:
 
 # Archives
 jekyll-archives:
-  enabled:
-    - categories
-    - tags
+  enabled: all
   layout: "archive"
   permalinks:
     category: "/categorias/:name/"
     tag: "/tags/:name/"
+    year: "/:year/"
+    month: "/:year/:month/"

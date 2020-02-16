@@ -9,6 +9,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-octicons"
-  gem "jekyll-compose"
   gem "jekyll-include-cache"
+  gem "jekyll-admin"
 end
