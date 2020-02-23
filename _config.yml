@@ -21,12 +21,13 @@ spark:
   directories:
     posts: "/noticias/"
     games: "/jogos/"
-  disclaimer: >-
+  disclaimer: |+
     &copy; 2005 – 2019 Esporo.
     O Esporo não é um site oficial. Spore e Maxis são marcas proprietárias da Electronic Arts.
   comments: false
 
 # Build settings
+
 collections:
   games:
     output: true
@@ -54,6 +55,8 @@ include:
   - _headers
 
 keep_files:
+  - ads.txt
+  - favicon.ico
   - uploads
   - assets/fonts
   - assets/icons
@@ -67,7 +70,6 @@ plugins:
   - jekyll-archives
   - jekyll-octicons
   - jekyll-include-cache
-  - jekyll-admin
 
 # SEO
 adsense_property_id: "ca-pub-6140421780025442"

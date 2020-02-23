@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", github: "jekyll/jekyll"
 gem "liquid-c"
 
 group :jekyll_plugins do
@@ -10,5 +10,4 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-octicons"
   gem "jekyll-include-cache"
-  gem "jekyll-admin"
 end
