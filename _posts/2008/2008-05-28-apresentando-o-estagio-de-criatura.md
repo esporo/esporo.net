@@ -20,4 +20,4 @@ A Maxis divulgou o trailer, a descrição oficial e novas imagens do Estágio de
 
 Confira as novas imagens na nossa galeria:
 
-{%- include_cached gallery.html folder="/assets/images/games/spore/gallery/" -%}
+{%- include gallery.html folder="/assets/images/games/spore/gallery/" -%}

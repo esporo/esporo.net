@@ -27,6 +27,7 @@ spark:
   comments: false
 
 # Build settings
+incremental: true
 
 collections:
   games:
@@ -69,7 +70,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-octicons
-  - jekyll-include-cache
+  # - jekyll-include-cache
 
 # SEO
 adsense_property_id: "ca-pub-6140421780025442"

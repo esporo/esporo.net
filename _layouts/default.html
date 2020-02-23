@@ -4,13 +4,13 @@
   <body>
 
     <div id="site" class="site-wrapper">
-      {%- include_cached header.html -%}
+      {%- include header.html -%}
 
       <main class="site-content">
         {{- content -}}
       </main>
 
-      {%- include_cached footer.html -%}
+      {%- include footer.html -%}
     </div>
 
     <script type="text/javascript" src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
@@ -25,7 +25,7 @@
       <script type="text/javascript" src="{{ '/assets/js/stats.js' | relative_url }}"></script>
     {%- endif -%}
     {%- if jekyll.environment == "production" -%}
-      {%- include_cached analytics.html -%}
+      {%- include analytics.html -%}
       <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>

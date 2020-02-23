@@ -18,4 +18,4 @@ tags:
 
 Confira novas imagens do estágio da Célula:
 
-{%- include_cached gallery.html folder="/assets/images/games/spore/gallery/" -%}
+{%- include gallery.html folder="/assets/images/games/spore/gallery/" -%}

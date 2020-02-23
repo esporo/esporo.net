@@ -8,4 +8,4 @@ tags: Spore imagens
 
 16 novas imagens do jogo foram divulgadas no Spore.com. Confira no nosso álbum do Flickr:
 
-{%- include_cached gallery.html folder="assets/images/games/spore/gallery" -%}
+{%- include gallery.html folder="assets/images/games/spore/gallery" -%}
