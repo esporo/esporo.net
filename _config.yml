@@ -22,7 +22,7 @@ spark:
     posts: "/noticias/"
     games: "/jogos/"
   disclaimer: |+
-    &copy; 2005 – 2019 Esporo.
+    &copy; 2005 – 2019 Esporo.  
     O Esporo não é um site oficial. Spore e Maxis são marcas proprietárias da Electronic Arts.
   comments: false
 

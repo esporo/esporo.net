@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Feliz 10 anos, Spore!"
-sticky: true
 date: "2018-09-07 18:19:02 -0300"
 image: "https://i.imgur.com/xiGHspE.jpg"
 category: Spore
