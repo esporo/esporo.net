@@ -15,7 +15,7 @@ Aqui no Brasil o jogo foi lançado dois dias antes, em 5 de setembro, e a minha 
 
 Nesses dez anos muita coisa mudou. O design do Esporo mudou umas 300 vezes, inclusive. Mas os jogos mudaram muito desde então. Desde o modo como compramos jogos até _onde_ jogamos jogos. Spore, querendo ou não, é um retrato de um período de transição da indústria. Mesmo assim, é o jogo mais ambicioso que eu já joguei e que eu me deparei desde então. E eu sou extremamente feliz por poder compartilhar dele, jogar ele e manter esse espaço vivo, mesmo sem notícia por anos a fio.
 
----
+***
 
 E não somos apenas nós, jogadores e criadores, que estamos comemorando essa data especial. A equipe de Spore, que se desfez quando a Maxis acabou em 2015, se reuniu ontem para celebrar o aniversário do seu maior projeto até então!
 
