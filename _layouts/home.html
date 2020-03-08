@@ -12,14 +12,15 @@ layout: default
 
   <div class="blog home">
     <div class="blog-content">
-      {%- assign home_posts = site.posts | where_exp: "item", "item.sticky != true" -%}
 
-      {% for post in home_posts limit: 11 %}
-        {%- if forloop.first -%}
-          {%- include archives/post.html  -%}
-        {%- else -%}
-          {%- include archives/post.html  hide_contents=true -%}
-        {%- endif -%}
+      {% for post in site.posts limit: 11 %}
+        {%- unless post == featured_post -%}
+          {%- if forloop.first -%}
+            {%- include archives/post.html  -%}
+          {%- else -%}
+            {%- include archives/post.html  hide_contents=true -%}
+          {%- endif -%}
+        {%- endunless -%}
       {% endfor %}
 
       {%- if site.spark.directories.posts -%}

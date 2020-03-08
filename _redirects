@@ -1,9 +1,1 @@
----
-# Hello, Jekyll!
-layout: none
----
-
 /downloads/patches/spore/   /downloads/patches/   308
-{%- for post in site.posts %}
-/noticias/post/{{ post.date | date: "%Y" }}/{{- post.slug -}}/    {{ post.url | relative_url }}   308
-{%- endfor -%}

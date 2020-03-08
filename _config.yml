@@ -27,7 +27,7 @@ spark:
   comments: false
 
 # Build settings
-incremental: true
+incremental: false
 
 collections:
   games:
