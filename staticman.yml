@@ -1,17 +1,28 @@
 comments:
-  allowedFields: ["name", "email", "url", "message"]
+  allowedFields:
+    - name
+    - email
+    - url
+    - message
+  akismet:
+    enabled: true
+    author: name
+    authorEmail: email
+    authorUrl: url
+    content: message
+    type: comment
   branch: "master"
   commitMessage: "Staticman: novo conteúdo dinâmico"
-  filename: "entry{@timestamp}"
-  format: "yaml"
+  filename: "{@id}"
+  format: "yml"
   generatedFields:
     date:
       type: date
       options:
         format: "timestamp-seconds"
   moderation: true
-  name: "esporo.net"
-  path: "_data/comments/{options.slug}"
-  requiredFields: ["name", "email", "message"]
+  name: "Esporo"
+  path: "_data/comments/{@timestamp}"
+  # requiredFields: ["name", "email", "message"]
   transforms:
     email: md5
