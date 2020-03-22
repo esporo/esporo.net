@@ -22,7 +22,7 @@ comments:
         format: "timestamp-seconds"
   moderation: true
   name: "Esporo"
-  path: "_data/comments/{@timestamp}"
+  path: "_data/comments/{options.slug}/{@timestamp}"
   # requiredFields: ["name", "email", "message"]
   transforms:
     email: md5

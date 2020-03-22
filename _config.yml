@@ -49,7 +49,8 @@ defaults:
 
 # Build Settings
 permalink: "/:year/:month/:title/"
-staticman_url: "https://esporo-staticman.herokuapp.com/v2/entry/esporo/esporo/master/comments"
+staticman:
+  repository: "esporo/esporo"
 
 include:
   - _pages
