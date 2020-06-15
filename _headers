@@ -1,5 +1,6 @@
 /*
   Access-Control-Allow-Origin: https://forum.esporo.net
+  Access-Control-Allow-Origin: https://esporo.miraheze.org
 
 /assets/js/*
   cache-control: max-age=2628000
