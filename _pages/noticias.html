@@ -6,7 +6,7 @@ permalink: "/noticias/"
 
 {%- for post in site.posts -%}
 
-  {%- assign current_month = post.date | localize: site.spark.date_format.month -%}
+  {%- assign current_month = post.date | date: site.spark.date_format.month -%}
 
   {%- if current_month != this_date -%}
     <header class="archive-header">

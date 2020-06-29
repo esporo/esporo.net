@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "liquid-c"
+# gem "liquid-c"
 
 group :jekyll_plugins do
   gem "jekyll-feed"

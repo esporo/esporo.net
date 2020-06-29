@@ -21,7 +21,7 @@ layout: blog
     </h2>
 
     <p class="content-meta">
-      <time class="content-date" datetime="{{- page.date | date_to_xmlschema -}}">{{- page.date | localize: site.spark.date_format.day | downcase -}}</time>
+      <time class="content-date" datetime="{{- page.date | date_to_xmlschema -}}">{{- page.date | date: site.spark.date_format.day | downcase -}}</time>
 
       {% if page.author %}
         {%- assign author = site.data.authors[page.author] -%}

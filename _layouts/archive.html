@@ -16,7 +16,7 @@ layout: blog
           {%- assign date_format = site.spark.date_format.day -%}
         {%- endif -%}
 
-        <span class="archive-date">{{ page.date | localize: date_format }}</span>
+        <span class="archive-date">{{ page.date | date: date_format }}</span>
       </h1>
     {%- else -%}
       <h1 class="archive-title">

@@ -4,7 +4,7 @@ function format_number(number) {
 
 $.ajax({
   type: "GET",
-  url: "//esporisticas.herokuapp.com/https://www.spore.com/rest/stats/",
+  url: "//cors-anywhere.herokuapp.com/https://www.spore.com/rest/stats/",
   dataType: "xml",
   success: function parse_stats(xml) {
     var xml = $(xml);

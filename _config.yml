@@ -15,8 +15,8 @@ baseurl: ""
 # Content settings
 spark:
   date_format:
-    day: "%d de %B de %Y"
-    month: "%B de %Y"
+    day: "%d/%m/%Y"
+    month: "%m/%Y"
     year: "%Y"
   directories:
     posts: "/noticias/"
@@ -90,7 +90,11 @@ social:
 
 # Archives
 jekyll-archives:
-  enabled: all
+  enabled:
+    - category
+    - tag
+    - year
+    - month
   layout: "archive"
   permalinks:
     category: "/categorias/:name/"
