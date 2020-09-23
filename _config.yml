@@ -41,6 +41,7 @@ defaults:
     values:
       layout: "post"
       author: "gaboo"
+      image: "/apple-touch-icon.png"
   - scope:
       path: ""
       type: "games"
