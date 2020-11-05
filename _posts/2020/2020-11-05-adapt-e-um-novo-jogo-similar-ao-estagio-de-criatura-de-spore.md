@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Adapt e um novo jogo simular ao estagio de criatura de Spore
+title: Adapt é um novo jogo similar ao estágio de criatura de Spore
 category: Spore
 tags:
+- Adapt
 - outros jogos
 - Estágio de Criatura
 date: 2020-11-05 08:24 -0300

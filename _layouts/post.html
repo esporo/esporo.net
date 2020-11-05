@@ -5,7 +5,7 @@ layout: blog
 <article class="content post">
   <header class="content-header">
     {%- if page.category -%}
-      {%- assign category = page.category | slugify -%}
+      {%- assign category = page.category | slugify: "latin" -%}
 
         <p class="content-meta content-category">
           <a class="category-link" href="{{- site.jekyll-archives.permalinks.category | replace: ':name', category | relative_url -}}">
@@ -40,7 +40,7 @@ layout: blog
         <strong>Arquivado em:</strong>
 
         {% for tag in page.tags -%}
-          {%- assign tag_name = tag | slugify -%}
+          {%- assign tag_name = tag | slugify: "latin" -%}
 
           <a href="{{- site.jekyll-archives.permalinks.tag | replace: ':name', tag_name -}}" rel="tag">{{- tag -}}</a>{%- unless forloop.last -%}, {% else -%}.{%- endunless -%}
         {%- endfor -%}

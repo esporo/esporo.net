@@ -75,7 +75,6 @@ plugins:
   # - jekyll-include-cache
 
 # SEO
-adsense_property_id: "ca-pub-6140421780025442"
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
 twitter:
@@ -92,11 +91,12 @@ social:
 # Archives
 jekyll-archives:
   enabled:
-    - category
-    - tag
+    - categories
+    - tags
     - year
     - month
   layout: "archive"
+  slug_mode: latin
   permalinks:
     category: "/categorias/:name/"
     tag: "/tags/:name/"

@@ -8,7 +8,6 @@ title: EA abre novo estúdio da Maxis em Austin
 tags:
   - Maxis
   - EA
-permalink: ea-abre-novo-estudio-da-maxis-em-austin
 ---
 A Maxis está expandindo! Depois de encerrar as atividades do estúdio original em Emeryville em 2015, a EA está com planos de expandir a equipe para Austin, no Texas, para trabalhar em uma nova propriedade intelectual.
 

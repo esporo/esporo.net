@@ -9,7 +9,7 @@
     {%- if include.featured -%}
       <p class="content-meta feature-mark">Em destaque</p>
     {%- elsif post.category -%}
-      {%- assign category = post.category | slugify -%}
+      {%- assign category = post.category | slugify: "latin" -%}
 
         <p class="content-meta content-category">
           <a class="category-link" href="{{- site.jekyll-archives.permalinks.category | replace: ':name', category | relative_url -}}">
@@ -51,7 +51,7 @@
           <strong>Arquivado em:</strong>
 
           {% for tag in post.tags -%}
-            {%- assign tag_name = tag | slugify -%}
+            {%- assign tag_name = tag | slugify: "latin" -%}
 
             <a href="{{- site.jekyll-archives.permalinks.tag | replace: ':name', tag_name -}}" rel="tag">{{- tag -}}</a>{%- unless forloop.last -%}, {% else -%}.{%- endunless -%}
           {%- endfor -%}
