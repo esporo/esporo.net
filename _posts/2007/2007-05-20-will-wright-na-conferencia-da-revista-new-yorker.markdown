@@ -19,8 +19,8 @@ Algo que mudou completamente foi a Sporepedia. Os cartões não se agrupam mais,
 
 Confira a conferência completa nos vídeos abaixo:
 
-<iframe width="695" height="521" src="https://www.youtube.com/embed/aOXwLK2Yt_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="695" height="521" src="https://www.youtube-nocookie.com/embed/aOXwLK2Yt_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="695" height="521" src="https://www.youtube.com/embed/AGFVkO4fJl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="695" height="521" src="https://www.youtube-nocookie.com/embed/AGFVkO4fJl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="695" height="521" src="https://www.youtube.com/embed/Lz0jxIAadB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="695" height="521" src="https://www.youtube-nocookie.com/embed/Lz0jxIAadB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,4 +6,4 @@ category: Spore
 tags: Spore vídeos
 ---
 
-<iframe width="722" height="406" src="https://www.youtube.com/embed/WZ6cQZ8vEsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="722" height="406" src="https://www.youtube-nocookie.com/embed/WZ6cQZ8vEsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -13,7 +13,7 @@ Pra abrir a enxurrada de novas informações da E3 esse ano, o GameSpot acabou d
 
 É uma animação que não inclui clipes de jogabilidade, mas exibe toda a evolução do Willosaur, a criatura que está sendo mostrada nas demonstrações do jogo. Confira!
 
-<iframe width="806" height="456" src="https://www.youtube.com/embed/2edxjODgK9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="806" height="456" src="https://www.youtube-nocookie.com/embed/2edxjODgK9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Diretamente da EA, confira o novo logo oficial!
 

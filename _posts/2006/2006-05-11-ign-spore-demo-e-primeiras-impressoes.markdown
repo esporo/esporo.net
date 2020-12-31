@@ -19,4 +19,4 @@ tags:
 
 A IGN também postou um vídeo da demonstração de Will Wright para a imprensa:
 
-<iframe width="665" height="376" src="https://www.youtube.com/embed/2edxjODgK9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="665" height="376" src="https://www.youtube-nocookie.com/embed/2edxjODgK9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

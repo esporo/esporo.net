@@ -17,6 +17,6 @@ Proxi é um jogo onde uma inteligência artificial simula um mundo a partir de p
 
 Junto com o jogo, Will Wright também anunciou um concurso de artistas para ajudar a encontrar pessoas a desenvolverem a arte do jogo no Unity:
 
-<iframe width="690" height="388" src="https://www.youtube.com/embed/phfpooto8iY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="690" height="388" src="https://www.youtube-nocookie.com/embed/phfpooto8iY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Não há muitas informações sobre quais os aspectos de jogabilidade de Proxi. O que a gente sabe é que ele é desenvolvido pelo novo estúdio de Will Wright, chamado Gallium Artists. Proxi será lançado para celulares na segunda metade de 2018.

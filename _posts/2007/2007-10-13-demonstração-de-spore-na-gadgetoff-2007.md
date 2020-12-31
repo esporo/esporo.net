@@ -16,4 +16,4 @@ se é possível voar no jogo.
 
 Confira o vídeo abaixo:
 
-<iframe width="806" height="461" src="https://www.youtube.com/embed/vgZwMFVOXDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="806" height="461" src="https://www.youtube-nocookie.com/embed/vgZwMFVOXDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

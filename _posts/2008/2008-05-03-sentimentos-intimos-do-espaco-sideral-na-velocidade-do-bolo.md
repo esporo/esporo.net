@@ -8,4 +8,4 @@ tags:
   - vídeos
 ---
 
-<iframe width="625" height="521" src="https://www.youtube.com/embed/5T8_hqDy_80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="625" height="521" src="https://www.youtube-nocookie.com/embed/5T8_hqDy_80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

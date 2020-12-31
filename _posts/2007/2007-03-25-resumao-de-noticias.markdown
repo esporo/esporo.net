@@ -20,4 +20,4 @@ O fã-site também descobriu que uma equipe liderada pela desenvolvedora Caryl S
 
 O G4TV publicou um novo vídeo conversando sobre Spore:
 
-<iframe width="680" height="510" src="https://www.youtube.com/embed/1tQ_bkzmCic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="680" height="510" src="https://www.youtube-nocookie.com/embed/1tQ_bkzmCic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

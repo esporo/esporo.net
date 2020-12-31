@@ -12,4 +12,4 @@ tags:
 ---
 O Will Wright é um colecionador de artefados do programa espacial Soviético, e nesse vídeo que ele fez com o site G4 ele explica alguns detalhes da história do programa. Bem interessante!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5H-SoHKGhJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5H-SoHKGhJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

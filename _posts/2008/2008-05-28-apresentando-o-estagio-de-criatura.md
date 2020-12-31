@@ -12,7 +12,7 @@ tags:
 
 A Maxis divulgou o trailer, a descrição oficial e novas imagens do Estágio de Criatura. Confira:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QoIXW6AgA-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QoIXW6AgA-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [EA](http://brasil.ea.com/):
 

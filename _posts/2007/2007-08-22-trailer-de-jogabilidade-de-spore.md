@@ -14,7 +14,7 @@ A Games Convention começou em Leipzig, na Alemanha, e a Electronic Arts divulgo
 
 O primeiro, que você confere abaixo, é um trailer de jogabilidade. Olha como o jogo está lindo!
 
-<iframe width="1280" height="557" src="https://www.youtube.com/embed/WGJOlq6-upY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="557" src="https://www.youtube-nocookie.com/embed/WGJOlq6-upY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Essa é a nossa primeira olhada na jogabilidade do jogo desde 2005. Você pode conferir a nova interface, tanto dos níveis quanto dos editores do jogo. Os gráficos também estão refinados e muito mais bonitos.
 

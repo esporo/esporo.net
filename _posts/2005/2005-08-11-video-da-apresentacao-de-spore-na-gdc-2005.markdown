@@ -13,7 +13,7 @@ Consegui encontrar o vídeo da apresentação de Will Wright na GDC no início d
 
 A palestra é muito bacana e mostra muita coisa sobre o jogo. Eu gosto muito quando o Will fica dando zoom out até revelar a galáxia completa.
 
-<iframe width="695" height="521" src="https://www.youtube.com/embed/RczJMIpTxos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="695" height="521" src="https://www.youtube-nocookie.com/embed/RczJMIpTxos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 **Atualização (2018):** adicionamos o vídeo original ao nosso canal do YouTube, o vídeo no Google Videos saiu do ar há muitos anos.

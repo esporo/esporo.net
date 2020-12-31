@@ -12,7 +12,7 @@ Uma desenvolvedora espanhola começou o desenvolvimento de um jogo chamado Evolu
 
 Evolution, como vocês podem perceber no vídeo abaixo, é extremamente influenciado por Spore. A desenvolvedora até descreve Spore como a principal influência no desenvolvimento do jogo e, mais ainda, que eles pretendem expandir a ideia principal do jogo.
 
-<iframe width="806" height="453" src="https://www.youtube.com/embed/RDsNbfPrHpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="806" height="453" src="https://www.youtube-nocookie.com/embed/RDsNbfPrHpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Evolution é mais um reflexo da onda de interesse renovado que Spore recebeu esse ano, oito anos depois do lançamento do jogo, devido ao polêmico fracasso do jogo No Man's Sky, que prometia um uso revolucionário da mesma tecnologia de geração procedural de mundos e criaturas que Spore apresentou em 2008. Não há datas nem notícias ou quaisquer outros detalhes sobre Evolution, mas nós vamos acompanhar e noticiar qualquer coisa que nos parecer válido.
 

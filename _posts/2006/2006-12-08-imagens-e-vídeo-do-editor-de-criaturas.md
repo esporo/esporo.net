@@ -22,5 +22,5 @@ Caryl Shaw, parte do time de Spore, deu uma palestra sobre o editor de criaturas
 
 Um vídeo da demonstração apareceu no YouTube também:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RVY7Rj2ucx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RVY7Rj2ucx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

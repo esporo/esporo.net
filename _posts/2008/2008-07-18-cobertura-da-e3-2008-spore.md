@@ -9,7 +9,7 @@ Esse post é reservado para centralizarmos todas as novidades reveladas da E3 so
 
 **Novo trailer:**
 
-<iframe width="806" height="453" src="https://www.youtube.com/embed/jVH9Q8M8eaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="806" height="453" src="https://www.youtube-nocookie.com/embed/jVH9Q8M8eaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Vídeos da demonstração:**
 
@@ -19,9 +19,9 @@ Esse post é reservado para centralizarmos todas as novidades reveladas da E3 so
 
 <iframe src="//widgets.ign.com/video/embed/content.html?url=https://www.ign.com/videos/2008/07/17/spore-pc-games-interview-e3-2008-spore-interview" width="468" height="263" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/gcJSmSMbZak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/gcJSmSMbZak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/1jzvcfaxF1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/1jzvcfaxF1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Adicionamos novas imagens à nossa [galeria de imagens de Spore](https://guia.esporo.net/wiki/Spore#Galeria)
 

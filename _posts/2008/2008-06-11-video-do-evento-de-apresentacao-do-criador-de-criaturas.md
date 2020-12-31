@@ -12,6 +12,6 @@ tags:
 
 Ontem a Maxis apresentou o Criador de Criaturas em um evento nos estúdios da EA. Hoje um usuário subiu uma parte da apresentação no YouTube:
 
-<iframe width="806" height="453" src="https://www.youtube.com/embed/dME86oJM__Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="806" height="453" src="https://www.youtube-nocookie.com/embed/dME86oJM__Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Obrigado pela dica, [Space Oddity](http://spaceoddity.planets.gamespy.com/)!

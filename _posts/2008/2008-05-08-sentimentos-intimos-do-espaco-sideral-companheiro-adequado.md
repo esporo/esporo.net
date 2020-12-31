@@ -6,6 +6,6 @@ category: Spore
 tags: Spore vídeos
 ---
 
-<iframe width="625" height="521" src="https://www.youtube.com/embed/XmoRrR6WLC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="625" height="521" src="https://www.youtube-nocookie.com/embed/XmoRrR6WLC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Agradeço ao [Spore Illustrated](http://spore.strategyplanet.gamespy.com/) por ter encontrado esse vídeo!

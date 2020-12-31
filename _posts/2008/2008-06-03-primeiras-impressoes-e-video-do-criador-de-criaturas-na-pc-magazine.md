@@ -12,7 +12,7 @@ tags:
 
 O blog AppScout da revista americana PC Magazine publicou suas primeiras impressões e um vídeo do Criador de Criaturas do Spore.
 
-<iframe width="1280" height="568" src="https://www.youtube.com/embed/g0lRFIrYQwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="568" src="https://www.youtube-nocookie.com/embed/g0lRFIrYQwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [AppScout](http://www.appscout.com/2008/06/handson_with_spore.php):
 

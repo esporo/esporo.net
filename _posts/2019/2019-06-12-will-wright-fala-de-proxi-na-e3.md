@@ -12,4 +12,4 @@ tags:
 
 Will Wright falou com Geoff Kingsley (o produtor e apresentador do The Games Awards) sobre sua carreira e sobre seu novo jogo Proxi na E3. Confira:
 
-<iframe width="806" height="453" src="https://www.youtube.com/embed/SXY8kdqIVx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="806" height="453" src="https://www.youtube-nocookie.com/embed/SXY8kdqIVx8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

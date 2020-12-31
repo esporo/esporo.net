@@ -10,4 +10,4 @@ tags:
 
 Mais um vídeo da campanha publicitária do Criador de Criaturas, _Sentimentos íntimos do espaço sideral_, foi encontrado no YouTube:
 
-<iframe width="1280" height="568" src="https://www.youtube.com/embed/aquMF1xKnwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="568" src="https://www.youtube-nocookie.com/embed/aquMF1xKnwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

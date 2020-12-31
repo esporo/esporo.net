@@ -8,4 +8,4 @@ tags: Spore Célula vídeos
 
 Um novo vídeo foi publicado no YouTube e mostra o início da fase de Célula do Spore, desde a chegada do meteoro no planeta. O jogo está muito bonito mesmo:
 
-<iframe width="680" height="521" src="https://www.youtube.com/embed/QU8CwbYhuaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="680" height="521" src="https://www.youtube-nocookie.com/embed/QU8CwbYhuaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
