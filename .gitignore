@@ -3,6 +3,4 @@
 .jekyll-cache/
 .jekyll-metadata
 _site/
-
-# Local Netlify folder
-.netlify
+.nova

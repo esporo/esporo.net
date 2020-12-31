@@ -18,6 +18,4 @@ A Maxis divulgou o trailer, a descrição oficial e novas imagens do Estágio de
 
 > Explore o Estágio de Criatura do SPORE! Sinta o gostinho do segundo estágio do jogo nesse vídeo que apresenta nova jogabilidade e uma entrevista com designer sênior Alex Hutchinson. Aventure-se em terra e ajude sua criatura a aprender e evoluir com companheiros longe de seu ninho. A única maneira de crescer é explorando.
 
-Confira as novas imagens na nossa galeria:
-
-{%- include gallery.html folder="/assets/images/games/spore/gallery/" -%}
+Confira as novas imagens na [nossa galeria](https://guia.esporo.net/wiki/Spore#Galeria).

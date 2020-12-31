@@ -10,7 +10,7 @@ tags:
   - comunidade
 ---
 
-**Darkspore-LS**, o projeto que pretende adicionar suporte à servidores locais em [Darkspore]({%- link _games/darkspore.md -%}), foi atualizado para a versão 0.2.1.
+**Darkspore-LS**, o projeto que pretende adicionar suporte à servidores locais em [Darkspore](https://guia.esporo.net/wiki/Darkspore), foi atualizado para a versão 0.2.1.
 
 Ainda não dá pra jogar em si, mas o DLS 0.2 já permite que você acesse o criador de criaturas do jogo (que aqui é chamado Editor de Heróis). É um grande progresso que indica que os desenvolvedores estão no caminho certo!
 

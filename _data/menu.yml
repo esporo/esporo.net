@@ -10,7 +10,7 @@
   external: true
 
 - title: O que é Spore?
-  url: "/jogos/"
+  url: "https://guia.esporo.net/wiki/Spore"
 
 - title: Downloads
   url: "/downloads/"

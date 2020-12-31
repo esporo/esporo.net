@@ -24,9 +24,7 @@ Esse post é reservado para centralizarmos todas as novidades reveladas da E3 so
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1jzvcfaxF1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Novas imagens:**
-
-{%- include gallery.html folder="images/games/spore/gallery" -%}
+Adicionamos novas imagens à nossa [galeria de imagens de Spore](https://guia.esporo.net/wiki/Spore#Galeria)
 
 **Prévias e artigos:**
 

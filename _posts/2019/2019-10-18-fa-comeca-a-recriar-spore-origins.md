@@ -10,7 +10,7 @@ tags:
   - Spore Origins
 image: /uploads/prose/sporigins.png
 ---
-O modder de Spore, Choc (também conhecido como Vanilla Cold) está recriando o bom e velho [Spore Origins]({% link _games/spore-origins.md %}).
+O modder de Spore, Choc (também conhecido como Vanilla Cold) está recriando o bom e velho [Spore Origins](https://guia.esporo.net/wiki/Spore_Origins).
 
 Chamado de _Sporigins_, o jogo está sendo feito do zero e se baseia nas mecânicas do antigo jogo de celular da franquia. Spore Origins era vendido para iPhone e celulares Nokia (lembra deles?) e se baseava no estágio de célula do jogo. Ele foi desligado em 2012, quando a EA reformulou sua linha EA Mobile.
 

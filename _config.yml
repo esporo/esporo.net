@@ -13,26 +13,17 @@ url: "https://esporo.net"
 baseurl: ""
 
 # Content settings
-spark:
-  date_format:
+theme: jekyll-theme-charlie
+
+charlie:
+  hide_site_title: true
+  date_formats:
     day: "%d/%m/%Y"
     month: "%m/%Y"
     year: "%Y"
-  directories:
-    posts: "/noticias/"
-    games: "/jogos/"
-  disclaimer: |+
-    &copy; 2005 – 2019 Esporo.  
-    O Esporo não é um site oficial. Spore e Maxis são marcas proprietárias da Electronic Arts.
-  comments: false
 
 # Build settings
 incremental: false
-
-collections:
-  games:
-    output: true
-    permalink: "/jogos/:title/"
 
 defaults:
   - scope:
@@ -41,24 +32,14 @@ defaults:
     values:
       layout: "post"
       author: "gaboo"
-      image: "/apple-touch-icon.png"
-  - scope:
-      path: ""
-      type: "games"
-    values:
-      layout: "game"
+
+plugins:
+  - jekyll-octicons
 
 # Build Settings
 permalink: "/:year/:month/:title/"
-staticman_url: "https://estevao.herokuapp.com/v3/entry/github/esporo/esporo/master/comments"
-
-include:
-  - _pages
-  - _redirects
-  - _headers
 
 keep_files:
-  - ads.txt
   - favicon.ico
   - uploads
   - assets/fonts
@@ -66,15 +47,7 @@ keep_files:
   - assets/images
   - assets/js
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-octicons
-  # - jekyll-include-cache
-
-# SEO
+# Plugin: jekyll-seo-tag
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
 
 twitter:
@@ -88,17 +61,15 @@ social:
     - https://www.youtube.com/user/esporotv
     - https://www.facebook.com/esporo
 
-# Archives
+# Plugin: jekyll-archives
 jekyll-archives:
   enabled:
-    - categories
     - tags
     - year
     - month
   layout: "archive"
-  slug_mode: latin
+  slug_mode: default
   permalinks:
-    category: "/categorias/:name/"
     tag: "/tags/:name/"
     year: "/:year/"
     month: "/:year/:month/"

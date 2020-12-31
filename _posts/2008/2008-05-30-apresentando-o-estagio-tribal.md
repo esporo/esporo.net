@@ -14,6 +14,4 @@ A Maxis divulgou mais informações do estágio tribal, incluindo o trailer, a d
 
 <iframe width="1280" height="568" src="https://www.youtube.com/embed/afTiV7PkSQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Nós também atualizamos a nossa galeria de imagens:
-
-{%- include gallery.html folder="assets/images/games/spore/gallery" -%}
+Nós também atualizamos a [nossa galeria de imagens](https://guia.esporo.net/wiki/Spore#Galeria)

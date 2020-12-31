@@ -20,4 +20,4 @@ Essa semana teve SporeDay, e a Maxis lançou **dois** novos protótipos:
 > 
 > Não há nenhuma limitação para o desenvolvimento de habilidades, mesmo que seja trapaceando. Esta ferramenta foi desenvolvida para oferecer aos designers a oportunidade de explorar as diferentes economias possíveis para o estágio de criatura, então as limitações de desenvolvimento são auto-impostas.
 
-Você pode baixá-los na nossa [central de downloads]({%- link _pages/downloads/miscelanea/prototipos.md -%})
+Você pode baixá-los na nossa [central de downloads]({%- link downloads/miscelanea/prototipos.md -%})

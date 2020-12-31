@@ -1,0 +1,31 @@
+---
+# Hello, Jekyll!
+---
+
+$base-font-family: "Proxima Nova", sans-serif;
+$content-font-family: $base-font-family;
+$base-font-size: 15px;
+$color-accent: #4e9dd8;
+
+@import "fonts";
+@import "{{ site.theme }}";
+
+@include media-query($on-palm) {
+  .main_menu ul li {
+    white-space: nowrap;
+  }
+}
+
+.content {
+  .content_body {
+    a {
+      text-decoration-thickness: 2px;
+      
+      &:hover,
+      &:focus {
+        background: none;
+        color: $color-accent;
+      }
+    }
+  }
+}
