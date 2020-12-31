@@ -23,7 +23,7 @@ charlie:
     year: "%Y"
 
 # Build settings
-incremental: false
+incremental: true
 
 defaults:
   - scope:
@@ -33,10 +33,6 @@ defaults:
       layout: "post"
       author: "gaboo"
 
-plugins:
-  - jekyll-octicons
-
-# Build Settings
 permalink: "/:year/:month/:title/"
 
 keep_files:
@@ -46,6 +42,14 @@ keep_files:
   - assets/icons
   - assets/images
   - assets/js
+  
+plugins:
+  - jekyll-octicons
+
+# Plugin: jekyll-paginate
+paginate: 5
+paginate_path: "/pagina/:num/"
+seo_paginator_message: "Página %<current>s de %<total>s / "
 
 # Plugin: jekyll-seo-tag
 google_site_verification: "HvEDdWfesPnf99AxWv1yVL_bZfKiGp9XYmGcVz-ZJS4"
