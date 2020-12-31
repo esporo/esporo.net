@@ -2,7 +2,6 @@
 layout: post
 title: "Manutenção dos servidores de Spore atinge nova etapa"
 date: "2015-10-13 22:57:17 -0200"
-category: Spore
 tags:
   - Spore
   - status de serviço

@@ -2,7 +2,6 @@
 layout: "post"
 title: "Os segredos de como a Maxis fez as criaturas do Spore tão portáteis"
 date: "2008-06-17 19:43"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

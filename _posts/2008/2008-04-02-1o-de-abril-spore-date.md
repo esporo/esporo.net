@@ -2,7 +2,6 @@
 layout: "post"
 title: "1º de abril: Spore Date"
 date: "2008-04-02 18:29"
-category: Spore
 tags: Spore Spore.com
 ---
 

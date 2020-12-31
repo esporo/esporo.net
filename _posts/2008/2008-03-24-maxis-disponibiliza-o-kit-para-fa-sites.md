@@ -2,7 +2,6 @@
 layout: "post"
 title: "Maxis disponibiliza o kit para fã-sites!"
 date: "2008-03-24 16:12"
-category: Spore
 tags: Spore comunidade downloads
 ---
 

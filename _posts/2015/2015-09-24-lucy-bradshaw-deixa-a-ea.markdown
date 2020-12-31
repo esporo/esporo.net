@@ -2,7 +2,6 @@
 layout: post
 title: "Lucy Bradshaw deixa a EA"
 date: "2015-09-24 22:58:28 -0200"
-category: Maxis
 tags:
   - EA
   - Maxis

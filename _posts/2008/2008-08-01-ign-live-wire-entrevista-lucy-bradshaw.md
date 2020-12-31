@@ -2,7 +2,6 @@
 layout: post
 date: "2008-08-01 09:25:00"
 title: "IGN Live Wire entrevista Lucy Bradshaw"
-category: Spore
 tags:
   - Spore
   - entrevistas

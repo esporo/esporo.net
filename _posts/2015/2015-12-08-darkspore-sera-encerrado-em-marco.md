@@ -2,8 +2,8 @@
 layout: post
 title: "Darkspore será encerrado em março"
 date: "2015-12-08 22:45:54 -0200"
-category: Spin-offs
 tags:
+  - Spin-offs
   - Darkspore
   - status de serviço
 ---

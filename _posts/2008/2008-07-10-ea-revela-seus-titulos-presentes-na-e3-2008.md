@@ -2,7 +2,6 @@
 layout: "post"
 title: "EA revela seus títulos presentes na E3 2008"
 date: "2008-07-10 21:00"
-category: EA
 tags: EA eventos E3 Spore Maxis
 ---
 

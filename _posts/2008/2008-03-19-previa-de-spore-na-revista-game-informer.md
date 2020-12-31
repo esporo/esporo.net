@@ -2,7 +2,6 @@
 layout: "post"
 title: "Prévia de Spore na revista Game Informer"
 date: "2008-03-19 15:58"
-category: Spore
 tags: Spore prévias
 ---
 

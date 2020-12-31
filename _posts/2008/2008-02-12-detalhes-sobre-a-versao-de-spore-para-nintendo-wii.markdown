@@ -2,8 +2,11 @@
 layout: "post"
 title: "Detalhes sobre a versão de Spore para Nintendo Wii"
 date: "2008-02-12 16:57"
-category: Spin-offs
-tags: Spore plataformas Wii
+tags:
+  - Spore
+  - plataformas
+  - Wii
+  - Spin-offs
 ---
 
 Eu sou um grande fã da Nintendo. Eu tenho um Wii e perco boa parte dos meus dias jogando Super Mario Galaxy. Isso talvez seja um problema, porque eu já estou ansioso por jogar Spore no computador, e agora eu vou ficar na expectativa de jogar Spore no DS e no Wii também.

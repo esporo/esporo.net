@@ -3,7 +3,6 @@ layout: post
 title: "Jogos Spore com 60% de desconto na Steam"
 date: "2018-06-23 20:04:03 -0300"
 image: "https://i.imgur.com/REezXlG.jpg"
-category: Spore
 tags:
   - Spore
   - Steam

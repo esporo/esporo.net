@@ -2,7 +2,6 @@
 layout: "post"
 title: "Imagens da exposição de Will Wright em Vancouver"
 date: "2008-06-02 19:58"
-category: Spore
 tags:
   - Will Wright
   - Spore

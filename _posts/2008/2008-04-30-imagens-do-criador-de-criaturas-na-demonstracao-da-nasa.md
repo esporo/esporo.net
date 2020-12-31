@@ -2,7 +2,6 @@
 layout: "post"
 title: "Imagens do Criador de Criaturas na demonstração da NASA"
 date: "2008-04-30 14:48"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

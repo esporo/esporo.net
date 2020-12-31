@@ -2,7 +2,6 @@
 layout: "post"
 title: "Conferência da EA na E3 é hoje!"
 date: "2008-07-14 21:51"
-category: EA
 tags: Spore EA eventos E3
 ---
 

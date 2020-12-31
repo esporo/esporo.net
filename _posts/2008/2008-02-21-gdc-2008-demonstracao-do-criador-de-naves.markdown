@@ -2,7 +2,6 @@
 layout: "post"
 title: "GDC 2008: Demonstração do Criador de Naves"
 date: "2008-02-21 19:44"
-category: Spore
 tags: Spore Espaço vídeos GDC eventos GDC
 ---
 

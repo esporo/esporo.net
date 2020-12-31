@@ -2,7 +2,6 @@
 layout: "post"
 title: "Tirinha de Spore no Penny Arcade"
 date: "2008-02-15 18:00"
-category: Spore
 tags: Spore miscelânea
 ---
 

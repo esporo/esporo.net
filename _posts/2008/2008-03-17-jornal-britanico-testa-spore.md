@@ -2,7 +2,6 @@
 layout: "post"
 title: "Jornal britânico testa Spore"
 date: "2008-03-17 15:42"
-category: Spore
 tags: Spore prévias
 ---
 

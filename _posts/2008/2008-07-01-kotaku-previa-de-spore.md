@@ -2,7 +2,6 @@
 layout: "post"
 title: "Kotaku: Prévia de Spore"
 date: "2008-07-01 15:14"
-category: Spore
 tags:
   - Spore
   - prévias

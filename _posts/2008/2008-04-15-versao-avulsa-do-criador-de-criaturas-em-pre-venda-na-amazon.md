@@ -2,7 +2,6 @@
 layout: "post"
 title: "Versão avulsa do Criador de Criaturas em pré-venda na Amazon"
 date: "2008-04-15 02:45"
-category: Spore
 tags:
   - Criador de Criaturas
   - Spore

@@ -2,7 +2,6 @@
 layout: post
 date: "2008-08-02 16:22:00"
 title: "TGR: Primeiras impressões de Spore"
-category: Spore
 tags:
   - Spore
   - prévias

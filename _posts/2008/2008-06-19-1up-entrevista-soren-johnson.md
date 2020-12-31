@@ -2,7 +2,6 @@
 layout: "post"
 title: "1Up entrevista Soren Johnson"
 date: "2008-06-19 14:06"
-category: Spore
 tags:
   - Spore
   - entrevistas

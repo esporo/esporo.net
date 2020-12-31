@@ -2,7 +2,6 @@
 layout: post
 title: "Manutenção dos servidores de Spore deixará o Sporum temporariamente inacessível"
 date: "2015-09-12 23:04:35 -0200"
-category: Spore
 tags:
   - Spore
   - Sporum

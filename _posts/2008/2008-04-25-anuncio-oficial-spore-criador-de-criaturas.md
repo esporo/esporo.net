@@ -2,7 +2,6 @@
 layout: "post"
 title: "Anúncio oficial: Spore Criador de Criaturas"
 date: "2008-04-25 12:16"
-category: Spore
 tags:
   - Spore
   - anúncios

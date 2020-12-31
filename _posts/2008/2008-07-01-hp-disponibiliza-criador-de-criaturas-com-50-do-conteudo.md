@@ -2,7 +2,6 @@
 layout: "post"
 title: "HP disponibiliza Criador de Criaturas com 50% do conteúdo"
 date: "2008-07-01 22:34"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

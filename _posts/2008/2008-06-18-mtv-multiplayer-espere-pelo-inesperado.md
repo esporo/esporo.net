@@ -2,7 +2,6 @@
 layout: "post"
 title: "MTV Multiplayer: Espere pelo inesperado"
 date: "2008-06-18 20:11"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

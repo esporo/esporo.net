@@ -2,7 +2,6 @@
 layout: post
 title: "Lucy Bradshaw promovida a vice-presidente da EA"
 date: "2013-10-03 19:09:39 -0300"
-category: Maxis
 tags:
   - Maxis
   - equipe

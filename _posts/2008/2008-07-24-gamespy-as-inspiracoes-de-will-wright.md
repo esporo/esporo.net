@@ -2,7 +2,6 @@
 layout: "post"
 title: "GameSpy: As Inspirações de Will Wright"
 date: "2008-07-24 22:59"
-category: Spore
 tags:
   - Spore
   - eventos

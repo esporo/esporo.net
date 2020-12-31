@@ -2,7 +2,6 @@
 layout: post
 title: "Centenas de Contas EA tiveram seus detalhes vazados"
 date: "2015-10-17 22:54:10 -0200"
-category: EA
 tags:
   - EA
   - Origin

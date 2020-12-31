@@ -2,7 +2,6 @@
 layout: "post"
 title: "Recursos online de Spore não serão cobrados à parte"
 date: "2008-04-01 18:16"
-category: Spore
 tags:
   - Spore
   - Sporepédia

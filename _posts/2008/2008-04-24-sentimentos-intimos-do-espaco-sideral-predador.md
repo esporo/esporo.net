@@ -2,7 +2,6 @@
 layout: "post"
 title: "Sentimentos íntimos do espaço sideral: Predador"
 date: "2008-04-24 09:15"
-category: Spore
 tags: Spore vídeos
 ---
 

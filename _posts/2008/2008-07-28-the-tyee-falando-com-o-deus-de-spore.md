@@ -2,7 +2,6 @@
 layout: "post"
 title: "The Tyee: falando com o deus de Spore"
 date: "2008-07-28 01:04"
-category: Spore
 tags:
   - Spore
   - entrevistas

@@ -2,7 +2,6 @@
 layout: "post"
 title: "Imagem da caixa oficial de Spore"
 date: "2008-06-17 18:30"
-category: Spore
 tags: Spore lançamento
 ---
 

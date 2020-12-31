@@ -2,7 +2,6 @@
 layout: "post"
 title: "GDC 2008: Demonstração do Criador de Hinos"
 date: "2008-02-21 19:41"
-category: Spore
 tags: Spore estágios vídeos eventos GDC
 ---
 

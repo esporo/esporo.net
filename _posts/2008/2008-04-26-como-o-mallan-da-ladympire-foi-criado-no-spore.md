@@ -2,7 +2,6 @@
 layout: "post"
 title: "Como o Mallan da LadyMpire foi criado no Spore"
 date: "2008-04-26 14:15"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

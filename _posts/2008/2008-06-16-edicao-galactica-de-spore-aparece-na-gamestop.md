@@ -2,7 +2,6 @@
 layout: "post"
 title: "Lojas começam a fazer a pré-venda da Versão Galáctica de Spore"
 date: "2008-06-16 15:34"
-category: Spore
 tags:
   - Spore
   - Edição Galáctica

@@ -2,7 +2,6 @@
 layout: "post"
 title: "8 vídeos da apresentação de Spore na NASA"
 date: "2008-04-14 02:21"
-category: Spore
 tags: Spore vídeos eventos
 ---
 

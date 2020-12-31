@@ -2,7 +2,6 @@
 layout: post
 title: "Progresso da manutenção de servidores do Spore"
 date: "2015-08-29 18:52:24 -0300"
-category: Spore
 tags:
   - Spore
   - status de serviço

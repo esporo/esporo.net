@@ -3,7 +3,6 @@ title: Imagens da apresentação de Spore na GDC
 layout: post
 author: gaboo
 date: '2005-08-09 13:30:00'
-category: Spore
 tags:
 - Spore
 - GDC

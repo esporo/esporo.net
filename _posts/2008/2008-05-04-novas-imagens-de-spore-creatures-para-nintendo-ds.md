@@ -2,8 +2,8 @@
 layout: "post"
 title: "Novas imagens de Spore Creatures para Nintendo DS"
 date: "2008-05-04 15:05"
-category: Spin-offs
 tags:
+  - Spin-offs
   - Spore Creatures
   - imagens 
 ---

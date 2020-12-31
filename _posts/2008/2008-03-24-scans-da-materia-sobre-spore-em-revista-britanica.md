@@ -2,7 +2,6 @@
 layout: "post"
 title: "Scans da matéria sobre Spore em revista britânica"
 date: "2008-03-24 16:09"
-category: Spore
 tags: Spore reportagens
 ---
 

@@ -2,7 +2,6 @@
 layout: "post"
 title: "Spore é o jogo mais comentado da semana"
 date: "2008-07-19 21:09"
-category: Spore
 tags: Spore comunidade
 ---
 

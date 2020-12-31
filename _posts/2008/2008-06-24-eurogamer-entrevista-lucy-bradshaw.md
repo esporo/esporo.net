@@ -2,7 +2,6 @@
 layout: "post"
 title: "Eurogamer entrevista Lucy Bradshaw"
 date: "2008-06-24 15:10"
-category: Spore
 tags:
   - Spore
   - entrevistas

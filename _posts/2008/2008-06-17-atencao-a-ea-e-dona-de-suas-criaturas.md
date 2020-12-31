@@ -2,7 +2,6 @@
 layout: "post"
 title: "Atenção: a EA é dona de suas criaturas"
 date: "2008-06-17 17:52"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

@@ -2,7 +2,6 @@
 layout: post
 date: "2008-08-04 16:40:00 -0300"
 title: "Não compare o sucesso de Spore com o de The Sims"
-category: Spore
 tags: Spore vendas EA
 ---
 

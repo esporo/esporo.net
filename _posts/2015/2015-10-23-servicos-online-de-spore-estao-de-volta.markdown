@@ -2,7 +2,6 @@
 layout: post
 title: "Serviços online de Spore estão de volta!"
 date: "2015-10-23 22:51:41 -0300"
-category: Spore
 tags:
   - Spore
   - status de serviço

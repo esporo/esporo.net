@@ -2,7 +2,6 @@
 layout: "post"
 title: "GameSpot UK entrevista Lucy Bradshaw sobre o Criador de Criaturas"
 date: "2008-06-17 18:15"
-category: Spore
 tags:
   - Spore
   - Criador de Criaturas

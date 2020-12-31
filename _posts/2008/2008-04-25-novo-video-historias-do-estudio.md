@@ -2,7 +2,6 @@
 layout: "post"
 title: "Novo vídeo: Histórias do Estúdio"
 date: "2008-04-25 12:32"
-category: Spore
 tags: Spore vídeos
 ---
 

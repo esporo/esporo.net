@@ -2,7 +2,6 @@
 layout: "post"
 title: "Cobertura da E3 2008: Spore"
 date: "2008-07-18 22:57"
-category: Spore
 tags: Spore eventos E3 vídeos
 ---
 

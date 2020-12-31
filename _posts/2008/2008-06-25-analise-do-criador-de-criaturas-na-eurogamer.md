@@ -2,7 +2,6 @@
 layout: "post"
 title: "Análise do Criador de Criaturas na Eurogamer"
 date: "2008-06-25 18:50"
-category: Spore
 tags:
   - Spore
   - análises

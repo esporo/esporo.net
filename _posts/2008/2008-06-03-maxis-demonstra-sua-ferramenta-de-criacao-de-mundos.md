@@ -2,7 +2,6 @@
 layout: "post"
 title: "Maxis demonstra sua ferramenta de criação de mundos"
 date: "2008-06-03 20:27"
-category: Spore
 tags: Maxis Spore vídeos
 ---
 

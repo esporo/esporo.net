@@ -2,7 +2,6 @@
 layout: "post"
 title: "Entrevista do 1UP com Will Wright e Lucy Bradshaw"
 date: "2008-04-19 09:05"
-category: Maxis
 tags:
   - Maxis
   - Spore

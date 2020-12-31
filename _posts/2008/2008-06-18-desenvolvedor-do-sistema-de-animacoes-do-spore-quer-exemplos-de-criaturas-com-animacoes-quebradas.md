@@ -2,7 +2,6 @@
 layout: "post"
 title: "Desenvolvedor do sistema de animações do Spore quer exemplos de criaturas com animações quebradas"
 date: "2008-06-18 22:10"
-category: Spore
 tags:
   - Spore
   - Chris Hecker

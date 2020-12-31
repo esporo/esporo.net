@@ -2,8 +2,8 @@
 layout: "post"
 title: "As 20 mulheres mais importantes da indústria dos jogos"
 date: "2008-05-21 18:31"
-category: Maxis
 tags:
+  - Maxis
   - Lucy Bradshaw
   - equipe
 ---
