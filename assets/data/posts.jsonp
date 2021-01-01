@@ -1,5 +1,4 @@
 ---
-# Hello, Jekyll!
 ---
 
 {%- assign site_posts = site.posts | sort_natural: title -%}
