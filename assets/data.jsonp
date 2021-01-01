@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-tags([
+function tags([
   {%- for tag in site.tags -%}
     {
       "value": {{ tag | first | jsonify }}
@@ -9,7 +9,7 @@ tags([
   {%- endfor -%}
 ]);
 
-posts([
+function posts([
   {% for post in site.posts %}
     {
       "text": {{ post.title | jsonify }},
