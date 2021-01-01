@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Dicas e Truques para Spore
-permalink: "/guia/"
 ---
 
 Confira a página de [downloads](/downloads/miscelanea#manuais) do Esporo para baixar manuais e guias do Spore, e confira a tag de [tutoriais](/tags/tutoriais/) para encontrar vídeo-tutoriais e guias explicativos que foram publicados no arquivo de notícias.

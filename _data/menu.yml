@@ -1,19 +1,18 @@
-- title: "Notícias"
+- title: Notícias
   url: "/"
-
+  - title: O que é Spore?
+  url: "https://guia.esporo.net/wiki/Spore"
+- title: Arquivo
+  url: "/arquivo/"
 - title: Fórum
   url: "https://forum.esporo.net/"
   external: true
-  
 - title: Guia Galáctico
   url: "https://guia.esporo.net/"
   external: true
-
-- title: O que é Spore?
-  url: "https://guia.esporo.net/wiki/Spore"
-
+- title: Dicas e Truques
+  url: "/dicas/"
 - title: Downloads
   url: "/downloads/"
-
 - title: Sobre
   url: "/sobre/"
