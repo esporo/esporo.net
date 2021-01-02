@@ -2,7 +2,7 @@
 date: '2021-01-01 21:28 -0300'
 author: gaboo
 layout: post
-published: false
+published: true
 title: Feliz Ano Novo!
 tags:
   - meta
