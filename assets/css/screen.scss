@@ -2,21 +2,35 @@
 # Hello, Jekyll!
 ---
 
-$base-font-family: "Proxima Nova", sans-serif;
-$content-font-family: $base-font-family;
+$base-font-family: "SPORE", sans-serif;
+$content-font-family: "esporo-body", sans-serif;
 $base-font-size: 15px;
 $color-accent: #4e9dd8;
 
 @import "fonts";
 @import "{{ site.theme }}";
 
-@include media-query($on-palm) {
-  .main_menu ul li {
-    white-space: nowrap;
+.main_menu {
+  ul {
+    li {
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 400;
+      
+      @include media-query($on-palm) {
+        white-space: nowrap;
+      }
+    }
   }
 }
 
 .content {
+  .content_header {
+    .content_title {
+      font-weight: 400;
+    }
+  }
+  
   .content_body {
     a {
       text-decoration-thickness: 2px;
@@ -28,6 +42,12 @@ $color-accent: #4e9dd8;
       }
     }
   }
+}
+
+.widget_title {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .tags_list {
