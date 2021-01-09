@@ -4,11 +4,17 @@
 
 $base-font-family: "SPORE", sans-serif;
 $content-font-family: "esporo-body", sans-serif;
-$base-font-size: 15px;
-$color-accent: #4e9dd8;
+$color-accent: #2987c7;
 
 @import "fonts";
 @import "{{ site.theme }}";
+
+body {
+  border-top: 4px solid $color-accent;
+  background-image: url("/assets/images/bg.jpg");
+  background-position: center top;
+  background-repeat: repeat-x;
+}
 
 .main_menu {
   ul {
