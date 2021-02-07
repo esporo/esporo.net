@@ -12,11 +12,11 @@ Acabamos de passar pela E3, e muitas novidades foram anunciadas para Spore. Se v
 
 Nós traduzimos uns trechos das prévias que revelavam informações novas:
 
-- [1UP]({%- post_url 2006/2006-05-05-1up-prévia-de-spore -%})
+- [1UP]({%- post_url 2006/2006-05-05-1up-previa-de-spore -%})
 - [USA Today]({%- post_url 2006/2006-05-09-usa-today-voce-quer-tentar-uma-evolucao -%})
 - [1GN]({%- post_url 2006/2006-05-11-ign-spore-demo-e-primeiras-impressoes -%})
 - [UOL Jogos]({%- post_url 2006/2006-05-12-uol-jogos-spore-impressiona -%})
-- [GameSpy]({%- post_url 2006/2006-05-12-gamespy-prévias-de-spore-na-e3 -%})
+- [GameSpy]({%- post_url 2006/2006-05-12-gamespy-previas-de-spore-na-e3 -%})
 - [GameSpot]({%- post_url 2006/2006-05-12-gamespot-conquistando-o-universo -%})
 - [Joystiq]({%- post_url 2006/2006-05-15-mds-spore-arrasa -%})
 

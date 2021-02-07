@@ -2,7 +2,7 @@ function formatNumber(number) {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 }
 
-let stats = fetch('//cors-anywhere.herokuapp.com/www.spore.com/rest/stats')
+let stats = fetch('//esporisticas.herokuapp.com/https://www.spore.com/rest/stats')
 .then(response => response.text())
 .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
 .then((data) => {  
