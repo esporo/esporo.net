@@ -12,6 +12,10 @@ body {
   grid-gap: var(--spacing-unit);
   margin-top: var(--spacing-unit);
   margin-bottom: var(--spacing-unit);
+  background-image: url("/assets/images/galaxy.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   
   & > header {
     grid-area: banner;
@@ -19,17 +23,6 @@ body {
   
   & > main {
     grid-area: content;
-    display: grid;
-    grid-template-areas:
-      "aside"
-      "content"
-      "sidebar";
-      
-    @media screen and (min-width: var(--on-laptop)) {
-      grid-template-areas:
-        "content" "content" "aside"
-        "content" "content" "sidebar";
-    }
   }
   
   & > footer {
@@ -41,8 +34,8 @@ body {
     max-width: var(--content-width);
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: calc(var(--spacing-unit) / 2);
+    padding-right: calc(var(--spacing-unit) / 2);
   }
 }
 
@@ -86,6 +79,10 @@ body {
         0.1rem -0.1rem 0 var(--color-accent-alternate),
         -0.1rem 0.1rem 0 var(--color-accent-alternate),
          0.1rem 0.1rem 0 var(--color-accent-alternate);
+      
+      @media screen and (prefers-color-scheme: dark) {
+        color: var(--color-text);
+      }
     }
   }
   
@@ -93,12 +90,11 @@ body {
   
   .main_menu {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: center;
     overflow-x: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     -webkit-overflow-scrolling: touch;
-    margin-left: -5vw;
-    margin-right: -5vw;
     
     .menu_item {
       display: inline-block;
@@ -107,15 +103,19 @@ body {
       font-size: 1.125rem;
       letter-spacing: 0.05em;
       background-color: var(--color-accent);
-      color: var(--color-background);
       border-radius: 15px;
       position: relative;
       padding: calc(var(--spacing-unit) / 6) calc(var(--spacing-unit) / 2);
-      margin-right: var(--spacing-unit);
+      margin: 0 calc(var(--spacing-unit) / 2) calc(var(--spacing-unit) / 2);
       
       .item_label {
+        color: var(--color-background);
         opacity: 0.7;
         transition: opacity 250ms ease;
+        
+        @media screen and (prefers-color-scheme: dark) {
+          color: var(--color-text);
+        } 
       }
       
       &:hover,
@@ -131,12 +131,79 @@ body {
         margin-left: var(--spacing-unit);
       }
     }
+  }
+}
+
+/*
+  Site Content
+*/
+
+.site_content {
+  display: grid;
+  grid-gap: calc(var(--spacing-unit) * 1.5);
+  grid-template-areas:
+    "aside"
+    "content"
+    "sidebar";
     
-    &::before,
-    &::after {
-      content: " ";
-      display: block;
-      margin: auto;
+  @media screen and (min-width: $on-laptop) {
+    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "content aside"
+      "content sidebar";
+  }
+  
+  @media screen and (min-width: $on-desktop) {
+    grid-template-columns: 3fr 1fr;
+  }
+  
+  & > .primary_content {
+    grid-area: content;
+    
+    @media screen and (min-width: $on-laptop) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: -1;
     }
+  }
+  
+  & > .primary_sidebar {
+    grid-column-start: content-start;
+    grid-area: aside;
+    height: auto;
+  }
+  
+  & > .custom_sidebar {
+    grid-column-start: aside-end;
+    grid-area: sidebar;
+    height: auto;
+  }
+}
+
+// Content
+
+.content {
+  background: var(--color-background);
+  padding: calc(var(--spacing-unit) / 2);
+  
+  @media screen and (min-width: $on-laptop) {
+    padding: var(--spacing-unit);
+  }
+  
+  @media screen and (min-width: $on-desktop) {
+    padding: calc(var(--spacing-unit) * 2);
+  }
+}
+
+// Sidebars
+
+.sidebar {
+  background: var(--color-background);
+  padding: calc(var(--spacing-unit) / 2);
+  
+  @media screen and (min-width: $on-laptop) {
+    padding: var(--spacing-unit);
   }
 }

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="content page">
+  {% if page.title and page.title != "" %}
+    <header class="content_header">
+      <h1 class="content_title">{{ page.title }}</h1>
+    </header>
+  {% endif %}
+  
+  <div class="content_body">
+    {{ content }}
+  </div>
+</article>

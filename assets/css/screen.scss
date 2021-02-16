@@ -1,10 +1,9 @@
 ---
-# Hello, Jekyll!
 ---
 
-$base-font-family: "SPORE", sans-serif;
-$content-font-family: "esporo-body", sans-serif;
-$color-accent: #2987c7;
+$on-palm: 600px;
+$on-laptop: 800px;
+$on-desktop: 1200px;
 
 :root {
   // Colors
@@ -25,16 +24,13 @@ $color-accent: #2987c7;
   // Structure
   --spacing-unit: 1.5rem;
   --content-width: 1200px;
-  --on-palm: 600px;
-  --on-laptop: 800px;
-  --on-desktop: 1200px;
 }
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --color-text: rgb(234, 238, 241);
-    --color-details: rgb(1, 1, 5);
-    --color-background: rgb(108, 109, 113);
+    --color-details: rgb(108, 109, 113);
+    --color-background: rgb(1, 1, 5);
   }
 }
 
