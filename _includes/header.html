@@ -1,0 +1,31 @@
+{% capture site_branding %}
+  <a href="{{ site.url }}" rel="index">
+    {% if site.logo %}
+      <img src="{{ site.logo }}" alt="{{ site.title }}" />
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </a>
+{% endcapture %}
+
+<header class="site_header">
+  <div class="branding">
+    {% if page.title %}
+      <p class="site_title">
+        {{ site_branding }}
+      </p>
+    {% else %}
+      <h1 class="site_title">
+        {{ site_branding }}
+      </h1>
+    {% endif %}
+    
+    {% unless site.tagline == blank %}
+      <p class="site_tagline">
+        {{ site.tagline | strip }}
+      </p>
+    {% endunless %}
+  </div>
+  
+  {% include menu.html %}
+</header>

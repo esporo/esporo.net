@@ -1,0 +1,13 @@
+{% capture menu_items %}
+  {% for item in site.data.menu %}
+    <a class="menu_item" href="{{ item.url }}" {%- if item.external %} rel="external" {%- endif -%}>
+      {{ item.title | strip }}
+    </a>
+  {% endfor %}
+{% endcapture %}
+
+{% unless menu_items == blank %}
+  <nav class="main_menu">
+    {{ menu_items }}
+  </nav>
+{% endunless %}
