@@ -1,0 +1,69 @@
+/*
+  Reset some basic elements.
+*/
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure,
+table, iframe, object {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Basic styling.
+*/
+
+body {
+  color: var(--color-text);
+  font: var(--font-weight-base) var(--font-size-base)/var(--font-line-height) var(--font-family-body);
+  font-feature-settings: "kern", 1;
+  overflow-wrap: break-word;
+}
+
+// Links
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 250ms ease;
+  
+  &:hover,
+  &:focus {
+    color: var(--color-accent-alternate);
+    text-decoration: underline;
+  }
+  
+  &:visited {
+    color: var(--color-accent-alternate);
+  }
+}
+
+
+// Media
+
+img, audio, video,
+iframe, object {
+  max-width: 100%;
+}
+
+video, iframe {
+  aspect-ratio: 16 / 9;
+}

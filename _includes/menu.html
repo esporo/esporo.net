@@ -1,7 +1,7 @@
 {% capture menu_items %}
   {% for item in site.data.menu %}
     <a class="menu_item" href="{{ item.url }}" {%- if item.external %} rel="external" {%- endif -%}>
-      {{ item.title | strip }}
+      <span class="item_label">{{ item.title | strip }}</span>
     </a>
   {% endfor %}
 {% endcapture %}
