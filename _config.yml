@@ -12,19 +12,7 @@ email: contato@esporo.net
 url: "https://esporo.net"
 baseurl: ""
 
-# Content settings
-theme: jekyll-theme-charlie
-
-charlie:
-  hide_site_title: true
-  date_formats:
-    day: "%d/%m/%Y"
-    month: "%m/%Y"
-    year: "%Y"
-
 # Build settings
-incremental: true
-
 defaults:
   - scope:
       path: ""
@@ -44,7 +32,12 @@ keep_files:
   - assets/js
   
 plugins:
-  - jekyll-octicons
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-compose
 
 # Plugin: jekyll-paginate
 paginate: 5
